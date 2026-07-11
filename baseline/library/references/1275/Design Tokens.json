@@ -1,0 +1,352 @@
+{
+  "color": {
+    "parchment-cream": {
+      "$value": "#f6f3f1",
+      "$type": "color",
+      "$description": "Parchment Cream — Page canvas, nav background, badge surfaces — the warm off-white base that makes the entire interface feel like paper rather than screen"
+    },
+    "ink-black": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Ink Black — Primary text, icon strokes, hairline borders, and the dominant outline color across nav, cards, and dividers"
+    },
+    "charcoal": {
+      "$value": "#242424",
+      "$type": "color",
+      "$description": "Charcoal — Primary action button fill, badge borders, elevated surface — filled CTAs sit slightly off pure black for visual softness"
+    },
+    "graphite": {
+      "$value": "#4e4d4d",
+      "$type": "color",
+      "$description": "Graphite — Body and heading text at lower contrast, secondary card borders, muted UI elements"
+    },
+    "slate-shadow": {
+      "$value": "#3d3d3d",
+      "$type": "color",
+      "$description": "Slate Shadow — Tertiary borders and decorative strokes where pure black would feel too heavy"
+    },
+    "warm-stone": {
+      "$value": "#797776",
+      "$type": "color",
+      "$description": "Warm Stone — Muted helper text, link underlines, and low-emphasis labels"
+    },
+    "lavender-mist": {
+      "$value": "#cfdaf5",
+      "$type": "color",
+      "$description": "Lavender Mist — Card surface tint — the only non-grayscale surface color, used as a gentle wash to separate elevated content from the cream canvas"
+    },
+    "peach-to-periwinkle-wash": {
+      "$value": "#ff9473",
+      "$type": "color",
+      "$description": "Peach to Periwinkle Wash — Decorative gradient endstop in the data-flow diagram — soft atmospheric color, never used as a UI accent"
+    },
+    "mint-to-periwinkle-wash": {
+      "$value": "#a7fccd",
+      "$type": "color",
+      "$description": "Mint to Periwinkle Wash — Decorative gradient in the data-flow diagram aura — appears as a soft green glow around the central processing node"
+    }
+  },
+  "font": {
+    "untitled-serif": {
+      "$value": "Untitled Serif",
+      "$type": "fontFamily",
+      "$description": "All headlines and display text. Anti-convention: weight 400 (not 600-700) lets the serif shapes whisper — authority comes from the typeface's humanist proportions and generous negative tracking, not from boldness."
+    },
+    "abc-diatype-mono": {
+      "$value": "ABC Diatype Mono",
+      "$type": "fontFamily",
+      "$description": "Body text, navigation, buttons, badges, tags, and all functional UI copy. The monospaced treatment for non-code text is the system's most distinctive choice — it gives every label the visual weight of a typeset annotation, reinforcing the technical-journal metaphor."
+    },
+    "untitled-sans": {
+      "$value": "Untitled Sans",
+      "$type": "fontFamily",
+      "$description": "Secondary body text fallback — appears minimally, likely for paragraphs where monospaced character widths would be distracting at length"
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "ABC Diatype Mono",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "ABC Diatype Mono",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.35
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "ABC Diatype Mono",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.35
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "ABC Diatype Mono",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.35
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "Untitled Sans",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.35
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 16px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "ABC Diatype Mono",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.35
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 16px"
+    },
+    "base-5": {
+      "$value": {
+        "fontFamily": "ABC Diatype Mono",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step base-5 at 16px"
+    },
+    "base-6": {
+      "$value": {
+        "fontFamily": "ABC Diatype Mono",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step base-6 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "ABC Diatype Mono",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "ABC Diatype Mono",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1.35
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "xl-2": {
+      "$value": {
+        "fontFamily": "ABC Diatype Mono",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1.35
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-2 at 20px"
+    },
+    "xl-3": {
+      "$value": {
+        "fontFamily": "ABC Diatype Mono",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-3 at 20px"
+    },
+    "xl-4": {
+      "$value": {
+        "fontFamily": "ABC Diatype Mono",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1.35
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-4 at 20px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "Untitled Serif",
+        "fontSize": "24px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 24px"
+    },
+    "2xl-2": {
+      "$value": {
+        "fontFamily": "ABC Diatype Mono",
+        "fontSize": "28px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-2 at 28px"
+    },
+    "2xl-3": {
+      "$value": {
+        "fontFamily": "Untitled Serif",
+        "fontSize": "28px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-3 at 28px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "Untitled Serif",
+        "fontSize": "32px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 32px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "Untitled Serif",
+        "fontSize": "40px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 40px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "Untitled Serif",
+        "fontSize": "80px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 80px"
+    }
+  },
+  "spacing": {
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "72": {
+      "$value": "72px",
+      "$type": "dimension",
+      "$description": "Spacing 72px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "200": {
+      "$value": "200px",
+      "$type": "dimension",
+      "$description": "Spacing 200px"
+    },
+    "216": {
+      "$value": "216px",
+      "$type": "dimension",
+      "$description": "Spacing 216px"
+    },
+    "unit": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "3xl": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    },
+    "full": {
+      "$value": "100px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    },
+    "full-2": {
+      "$value": "2000px",
+      "$type": "dimension",
+      "$description": "Border radius full-2"
+    }
+  },
+  "shadow": {
+    "md": {
+      "$value": "rgba(0, 0, 0, 0.1) 0px 0px 10px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation md"
+    }
+  },
+  "surface": {
+    "parchment-canvas": {
+      "$value": "#f6f3f1",
+      "$type": "color",
+      "$description": "Surface level 0: Page background — warm cream off-white that defines the editorial paper feel"
+    },
+    "lavender-card": {
+      "$value": "#cfdaf5",
+      "$type": "color",
+      "$description": "Surface level 1: Elevated card surface — subtle near-gray lavender tint separates content blocks from the canvas"
+    },
+    "charcoal-surface": {
+      "$value": "#242424",
+      "$type": "color",
+      "$description": "Surface level 2: Dark elevated surface for CTAs and badges — the only non-warm surface in the system"
+    }
+  },
+  "$extensions": {}
+}

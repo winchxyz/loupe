@@ -1,0 +1,427 @@
+{
+  "color": {
+    "sky-wash": {
+      "$value": "#ebf5ff",
+      "$type": "color",
+      "$description": "Sky Wash — Page canvas — pale blue sets the airier alternative to pure white and gives the page a soft atmospheric base"
+    },
+    "paper-white": {
+      "$value": "#fafdff",
+      "$type": "color",
+      "$description": "Paper White — Card and elevated surface — a whisper cooler than pure white, keeps surfaces from feeling stark against the sky canvas"
+    },
+    "cloud-veil": {
+      "$value": "#f6f7f8",
+      "$type": "color",
+      "$description": "Cloud Veil — Subtle alternate surface and fill wash for muted UI elements that need separation without contrast"
+    },
+    "pure-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Pure White — Nested card surfaces, icon fills, and button text — the brightest stop in the stack"
+    },
+    "midnight-ink": {
+      "$value": "#0a0d12",
+      "$type": "color",
+      "$description": "Midnight Ink — Primary text and heading color — near-black with a cool cast, achieves 19.5:1 against white for maximum readability"
+    },
+    "pressed-charcoal": {
+      "$value": "#181d27",
+      "$type": "color",
+      "$description": "Pressed Charcoal — Primary action buttons and dark UI blocks — the only filled action color in the system, creates decisive contrast against the pale canvas"
+    },
+    "stone": {
+      "$value": "#535862",
+      "$type": "color",
+      "$description": "Stone — Body text, hairline borders, and icon strokes — the workhorse neutral for everything between headings and the canvas"
+    },
+    "fog": {
+      "$value": "#93979f",
+      "$type": "color",
+      "$description": "Fog — Muted helper text, secondary borders, and disabled states — sits between Stone and the canvas to recede gracefully"
+    },
+    "cornflower": {
+      "$value": "#4fbeff",
+      "$type": "color",
+      "$description": "Cornflower — Illustration accent and decorative icon stroke — the cool counterweight to the warm accent trio"
+    },
+    "tangerine": {
+      "$value": "#f26110",
+      "$type": "color",
+      "$description": "Tangerine — Illustration accent and decorative warm pop — provides energy and contrast in character and icon design"
+    },
+    "amethyst": {
+      "$value": "#9552e0",
+      "$type": "color",
+      "$description": "Amethyst — Illustration accent and decorative stroke — adds the cool-purple note that distinguishes the palette from a typical blue-orange scheme"
+    },
+    "mustard": {
+      "$value": "#bb9915",
+      "$type": "color",
+      "$description": "Mustard — Illustration accent and decorative warm-yellow stroke — the earthy counterpoint that keeps the palette from feeling synthetic"
+    },
+    "signal-blue": {
+      "$value": "#0099ff",
+      "$type": "color",
+      "$description": "Signal Blue — Link text, active link borders, and decorative brand-blue fills — the chromatic voice for navigation and emphasis"
+    },
+    "deep-cobalt": {
+      "$value": "#0069e0",
+      "$type": "color",
+      "$description": "Deep Cobalt — Hover/active state for Signal Blue, gradient stop in the brand blue gradient, and decorative illustration stroke"
+    },
+    "morning-tint": {
+      "$value": "#cce7ff",
+      "$type": "color",
+      "$description": "Morning Tint — Tinted card and chip background — the lightest blue stop, used for callout cards and soft highlights"
+    },
+    "lilac-mist": {
+      "$value": "#f1e6ff",
+      "$type": "color",
+      "$description": "Lilac Mist — Tinted card background for purple-coded sections or category chips"
+    },
+    "sprout": {
+      "$value": "#d3f6e3",
+      "$type": "color",
+      "$description": "Sprout — Gray wash for highlight backgrounds, decorative bands, and soft emphasis behind content"
+    },
+    "buttery-gradient": {
+      "$value": "#fff2be",
+      "$type": "color",
+      "$description": "Buttery Gradient — Gradient: linear-gradient(rgb(255, 249, 224) 0%, rgb(255, 236, 163) 100%) — soft warm wash for feature callouts"
+    },
+    "lilac-gradient": {
+      "$value": "#e4ccff",
+      "$type": "color",
+      "$description": "Lilac Gradient — Gradient: linear-gradient(rgb(244, 235, 255) 0%, rgb(228, 204, 255) 100%) — soft purple wash for feature callouts"
+    },
+    "sky-gradient": {
+      "$value": "#c2e9ff",
+      "$type": "color",
+      "$description": "Sky Gradient — Gradient: linear-gradient(rgb(229, 246, 255) 0%, rgb(194, 233, 255) 100%) — soft blue wash for feature callouts"
+    },
+    "sunset-gradient": {
+      "$value": "#ffd1b8",
+      "$type": "color",
+      "$description": "Sunset Gradient — Gradient: linear-gradient(rgb(255, 242, 235) 0%, rgb(255, 209, 184) 100%) — warm orange wash for feature callouts"
+    },
+    "brand-blue-gradient": {
+      "$value": "#479dff",
+      "$type": "color",
+      "$description": "Brand Blue Gradient — Gradient: linear-gradient(rgb(71, 157, 255) 11.43%, rgb(0, 105, 224) 78.2%) — the signature brand gradient for hero accents and premium surfaces"
+    }
+  },
+  "font": {
+    "aeonik": {
+      "$value": "Aeonik",
+      "$type": "fontFamily",
+      "$description": "Display and heading family — a single weight (500) across all display sizes from 20px to 148px, with tight -0.02em tracking that tightens the wordmark without becoming geometric. The \"case\" feature standardizes letterforms for brand consistency. The signature 148px hero size paired with 1.05 line-height creates a poster-like headline block."
+    },
+    "geist": {
+      "$value": "Geist",
+      "$type": "fontFamily",
+      "$description": "Body, UI, caption, and button family — Geist handles every functional text from 10px micro-labels to 20px subheads. Weight 500 is the default, 600 reserved for emphasis. The -0.01em tracking and \"case\" feature keep utility text aligned with the display family."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "10px",
+        "fontWeight": 600,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 10px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "14px",
+        "fontWeight": 600,
+        "lineHeight": 1.14
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.14
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.35
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "18px",
+        "fontWeight": 600,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "20px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "xl-2": {
+      "$value": {
+        "fontFamily": "Aeonik",
+        "fontSize": "20px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-2 at 20px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "Aeonik",
+        "fontSize": "24px",
+        "fontWeight": 500,
+        "lineHeight": 1.17
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 24px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "Aeonik",
+        "fontSize": "32px",
+        "fontWeight": 500,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 32px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "Aeonik",
+        "fontSize": "48px",
+        "fontWeight": 500,
+        "lineHeight": 1.17
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 48px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "Aeonik",
+        "fontSize": "72px",
+        "fontWeight": 500,
+        "lineHeight": 1.11
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 72px"
+    },
+    "5xl-3": {
+      "$value": {
+        "fontFamily": "Aeonik",
+        "fontSize": "148px",
+        "fontWeight": 500,
+        "lineHeight": 1.05
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-3 at 148px"
+    }
+  },
+  "spacing": {
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Spacing 48px"
+    },
+    "56": {
+      "$value": "56px",
+      "$type": "dimension",
+      "$description": "Spacing 56px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "88": {
+      "$value": "88px",
+      "$type": "dimension",
+      "$description": "Spacing 88px"
+    },
+    "120": {
+      "$value": "120px",
+      "$type": "dimension",
+      "$description": "Spacing 120px"
+    },
+    "160": {
+      "$value": "160px",
+      "$type": "dimension",
+      "$description": "Spacing 160px"
+    },
+    "unit": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "lg": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "2xl": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "3xl": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    },
+    "3xl-2": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl-2"
+    },
+    "3xl-3": {
+      "$value": "36px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl-3"
+    },
+    "full": {
+      "$value": "90px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    }
+  },
+  "shadow": {
+    "lg": {
+      "$value": "rgba(4, 69, 144, 0.08) 0px 14px 20px 4px",
+      "$type": "shadow",
+      "$description": "Shadow elevation lg"
+    },
+    "subtle": {
+      "$value": "rgba(10, 13, 18, 0.8) 0px 1px 2px 0px, rgb(10, 13, 18) 0px 0px 0px 1px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle"
+    }
+  },
+  "surface": {
+    "sky-canvas": {
+      "$value": "#ebf5ff",
+      "$type": "color",
+      "$description": "Surface level 0: Page background, sets the airy pastel atmosphere"
+    },
+    "paper-card": {
+      "$value": "#fafdff",
+      "$type": "color",
+      "$description": "Surface level 1: Default card and panel surface, lifts content off the canvas"
+    },
+    "pure-white-nest": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 2: Nested elements, icons inside cards, and button text"
+    },
+    "tinted-chip": {
+      "$value": "#cce7ff",
+      "$type": "color",
+      "$description": "Surface level 3: Category-tinted cards and soft highlight washes"
+    },
+    "veil": {
+      "$value": "#f6f7f8",
+      "$type": "color",
+      "$description": "Surface level 4: Muted fill surface for inactive or secondary blocks"
+    }
+  },
+  "$extensions": {}
+}

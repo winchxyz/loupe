@@ -1,0 +1,60 @@
+:root {
+  /* Colors */
+  --color-pure-white: #ffffff;
+  --color-pure-black: #000000;
+  --color-carbon-black: #181818;
+  --color-graphite: #303030;
+  --color-steel-gray: #8f8f8f;
+
+  /* Typography — Font Families */
+  --font-body-font: 'Body-Font', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-ferrari-custom-sans-serif: 'Ferrari custom sans-serif', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Typography — Scale */
+  --text-caption: 11px;
+  --leading-caption: 1.78;
+  --text-body-sm: 12px;
+  --leading-body-sm: 1.78;
+  --text-body: 13px;
+  --leading-body: 1.78;
+
+  /* Typography — Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+
+  /* Spacing */
+  --spacing-5: 5px;
+  --spacing-6: 6px;
+  --spacing-10: 10px;
+  --spacing-15: 15px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-25: 25px;
+  --spacing-30: 30px;
+  --spacing-32: 32px;
+  --spacing-44: 44px;
+  --spacing-50: 50px;
+  --spacing-54: 54px;
+  --spacing-55: 55px;
+  --spacing-60: 60px;
+  --spacing-123: 123px;
+
+  /* Layout */
+  --page-max-width: 1280px;
+  --section-gap: 80-120px;
+  --element-gap: 10-16px;
+
+  /* Named Radii */
+  --radius-tags: 0px;
+  --radius-cards: 0px — sharp corners, no rounding on images or content cards;
+  --radius-images: 0px — full-bleed photography with no corner softening;
+  --radius-inputs: 0px;
+  --radius-buttons: 9999px — perfectly circular pill/button treatment;
+
+  /* Surfaces */
+  --surface-canvas-white: #ffffff;
+  --surface-pure-black-stage: #000000;
+  --surface-carbon-surface: #181818;
+  --surface-graphite-surface: #303030;
+}

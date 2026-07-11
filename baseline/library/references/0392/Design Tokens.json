@@ -1,0 +1,617 @@
+{
+  "color": {
+    "espresso-ink": {
+      "$value": "#26251e",
+      "$type": "color",
+      "$description": "Espresso Ink — Primary text, dark filled buttons (Download CTA), nav, icon strokes — warm near-black instead of pure #000, gives the interface a printed-ink quality"
+    },
+    "page-parchment": {
+      "$value": "#f7f7f4",
+      "$type": "color",
+      "$description": "Page Parchment — Page canvas, card surfaces, button text on dark fills — the base warm white that everything sits on"
+    },
+    "card-stone": {
+      "$value": "#e6e5e0",
+      "$type": "color",
+      "$description": "Card Stone — Elevated card surfaces, secondary button backgrounds, subtle section banding — one step warmer/darker than the page"
+    },
+    "border-sand": {
+      "$value": "#d9d5cf",
+      "$type": "color",
+      "$description": "Border Sand — Hairline dividers, card borders, input borders — barely-visible warm gray for structure"
+    },
+    "muted-clay": {
+      "$value": "#7a7974",
+      "$type": "color",
+      "$description": "Muted Clay — Muted body text, secondary icons, placeholder text — mid-warm-gray for non-primary reading"
+    },
+    "edge-ash": {
+      "$value": "#8f8e89",
+      "$type": "color",
+      "$description": "Edge Ash — Borders on subtle UI elements, tertiary text — slightly lighter than muted clay for de-emphasized structure"
+    },
+    "trace-smoke": {
+      "$value": "#a1a19f",
+      "$type": "color",
+      "$description": "Trace Smoke — Faintest borders, disabled states, ghost-button outlines — the lightest visible neutral"
+    },
+    "deep-charcoal": {
+      "$value": "#141414",
+      "$type": "color",
+      "$description": "Deep Charcoal — Pure dark accent for high-emphasis text and critical UI elements — used sparingly when absolute black is needed"
+    },
+    "ember-orange": {
+      "$value": "#f54e00",
+      "$type": "color",
+      "$description": "Ember Orange — Link underlines, link text on hover, chromatic interactive accents — the single vivid brand accent, rationed to interactive moments only"
+    },
+    "signal-green": {
+      "$value": "#4ade80",
+      "$type": "color",
+      "$description": "Signal Green — Green outline accent for tags, dividers, and focused UI edges. Use as a supporting accent, not as a status color"
+    },
+    "brass-gold": {
+      "$value": "#c08532",
+      "$type": "color",
+      "$description": "Brass Gold — Decorative icon strokes, tag accents, warm illustrative fills — secondary warm accent for product-screenshot chrome"
+    },
+    "deep-moss": {
+      "$value": "#34785c",
+      "$type": "color",
+      "$description": "Deep Moss — Secondary button states, outlined action borders on warm surfaces — a desaturated forest green for alternative CTAs"
+    }
+  },
+  "font": {
+    "cursorgothic": {
+      "$value": "CursorGothic",
+      "$type": "fontFamily",
+      "$description": "Primary brand typeface — used for everything from body copy to 72px display headlines. Single weight 400 with tight negative tracking at larger sizes creates editorial authority without bold. The custom face has monospace DNA (tabular numerals via 'tnum', stylistic alternates ss08/ss09) making it feel like a humanist sans designed for code-adjacent UI."
+    },
+    "berkeleymono": {
+      "$value": "berkeleyMono",
+      "$type": "fontFamily",
+      "$description": "Monospace companion for code snippets, CLI commands, file paths, and terminal text — appears in product screenshots and inline code contexts. Weight 500 for emphasis within code blocks."
+    },
+    "eb-garamond": {
+      "$value": "EB Garamond",
+      "$type": "fontFamily",
+      "$description": "Surprise serif accent used sparingly — breaks the sans-serif rhythm for editorial pull-quotes or italicized flourishes, creating a literary counterpoint to the technical CursorGothic."
+    },
+    "lato": {
+      "$value": "Lato",
+      "$type": "fontFamily",
+      "$description": "Secondary sans for utility text, small labels, and supplementary UI — appears where CursorGothic isn't loaded or for sub-12px micro-copy."
+    },
+    "apple-system": {
+      "$value": "-apple-system",
+      "$type": "fontFamily",
+      "$description": "-apple-system — detected in extracted data but not described by AI"
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "EB Garamond",
+        "fontSize": "6px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 6px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "Lato",
+        "fontSize": "10px",
+        "fontWeight": 600,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 10px"
+    },
+    "xs-3": {
+      "$value": {
+        "fontFamily": "system-ui",
+        "fontSize": "11px",
+        "fontWeight": 500,
+        "lineHeight": 1.27
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-3 at 11px"
+    },
+    "xs-4": {
+      "$value": {
+        "fontFamily": "system-ui",
+        "fontSize": "11px",
+        "fontWeight": 400,
+        "lineHeight": 1.27
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-4 at 11px"
+    },
+    "xs-5": {
+      "$value": {
+        "fontFamily": "system-ui",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-5 at 12px"
+    },
+    "xs-6": {
+      "$value": {
+        "fontFamily": "system-ui",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-6 at 12px"
+    },
+    "xs-7": {
+      "$value": {
+        "fontFamily": "berkeleyMono",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.67
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-7 at 12px"
+    },
+    "xs-8": {
+      "$value": {
+        "fontFamily": "berkeleyMono",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.63
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-8 at 12px"
+    },
+    "xs-9": {
+      "$value": {
+        "fontFamily": "berkeleyMono",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": 1.67
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-9 at 12px"
+    },
+    "xs-10": {
+      "$value": {
+        "fontFamily": "system-ui",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-10 at 12px"
+    },
+    "xs-11": {
+      "$value": {
+        "fontFamily": "Lato",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.27
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-11 at 12px"
+    },
+    "xs-12": {
+      "$value": {
+        "fontFamily": "Lato",
+        "fontSize": "12px",
+        "fontWeight": 600,
+        "lineHeight": 1.27
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-12 at 12px"
+    },
+    "xs-13": {
+      "$value": {
+        "fontFamily": "berkeleyMono",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-13 at 12px"
+    },
+    "xs-14": {
+      "$value": {
+        "fontFamily": "berkeleyMono",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.21
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-14 at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "system-ui",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.55
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 13px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "system-ui",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 13px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "CursorGothic",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 13px"
+    },
+    "sm-4": {
+      "$value": {
+        "fontFamily": "system-ui",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-4 at 13px"
+    },
+    "sm-5": {
+      "$value": {
+        "fontFamily": "berkeleyMono",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-5 at 13px"
+    },
+    "sm-6": {
+      "$value": {
+        "fontFamily": "CursorGothic",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-6 at 14px"
+    },
+    "sm-7": {
+      "$value": {
+        "fontFamily": "CursorGothic",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-7 at 14px"
+    },
+    "sm-8": {
+      "$value": {
+        "fontFamily": "CursorGothic",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-8 at 14px"
+    },
+    "sm-9": {
+      "$value": {
+        "fontFamily": "CursorGothic",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-9 at 14px"
+    },
+    "sm-10": {
+      "$value": {
+        "fontFamily": "system-ui",
+        "fontSize": "14px",
+        "fontWeight": 600,
+        "lineHeight": 1.55
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-10 at 14px"
+    },
+    "sm-11": {
+      "$value": {
+        "fontFamily": "Lato",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-11 at 14px"
+    },
+    "sm-12": {
+      "$value": {
+        "fontFamily": "Lato",
+        "fontSize": "14px",
+        "fontWeight": 600,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-12 at 14px"
+    },
+    "sm-13": {
+      "$value": {
+        "fontFamily": "CursorGothic",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-13 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "CursorGothic",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "CursorGothic",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "CursorGothic",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 16px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "-apple-system",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 16px"
+    },
+    "base-5": {
+      "$value": {
+        "fontFamily": "EB Garamond",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-5 at 16px"
+    },
+    "base-6": {
+      "$value": {
+        "fontFamily": "Lato",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-6 at 16px"
+    },
+    "base-7": {
+      "$value": {
+        "fontFamily": "Lato",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step base-7 at 16px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "CursorGothic",
+        "fontSize": "22px",
+        "fontWeight": 400,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 22px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "CursorGothic",
+        "fontSize": "26px",
+        "fontWeight": 400,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 26px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "CursorGothic",
+        "fontSize": "36px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 36px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "CursorGothic",
+        "fontSize": "72px",
+        "fontWeight": 400,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 72px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "5": {
+      "$value": "5px",
+      "$type": "dimension",
+      "$description": "Spacing 5px"
+    },
+    "6": {
+      "$value": "6px",
+      "$type": "dimension",
+      "$description": "Spacing 6px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "10": {
+      "$value": "10px",
+      "$type": "dimension",
+      "$description": "Spacing 10px"
+    },
+    "11": {
+      "$value": "11px",
+      "$type": "dimension",
+      "$description": "Spacing 11px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "13": {
+      "$value": "13px",
+      "$type": "dimension",
+      "$description": "Spacing 13px"
+    },
+    "15": {
+      "$value": "15px",
+      "$type": "dimension",
+      "$description": "Spacing 15px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "18": {
+      "$value": "18px",
+      "$type": "dimension",
+      "$description": "Spacing 18px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "22": {
+      "$value": "22px",
+      "$type": "dimension",
+      "$description": "Spacing 22px"
+    },
+    "28": {
+      "$value": "28px",
+      "$type": "dimension",
+      "$description": "Spacing 28px"
+    },
+    "43": {
+      "$value": "43px",
+      "$type": "dimension",
+      "$description": "Spacing 43px"
+    },
+    "67": {
+      "$value": "67px",
+      "$type": "dimension",
+      "$description": "Spacing 67px"
+    }
+  },
+  "radius": {
+    "sm": {
+      "$value": "1.5px",
+      "$type": "dimension",
+      "$description": "Border radius sm"
+    },
+    "md": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Border radius md"
+    },
+    "lg": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "xl": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Border radius xl"
+    }
+  },
+  "shadow": {
+    "xl": {
+      "$value": "rgba(0, 0, 0, 0.14) 0px 28px 70px 0px, rgba(0, 0, 0, 0.1) 0px 14px 32px 0px, oklab(0.263084 -0.00230259 0.0124794 / 0.1) 0px 0px 0px 1px",
+      "$type": "shadow",
+      "$description": "Shadow elevation xl"
+    },
+    "xl-2": {
+      "$value": "rgba(0, 0, 0, 0.25) 0px 25px 50px -12px, rgba(0, 0, 0, 0.15) 0px 12px 24px -8px, oklab(0.263084 -0.00230259 0.0124794 / 0.1) 0px 0px 0px 0.5px",
+      "$type": "shadow",
+      "$description": "Shadow elevation xl-2"
+    },
+    "subtle": {
+      "$value": "oklab(0.263084 -0.00230259 0.0124794 / 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.28) 0px 18px 36px -18px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle"
+    }
+  },
+  "surface": {
+    "page-parchment": {
+      "$value": "#f7f7f4",
+      "$type": "color",
+      "$description": "Surface level 0: Base canvas — the warm off-white that fills the viewport"
+    },
+    "card-stone": {
+      "$value": "#e6e5e0",
+      "$type": "color",
+      "$description": "Surface level 1: First elevation — card surfaces, secondary buttons, subtle section differentiation"
+    },
+    "warm-highlight": {
+      "$value": "#d9d5cf",
+      "$type": "color",
+      "$description": "Surface level 2: Hover states, selected list items, focused surfaces"
+    },
+    "deep-inset": {
+      "$value": "#cdcdc9",
+      "$type": "color",
+      "$description": "Surface level 3: Inset wells, code-block backgrounds, tertiary surface depth"
+    }
+  },
+  "$extensions": {}
+}

@@ -1,0 +1,395 @@
+{
+  "color": {
+    "paper-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Paper White — Primary canvas, card surfaces, text on dark frames, hairline borders — the default ground state for all structural sections"
+    },
+    "ink-black": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Ink Black — Primary text, dark surface backgrounds for hero/feature frames, icon strokes — anchors all legible content"
+    },
+    "carbon": {
+      "$value": "#181818",
+      "$type": "color",
+      "$description": "Carbon — Secondary dark for footer text, subtle dark borders, icon fills — slightly softer than pure ink for layered depth"
+    },
+    "ash": {
+      "$value": "#6d6d6d",
+      "$type": "color",
+      "$description": "Ash — Muted body text, hairline borders on light surfaces, secondary metadata"
+    },
+    "smoke": {
+      "$value": "#9a9a9a",
+      "$type": "color",
+      "$description": "Smoke — Tertiary surface tone for de-emphasized cards, placeholder fills, disabled states"
+    },
+    "pewter": {
+      "$value": "#808080",
+      "$type": "color",
+      "$description": "Pewter — Mid-neutral for utility backgrounds, subtle dividers between tonal sections"
+    },
+    "graphite": {
+      "$value": "#636363",
+      "$type": "color",
+      "$description": "Graphite — Solid fill for compact utility buttons (cookie accept, dismiss) — the only non-black action surface"
+    },
+    "mercury-flow": {
+      "$value": "#a0e0ab",
+      "$type": "color",
+      "$description": "Mercury Flow — Atmospheric gradient terminus — organic color appearing only in hero 3D renders and brand film stills, not a UI token"
+    }
+  },
+  "font": {
+    "roobert": {
+      "$value": "Roobert",
+      "$type": "fontFamily",
+      "$description": "Sole display and UI typeface across every role. The 225px hero scale (weight 300) creates whisper-weight monumentality — authority through restraint, not volume. Weight 300 is the signature headline weight; weight 400 carries body and navigation; weight 600 is reserved for emphasis. Substitutes: Inter, DM Sans, or Suisse Int'l as geometric neo-grotesque alternatives."
+    },
+    "raleway": {
+      "$value": "Raleway",
+      "$type": "fontFamily",
+      "$description": "Secondary display presence at the 54px tier — likely used for editorial subhead or pull-quote contrast against Roobert headlines. Substitutes: Montserrat, Poppins."
+    },
+    "system-ui": {
+      "$value": "system-ui",
+      "$type": "fontFamily",
+      "$description": "Fallback for cookie banner, legal micro-copy, and system-level utility text where custom font loading is unnecessary."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "system-ui",
+        "fontSize": "9px",
+        "fontWeight": 400,
+        "lineHeight": 1.32
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 9px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "11px",
+        "fontWeight": 400,
+        "lineHeight": 1.21
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 11px"
+    },
+    "xs-3": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "11px",
+        "fontWeight": 400,
+        "lineHeight": 1.21
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-3 at 11px"
+    },
+    "xs-4": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "11px",
+        "fontWeight": 600,
+        "lineHeight": 1.22
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-4 at 11px"
+    },
+    "xs-5": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "11px",
+        "fontWeight": 400,
+        "lineHeight": 1.36
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-5 at 11px"
+    },
+    "xs-6": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "11px",
+        "fontWeight": 400,
+        "lineHeight": 1.36
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-6 at 11px"
+    },
+    "xs-7": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.19
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-7 at 12px"
+    },
+    "xs-8": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-8 at 12px"
+    },
+    "xs-9": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "12px",
+        "fontWeight": 300,
+        "lineHeight": 3.13
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-9 at 12px"
+    },
+    "xs-10": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.82
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-10 at 12px"
+    },
+    "xs-11": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.39
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-11 at 12px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "system-ui",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.15
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.15
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.21
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "29px",
+        "fontWeight": 300,
+        "lineHeight": 1.58
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 29px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "30px",
+        "fontWeight": 400,
+        "lineHeight": 0.7
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 30px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "39px",
+        "fontWeight": 400,
+        "lineHeight": 1.19
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 39px"
+    },
+    "4xl-2": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "45px",
+        "fontWeight": 400,
+        "lineHeight": 1.15
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl-2 at 45px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "54px",
+        "fontWeight": 400,
+        "lineHeight": 1.39
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 54px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "Raleway",
+        "fontSize": "54px",
+        "fontWeight": 400,
+        "lineHeight": 1.39
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 54px"
+    },
+    "5xl-3": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "78px",
+        "fontWeight": 300,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-3 at 78px"
+    },
+    "5xl-4": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "78px",
+        "fontWeight": 300,
+        "lineHeight": 1.24
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-4 at 78px"
+    },
+    "5xl-5": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "94px",
+        "fontWeight": 400,
+        "lineHeight": 0.76
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-5 at 94px"
+    },
+    "5xl-6": {
+      "$value": {
+        "fontFamily": "Roobert",
+        "fontSize": "225px",
+        "fontWeight": 400,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-6 at 225px"
+    }
+  },
+  "spacing": {
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "28": {
+      "$value": "28px",
+      "$type": "dimension",
+      "$description": "Spacing 28px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Spacing 48px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "68": {
+      "$value": "68px",
+      "$type": "dimension",
+      "$description": "Spacing 68px"
+    },
+    "152": {
+      "$value": "152px",
+      "$type": "dimension",
+      "$description": "Spacing 152px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "lg": {
+      "$value": "10px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "full": {
+      "$value": "75.024px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    }
+  },
+  "surface": {
+    "paper-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 1: Default canvas for all structural editorial sections, card surfaces, and light-mode content"
+    },
+    "smoke": {
+      "$value": "#9a9a9a",
+      "$type": "color",
+      "$description": "Surface level 2: De-emphasized surface for placeholder content, disabled states, and subtle tonal separation"
+    },
+    "pewter": {
+      "$value": "#808080",
+      "$type": "color",
+      "$description": "Surface level 3: Mid-neutral utility background for compact UI elements and divider zones"
+    },
+    "graphite": {
+      "$value": "#636363",
+      "$type": "color",
+      "$description": "Surface level 4: Solid action surface for utility buttons (cookie accept, dismiss controls)"
+    },
+    "carbon": {
+      "$value": "#181818",
+      "$type": "color",
+      "$description": "Surface level 5: Secondary dark surface for footer zones, icon containers, and dark UI elements within light sections"
+    },
+    "ink-black": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Surface level 6: Full-bleed immersive surface for hero frames, feature work showcases, and cinematic dark sections"
+    }
+  },
+  "$extensions": {}
+}

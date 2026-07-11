@@ -1,0 +1,113 @@
+:root {
+  /* Colors */
+  --color-aubergine-core: #611f69;
+  --color-midnight-plum: #1d1c1d;
+  --color-eggplant-ink: #2e0039;
+  --color-plum-shadow: #3d0157;
+  --color-iris-mid: #730394;
+  --color-lavender-wash: #f9f0ff;
+  --color-lilac-veil: #f2defe;
+  --color-iris-edge: #eac8fe;
+  --color-violet-glow: #d17dfe;
+  --color-magenta-pulse: #9602c7;
+  --color-plum-deep: #481a54;
+  --color-cream-canvas: #fefbff;
+  --color-pure-white: #ffffff;
+  --color-graphite: #454245;
+  --color-steel: #696969;
+  --color-fog: #8e8e8e;
+  --color-ash: #edeaed;
+  --color-slate: #808080;
+  --color-ember-to-violet: #ba01ff;
+  --gradient-ember-to-violet: linear-gradient(104deg, #000000 9.56%, #ba01ff 102.66%);
+  --color-plum-haze: #83388a;
+  --gradient-plum-haze: linear-gradient(102deg, rgba(131, 56, 138, 0.8) 0%, rgba(211, 137, 231, 0.8) 100%);
+
+  /* Typography — Font Families */
+  --font-salesforce-avant-garde: 'Salesforce-Avant-Garde', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-salesforce-sans: 'Salesforce-Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Typography — Scale */
+  --text-caption: 12px;
+  --leading-caption: 1.2;
+  --tracking-caption: 0.68px;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.56;
+  --tracking-body-sm: 0.17px;
+  --text-body: 16px;
+  --leading-body: 1.38;
+  --tracking-body: 0.11px;
+  --text-subheading: 18px;
+  --leading-subheading: 1.4;
+  --tracking-subheading: -0.07px;
+  --text-heading-sm: 24px;
+  --leading-heading-sm: 1.33;
+  --tracking-heading-sm: -0.01px;
+  --text-heading: 32px;
+  --leading-heading: 1.25;
+  --tracking-heading: -0.03px;
+  --text-heading-lg: 50px;
+  --leading-heading-lg: 1.2;
+  --tracking-heading-lg: -0.05px;
+  --text-display: 76px;
+  --leading-display: 1.08;
+  --tracking-display: -0.61px;
+
+  /* Typography — Weights */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-6: 6px;
+  --spacing-7: 7px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-18: 18px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-30: 30px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-98: 98px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap: 96px;
+  --card-padding: 32px;
+  --element-gap: 16px;
+
+  /* Border Radius */
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+  --radius-full: 48px;
+  --radius-full-2: 60px;
+  --radius-full-3: 90px;
+
+  /* Named Radii */
+  --radius-tags: 48px;
+  --radius-cards: 16px;
+  --radius-pills: 90px;
+  --radius-inputs: 4px;
+  --radius-buttons: 4px;
+
+  /* Shadows */
+  --shadow-xl: rgba(0, 0, 0, 0.1) 0px 0px 32px 0px;
+  --shadow-subtle: rgb(97, 31, 105) 0px 0px 0px 1px inset;
+  --shadow-lg: rgba(0, 0, 0, 0.1) 0px 5px 20px 0px;
+
+  /* Surfaces */
+  --surface-cream-canvas: #fefbff;
+  --surface-pure-white: #ffffff;
+  --surface-lavender-wash: #f9f0ff;
+  --surface-plum-deep: #481a54;
+  --surface-plum-shadow-overlay: #3d0157;
+}

@@ -1,0 +1,460 @@
+{
+  "color": {
+    "void": {
+      "$value": "#0a0a0a",
+      "$type": "color",
+      "$description": "Void — Page background, deep surface — the canvas everything floats above"
+    },
+    "char": {
+      "$value": "#1d1d1d",
+      "$type": "color",
+      "$description": "Char — Elevated card surface, modal background"
+    },
+    "iron": {
+      "$value": "#3d3d3d",
+      "$type": "color",
+      "$description": "Iron — Mid-tier surface, hover state on dark elements"
+    },
+    "slate": {
+      "$value": "#505050",
+      "$type": "color",
+      "$description": "Slate — Disabled surface, secondary button background"
+    },
+    "smoke": {
+      "$value": "#797979",
+      "$type": "color",
+      "$description": "Smoke — Inactive surface, placeholder fill"
+    },
+    "graphite": {
+      "$value": "#161616",
+      "$type": "color",
+      "$description": "Graphite — Deepest UI element fill, icon strokes against light areas"
+    },
+    "ink": {
+      "$value": "#282828",
+      "$type": "color",
+      "$description": "Ink — Hairline dividers, subtle borders on glass surfaces"
+    },
+    "fog": {
+      "$value": "#686868",
+      "$type": "color",
+      "$description": "Fog — Muted link text, secondary metadata"
+    },
+    "mist": {
+      "$value": "#c2c2c2",
+      "$type": "color",
+      "$description": "Mist — Secondary body text, soft captions"
+    },
+    "ash": {
+      "$value": "#b2b2b2",
+      "$type": "color",
+      "$description": "Ash — Icon color at rest, inactive button label"
+    },
+    "bone": {
+      "$value": "#e5e5e5",
+      "$type": "color",
+      "$description": "Bone — Primary text, dominant border tone (often at reduced opacity), icon strokes — the workhorse neutral"
+    },
+    "paper": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Paper — Light neutral action fill for buttons on dark surfaces."
+    },
+    "onyx": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Onyx — Icon fill on light surfaces, SVG illustration shadow"
+    },
+    "indigo-haze": {
+      "$value": "#6b62f2",
+      "$type": "color",
+      "$description": "Indigo Haze — Sole chromatic accent — used in the hero wash gradient and the radial spotlight behind hero content; restrained indigo, never used for solid buttons"
+    },
+    "dawn-wash": {
+      "$value": "#9cafb8",
+      "$type": "color",
+      "$description": "Dawn Wash — Hero background atmosphere — cool slate-blue band sitting between deeper navy and warm earth tones, suggesting pre-sunrise sky"
+    }
+  },
+  "font": {
+    "dm-sans": {
+      "$value": "DM Sans",
+      "$type": "fontFamily",
+      "$description": "Primary workhorse — body copy, nav items, buttons, list rows, tags. Weight 500 for nav/button labels, 700 for inline emphasis. At 72px it carries the hero headline; the -0.035em tracking tightens the large display set and gives the geometric letterforms a condensed, editorial posture."
+    },
+    "geist": {
+      "$value": "Geist",
+      "$type": "fontFamily",
+      "$description": "Secondary face — used for mid-weight subheadings, card titles, and tabular UI text inside the product mockup. Geist's slightly taller x-height and geometric neutrality make it feel like UI-native body type, complementing DM Sans's warmer editorial voice without competing."
+    },
+    "system-ui": {
+      "$value": "system-ui",
+      "$type": "fontFamily",
+      "$description": "Fallback for icon-adjacent text and rendered product UI screenshots — never appears in marketing surface"
+    }
+  },
+  "typography": {
+    "sm": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 14px"
+    },
+    "sm-4": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "14px",
+        "fontWeight": 700,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-4 at 14px"
+    },
+    "sm-5": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-5 at 14px"
+    },
+    "sm-6": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-6 at 14px"
+    },
+    "sm-7": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.71
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-7 at 14px"
+    },
+    "sm-8": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "14px",
+        "fontWeight": 600,
+        "lineHeight": 1.14
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-8 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 15px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 16px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 16px"
+    },
+    "base-5": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-5 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "18px",
+        "fontWeight": 700,
+        "lineHeight": 1.11
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 18px"
+    },
+    "lg-3": {
+      "$value": {
+        "fontFamily": "system-ui",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-3 at 18px"
+    },
+    "lg-4": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.56
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-4 at 18px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "24px",
+        "fontWeight": 500,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 24px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "32px",
+        "fontWeight": 600,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 32px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "36px",
+        "fontWeight": 500,
+        "lineHeight": 1.11
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 36px"
+    },
+    "4xl-2": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "40px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl-2 at 40px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "Geist",
+        "fontSize": "48px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 48px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "72px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 72px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "28": {
+      "$value": "28px",
+      "$type": "dimension",
+      "$description": "Spacing 28px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "44": {
+      "$value": "44px",
+      "$type": "dimension",
+      "$description": "Spacing 44px"
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Spacing 48px"
+    },
+    "56": {
+      "$value": "56px",
+      "$type": "dimension",
+      "$description": "Spacing 56px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "md": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Border radius md"
+    },
+    "lg": {
+      "$value": "10px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "2xl": {
+      "$value": "19px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "3xl": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    },
+    "3xl-2": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl-2"
+    },
+    "full": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    },
+    "full-2": {
+      "$value": "9999px",
+      "$type": "dimension",
+      "$description": "Border radius full-2"
+    }
+  },
+  "surface": {
+    "void": {
+      "$value": "#0a0a0a",
+      "$type": "color",
+      "$description": "Surface level 0: Base canvas — the page sits on near-black"
+    },
+    "char": {
+      "$value": "#1d1d1d",
+      "$type": "color",
+      "$description": "Surface level 1: Card surface, elevated panel"
+    },
+    "iron": {
+      "$value": "#3d3d3d",
+      "$type": "color",
+      "$description": "Surface level 2: Hover state, active surface"
+    },
+    "slate": {
+      "$value": "#505050",
+      "$type": "color",
+      "$description": "Surface level 3: Pressed state, selected surface"
+    }
+  },
+  "$extensions": {}
+}

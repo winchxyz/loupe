@@ -1,0 +1,49 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design System</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+  /* self-contained board layout (does not depend on the site's own classes; the linked styles.css supplies the :root vars) */
+  .dzb{max-width:1080px;margin:0 auto;padding:56px 40px 80px;font-family:system-ui, sans-serif;color:#16181d;background:#f4f1ea;min-height:100vh;box-sizing:border-box}
+  .dzb *{box-sizing:border-box}
+  .dzb-head{display:flex;align-items:baseline;gap:14px;margin:0 0 6px}
+  .dzb-head h1{font-size:34px;font-weight:800;letter-spacing:-.03em;margin:0}
+  .dzb-head .k{font:600 11px/1 ui-monospace,monospace;letter-spacing:.18em;text-transform:uppercase;opacity:.55}
+  .dzb-sub{opacity:.6;font-size:14px;margin:0 0 40px}
+  .dzb section{margin:0 0 44px}
+  .dzb h2{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:0 0 16px;padding-bottom:9px;border-bottom:1px solid rgba(128,128,128,.22)}
+  .swgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:16px}
+  .sw{display:flex;flex-direction:column;gap:9px}
+  .sw-chip{height:78px;border-radius:10px;border:1px solid rgba(128,128,128,.22)}
+  .sw-chip.grad{border:0}
+  .sw-meta{display:flex;flex-direction:column;gap:1px;font-size:12px}
+  .sw-meta b{font-weight:600}
+  .sw-meta code{font:11px/1.4 ui-monospace,monospace;opacity:.85}
+  .sw-meta span{font:11px/1.4 ui-monospace,monospace;opacity:.55}
+  .clip{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}
+  .type{display:flex;flex-direction:column;gap:26px}
+  .font-h{display:flex;align-items:baseline;gap:10px;margin-bottom:10px}
+  .font-h b{font-weight:600;font-size:14px}.font-h code{font:11px/1 ui-monospace,monospace;opacity:.7}.font-h span{font:11px/1 ui-monospace,monospace;opacity:.45}
+  .spec-row{line-height:1.1;letter-spacing:-.02em;margin:2px 0}
+  .toks{display:flex;flex-wrap:wrap;gap:22px;align-items:flex-end}
+  .tok{display:flex;flex-direction:column;gap:8px}
+  .tok-box{width:52px;height:52px;background:rgba(128,128,128,.18);border:1px solid rgba(128,128,128,.3)}
+  .tok-bar{height:14px;min-width:2px;background:#c4452f;border-radius:3px}
+  .tok-meta code{font:11px/1.3 ui-monospace,monospace;display:block}.tok-meta span{font:11px/1.3 ui-monospace,monospace;opacity:.55}
+  .comp{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .cbtn{border:0;padding:12px 22px;border-radius:8px;font:600 14px/1 inherit;cursor:pointer}
+  .cchip{padding:6px 13px;border-radius:999px;border:1px solid rgba(128,128,128,.3);font:500 12px/1 inherit}
+  .cinput{padding:11px 14px;border-radius:8px;border:1px solid rgba(128,128,128,.3);background:transparent;color:inherit;font:14px/1 inherit}
+</style></head><body>
+<div class="dzb">
+  <div class="dzb-head"><span class="k">Design System</span><h1>Fixture Site</h1></div>
+  <p class="dzb-sub">The palette, type and tokens this site is built from. Generated from the site's design tokens, always in sync.</p>
+  <section><h2>Colour</h2><div class="swgrid"><div class="sw"><div class="sw-chip" style="background:#16181d"></div><div class="sw-meta"><b>Ink</b><code>--ink</code><span>#16181d</span></div></div><div class="sw"><div class="sw-chip" style="background:#f4f1ea"></div><div class="sw-meta"><b>Bg</b><code>--bg</code><span>#f4f1ea</span></div></div><div class="sw"><div class="sw-chip" style="background:#c4452f"></div><div class="sw-meta"><b>Accent</b><code>--accent</code><span>#c4452f</span></div></div><div class="sw"><div class="sw-chip" style="background:#2f6fc4"></div><div class="sw-meta"><b>Accent2</b><code>--accent2</code><span>#2f6fc4</span></div></div></div></section>
+  
+  
+  
+  
+  <section><h2>Components</h2><div class="comp-wrap">
+    <div class="comp"><button class="cbtn" style="background:#c4452f;color:#f4f1ea">Primary action</button>
+      <span class="cchip">chip</span>
+      <input class="cinput" value="Input field" readonly></div></div></section>
+</div></body></html>

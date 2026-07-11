@@ -1,0 +1,84 @@
+:root {
+  /* Colors */
+  --color-warm-sand: #d8cbb8;
+  --color-charcoal: #2c2c2c;
+  --color-smoke: #dfdad5;
+  --color-taupe: #b6ab9c;
+  --color-greige: #bfb4a3;
+  --color-obsidian: #292622;
+  --color-ember: #d49653;
+  --color-stone: #978e81;
+  --color-bark: #615b53;
+
+  /* Typography — Font Families */
+  --font-tt-ramillas-variable: 'TT Ramillas Variable', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-satoshi: 'Satoshi', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Typography — Scale */
+  --text-caption: 12px;
+  --leading-caption: 1.3;
+  --tracking-caption: 0.12px;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.4;
+  --tracking-body-sm: -0.14px;
+  --text-heading-sm: 26px;
+  --leading-heading-sm: 1.2;
+  --tracking-heading-sm: -0.16px;
+  --text-subheading: 42px;
+  --leading-subheading: 1;
+  --tracking-subheading: -0.67px;
+  --text-heading: 50px;
+  --leading-heading: 0.9;
+  --tracking-heading: -1.5px;
+  --text-heading-lg: 69px;
+  --leading-heading-lg: 0.85;
+  --tracking-heading-lg: -2.42px;
+  --text-display: 115px;
+  --leading-display: 0.8;
+  --tracking-display: -4.6px;
+
+  /* Typography — Weights */
+  --font-weight-light: 300;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-5: 5px;
+  --spacing-6: 6px;
+  --spacing-7: 7px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-17: 17px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-42: 42px;
+  --spacing-92: 92px;
+  --spacing-206: 206px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap: 64px;
+  --card-padding: 20px;
+  --element-gap: 16px;
+
+  /* Border Radius */
+  --radius-sm: 3px;
+
+  /* Named Radii */
+  --radius-tags: 3px;
+  --radius-cards: 3px;
+  --radius-inputs: 3px;
+  --radius-buttons: 3px;
+
+  /* Surfaces */
+  --surface-page-canvas: #d8cbb8;
+  --surface-card-surface: #dfdad5;
+  --surface-dark-section: #2c2c2c;
+  --surface-deep-dark: #292622;
+  --surface-accent-wash: #d49653;
+}

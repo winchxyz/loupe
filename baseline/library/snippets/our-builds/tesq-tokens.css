@@ -1,0 +1,57 @@
+/* source: baseline/sites/02b-cube-B2-slipstream/v-c.html · project: deZign-pro 02b/TESQ · saved: 2026-06-18 */
+/* The built design-token block of the TESQ "Сигнал" AI-hub (cube B2 slipstream variant, design C / glass).
+   Faithful copy of the load-bearing values; the per-section accent overrides + journey color tokens
+   are what make the water->space->sun->moon journey read as STRUCTURE, not skin. */
+
+:root{
+  /* base — near-black space, near-white ice ink (duotone, light-as-material) */
+  --bg:#06070d;
+  --ink:#f4f6fc;                       /* primary ice text */
+  --ink-2:rgba(244,246,252,0.70);      /* dim body */
+  --ink-3:rgba(244,246,252,0.46);      /* faint meta */
+
+  /* glass tier — ACCENT only, never the whole site (10% of the 70/20/10) */
+  --glass:rgba(15,19,31,0.90);         /* dense content panel — near-opaque, focus = text */
+  --glass-2:rgba(26,31,48,0.66);       /* secondary glass control (pills, buttons, cats) */
+  --chrome:rgba(12,14,22,0.66);        /* floating nav / control clusters */
+  --line:rgba(255,255,255,0.16);       /* primary hairline */
+  --line-2:rgba(255,255,255,0.09);     /* row divider */
+  --hl:inset 0 1px 0 rgba(255,255,255,0.10);  /* glass-thickness top inset highlight */
+
+  /* journey accents — each section beat re-points --accent to its own colour */
+  --accent:#9fd0ff;   /* signal/ice cyan — default + HUD active state */
+  --earth:#6CA8FF;    /* Earth Blue — News / day layer */
+  --moon:#EDE5CA;     /* Moon Sand — Subscribe / arrival */
+
+  /* type stack — deliberate premium grotesk (owner rejected Manrope) */
+  --disp:"Inter Tight","Inter",system-ui,sans-serif;  /* display / headlines, 800 */
+  --sans:"Inter",system-ui,sans-serif;                /* body, 20px base */
+  --mono:"JetBrains Mono",ui-monospace,monospace;     /* meta / HUD / kickers */
+
+  --ease:cubic-bezier(0.22,1,0.36,1); /* the "ease-out-expo" used on every transition */
+  --maxw:1140px;
+}
+
+/* journey-as-structure: per-section accent overrides (the colour IS the beat) */
+.news     {--accent:var(--earth);}   /* Earth · dispatch  — morning ocean blue */
+.guides   {--accent:#9fb6ff;}        /* Orbit · exploration — atmosphere/indigo */
+.repos    {--accent:var(--accent);}  /* Deep Space · signals — back to ice cyan */
+.subscribe{--accent:var(--moon);}    /* Landing · arrival — moon sand */
+
+/* dense content panel — glass as a near-opaque READING surface, not a frost */
+.panel{
+  background:var(--glass);
+  backdrop-filter:blur(12px) saturate(150%);
+  -webkit-backdrop-filter:blur(12px) saturate(150%);
+  border:1px solid var(--line);
+  border-radius:18px;
+  box-shadow:0 28px 70px -38px rgba(0,0,0,0.85),var(--hl);
+}
+
+/* hero local backplate — a radial scrim sized to the text block, NEVER a hard rect (a rect shows a
+   square edge on scroll). Mobile drops it entirely and leans on layered text-shadow instead. */
+.hero .scrim{
+  position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:radial-gradient(80% 64% at 36% 46%,
+    rgba(6,8,14,0.82) 0%,rgba(6,8,14,0.40) 44%,transparent 76%);
+}

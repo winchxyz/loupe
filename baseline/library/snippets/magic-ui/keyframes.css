@@ -1,0 +1,32 @@
+/* source: https://magicui.design/r/{marquee,shimmer-button}.json · author/owner: Magic UI (magicuidesign) · license: MIT · saved: 2026-06-18 */
+/* The CSS-driven Magic UI components reference these utility names. Tailwind v4: register via @theme; */
+/* Tailwind v3: put the keyframes + animation under theme.extend in tailwind.config. */
+
+/* --- marquee.tsx needs these (utilities: animate-marquee / animate-marquee-vertical) --- */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(calc(-100% - var(--gap))); }
+}
+@keyframes marquee-vertical {
+  from { transform: translateY(0); }
+  to   { transform: translateY(calc(-100% - var(--gap))); }
+}
+/* Tailwind v4 @theme:
+   --animate-marquee: marquee var(--duration) linear infinite;
+   --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+*/
+
+/* --- shimmer-button.tsx needs these (utilities: animate-shimmer-slide / animate-spin-around) --- */
+@keyframes shimmer-slide {
+  to { transform: translate(calc(100cqw - 100%), 0); }
+}
+@keyframes spin-around {
+  0%          { transform: translateZ(0) rotate(0); }
+  15%, 35%    { transform: translateZ(0) rotate(90deg); }
+  65%, 85%    { transform: translateZ(0) rotate(270deg); }
+  100%        { transform: translateZ(0) rotate(360deg); }
+}
+/* Tailwind v4 @theme:
+   --animate-shimmer-slide: shimmer-slide var(--speed) ease-in-out infinite alternate;
+   --animate-spin-around: spin-around calc(var(--speed) * 2) infinite linear;
+*/

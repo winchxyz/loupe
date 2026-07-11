@@ -1,0 +1,121 @@
+/* source: baseline/sites/02b-cube-B2-slipstream/v-c.html · project: deZign-pro 02b/TESQ · saved: 2026-06-18 */
+/* Matte stacked-blur "glass" UI — premium frosted glass (Raycast/Resend/Framer feel),
+   strict & never milky, legible over a cycling WebGL background.
+   All exact values lifted verbatim from v-c.html. */
+
+/* ---------------------------------------------------------------------------
+   1. TOKENS — the whole glass system runs off these CSS variables
+   --------------------------------------------------------------------------- */
+:root{
+  --bg:#06070d;                            /* near-black base; sets the contrast floor */
+  --ink:#f4f6fc;                           /* primary text — high contrast on glass */
+  --ink-2:rgba(244,246,252,0.70);          /* secondary text */
+  --ink-3:rgba(244,246,252,0.46);          /* tertiary / muted */
+
+  --glass:rgba(15,19,31,0.90);             /* MAIN panel fill — opacity .90, NOT translucent-milky */
+  --glass-2:rgba(26,31,48,0.66);           /* lighter chip/pill fill */
+  --chrome:rgba(12,14,22,0.66);            /* nav/control bar fill (floating chrome) */
+
+  --line:rgba(255,255,255,0.16);           /* hairline border — the "edge" of the glass */
+  --line-2:rgba(255,255,255,0.09);         /* softer border for footers */
+  --hl:inset 0 1px 0 rgba(255,255,255,0.10);/* top inner highlight — the single most important "glass" cue */
+
+  --accent:#9fd0ff;                        /* cool blue accent (matches scene light) */
+}
+
+/* ---------------------------------------------------------------------------
+   2. GLASS PANEL — content surfaces
+   blur 12px + saturate 150% over a .90-opacity dark fill = MATTE, not glossy.
+   The dark tint does the legibility work; the blur only softens the bg behind it.
+   --------------------------------------------------------------------------- */
+.panel{
+  background:var(--glass);
+  backdrop-filter:blur(12px) saturate(150%);
+  -webkit-backdrop-filter:blur(12px) saturate(150%);
+  border:1px solid var(--line);
+  border-radius:18px;
+  /* big soft drop shadow lifts the panel off the moving bg + the inner top highlight */
+  box-shadow:0 28px 70px -38px rgba(0,0,0,0.85), var(--hl);
+}
+@media (max-width:760px){
+  /* bump blur a touch on mobile where the panel covers more of the scene */
+  .panel{backdrop-filter:blur(14px) saturate(150%);-webkit-backdrop-filter:blur(14px) saturate(150%);}
+}
+
+/* ---------------------------------------------------------------------------
+   3. FLOATING CHROME — nav / control bars / toggles
+   Lighter fill (--chrome .66), slightly stronger blur (14–16px), pill radius.
+   --------------------------------------------------------------------------- */
+.cmdbar{
+  background:var(--chrome);
+  backdrop-filter:blur(16px) saturate(150%);
+  -webkit-backdrop-filter:blur(16px) saturate(150%);
+  border:1px solid var(--line);
+  border-radius:999px;
+  padding:0.32rem;
+  box-shadow:0 12px 40px -20px rgba(0,0,0,0.8), var(--hl);
+}
+.bg-toggle{
+  background:var(--chrome);
+  backdrop-filter:blur(14px) saturate(140%);
+  -webkit-backdrop-filter:blur(14px) saturate(140%);
+  border:1px solid var(--line);
+  box-shadow:var(--hl);
+}
+
+/* chips / tabs / category pills — the lighter --glass-2 fill, smaller blur */
+.cat,.tab{
+  background:var(--glass-2);
+  border:1px solid var(--line);
+  border-radius:999px;
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+  box-shadow:var(--hl);
+}
+
+/* ---------------------------------------------------------------------------
+   4. FROSTED LOADER — full-screen TRUE matte glass over the LIVE scene.
+   Chrome caps a SINGLE backdrop-filter blur radius, so we NEST .ldX-frost
+   twice: each pass blurs the already-blurred result -> the WebGL scene
+   dissolves to soft silhouettes. .ldX-skin (tint + grain) sits on top.
+   ⚠ No clip-path on ANY ancestor — it breaks nested backdrop-filters.
+   Reveal slides up via transform (not clip).
+   Markup:
+     <div class="loader ldX" id="loader">
+       <div class="ldX-frost"><div class="ldX-frost"><div class="ldX-skin"></div></div></div>
+       <div class="ldX-center">…TESQ…0%…</div>
+     </div>
+   --------------------------------------------------------------------------- */
+.loader.ldX{
+  position:fixed;inset:0;z-index:200;
+  display:flex;align-items:center;justify-content:center;
+  background:transparent;                  /* transparent so the blur reads the scene */
+  transition:transform 0.95s cubic-bezier(0.65,0,0.2,1);
+}
+.loader.ldX.lift{transform:translateY(-100%);}   /* JS adds .lift to reveal */
+
+.ldX-frost{
+  position:absolute;inset:0;
+  backdrop-filter:blur(66px) saturate(1.2);
+  -webkit-backdrop-filter:blur(66px) saturate(1.2);
+}
+/* two nested .ldX-frost = ~stacked blur passes (≈ much heavier than the Chrome cap) */
+
+.ldX-skin{
+  position:absolute;inset:0;
+  /* cool top-glow + vertical darkening gradient = the matte "skin" / tint */
+  background:
+    radial-gradient(135% 105% at 50% -12%,rgba(159,208,255,0.07),rgba(159,208,255,0) 56%),
+    linear-gradient(180deg,rgba(255,255,255,0.05) 0%,rgba(10,14,24,0.13) 58%,rgba(7,10,18,0.21) 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.16),     /* top highlight edge */
+    inset 0 0 0 1px rgba(255,255,255,0.05),   /* faint full inner ring */
+    inset 0 -70px 140px -50px rgba(6,8,14,0.5);/* bottom inner darkening */
+}
+/* fine fractal-noise grain — kills banding on the gradient, adds the "matte" tooth */
+.ldX-skin::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  opacity:0.06;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size:160px 160px;
+}

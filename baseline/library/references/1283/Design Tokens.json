@@ -1,0 +1,395 @@
+{
+  "color": {
+    "concrete-canvas": {
+      "$value": "#e2e2df",
+      "$type": "color",
+      "$description": "Concrete Canvas — Page background — warm light-gray stone, the dominant surface the whole site sits on"
+    },
+    "cream-card": {
+      "$value": "#f7f6f2",
+      "$type": "color",
+      "$description": "Cream Card — Card surfaces, stat panels, elevated content blocks — sits one step brighter than the canvas"
+    },
+    "ink": {
+      "$value": "#070607",
+      "$type": "color",
+      "$description": "Ink — Headlines, body text, hairline borders, and the structural outlines that give the layout its editorial frame"
+    },
+    "pure-black": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Pure Black — Icon strokes, dense border work, and the deepest text where Ink isn't dark enough"
+    },
+    "paper-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Paper White — White text on orange/dark surfaces and SVG mask fills — not a background"
+    },
+    "citra-orange": {
+      "$value": "#fc5000",
+      "$type": "color",
+      "$description": "Citra Orange — Primary action — filled buttons, the CTA pill, active links, stat-card fills, and brand accents; the only saturated warm in the system"
+    },
+    "ion-violet": {
+      "$value": "#524ae9",
+      "$type": "color",
+      "$description": "Ion Violet — Decorative surface accent — appears in halftone gradient art and one hero card, never as a button or text"
+    },
+    "hazard-yellow": {
+      "$value": "#f5f28e",
+      "$type": "color",
+      "$description": "Hazard Yellow — Rare highlight surface for emphasis blocks and tag backgrounds — high contrast against both Ink and Citra Orange"
+    }
+  },
+  "font": {
+    "sans-serif": {
+      "$value": "sans-serif",
+      "$type": "fontFamily",
+      "$description": "sans-serif — detected in extracted data but not described by AI"
+    },
+    "pp-neue-corp-compact": {
+      "$value": "PP Neue Corp Compact",
+      "$type": "fontFamily",
+      "$description": "Display and headline — the entire brand voice. Used for hero, section titles, stat numbers, and blog post titles. The extreme condensed ultrabold cut, running up to 189px on the hero with line-height under 1.0, is the signature: a single headline takes the full width and reads like a magazine cover rather than a SaaS hero."
+    },
+    "dm-sans": {
+      "$value": "DM Sans",
+      "$type": "fontFamily",
+      "$description": "Body, subheadings, nav, buttons, and form labels. Medium weight (not regular) is deliberate — it matches the visual density of the ultrabold headlines and prevents body copy from looking anaemic next to them. Pairs with the display face as the quieter half of the system."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.55
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.11
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 18px"
+    },
+    "lg-3": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-3 at 18px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "PP Neue Corp Compact Ultrabold",
+        "fontSize": "26px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 26px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "DM Sans",
+        "fontSize": "30px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 30px"
+    },
+    "3xl-2": {
+      "$value": {
+        "fontFamily": "PP Neue Corp Compact Ultrabold",
+        "fontSize": "32px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-2 at 32px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "PP Neue Corp Compact Ultrabold",
+        "fontSize": "40px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 40px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "PP Neue Corp Compact Ultrabold",
+        "fontSize": "48px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 48px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "PP Neue Corp Compact Ultrabold",
+        "fontSize": "56px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 56px"
+    },
+    "5xl-3": {
+      "$value": {
+        "fontFamily": "PP Neue Corp Compact Ultrabold",
+        "fontSize": "64px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-3 at 64px"
+    },
+    "5xl-4": {
+      "$value": {
+        "fontFamily": "PP Neue Corp Compact Ultrabold",
+        "fontSize": "80px",
+        "fontWeight": 400,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-4 at 80px"
+    },
+    "5xl-5": {
+      "$value": {
+        "fontFamily": "PP Neue Corp Compact Ultrabold",
+        "fontSize": "80px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-5 at 80px"
+    },
+    "5xl-6": {
+      "$value": {
+        "fontFamily": "PP Neue Corp Compact Ultrabold",
+        "fontSize": "96px",
+        "fontWeight": 400,
+        "lineHeight": 0.95
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-6 at 96px"
+    },
+    "5xl-7": {
+      "$value": {
+        "fontFamily": "PP Neue Corp Compact Ultrabold",
+        "fontSize": "189px",
+        "fontWeight": 400,
+        "lineHeight": 0.94
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-7 at 189px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "9": {
+      "$value": "9px",
+      "$type": "dimension",
+      "$description": "Spacing 9px"
+    },
+    "10": {
+      "$value": "10px",
+      "$type": "dimension",
+      "$description": "Spacing 10px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "18": {
+      "$value": "18px",
+      "$type": "dimension",
+      "$description": "Spacing 18px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Spacing 48px"
+    },
+    "56": {
+      "$value": "56px",
+      "$type": "dimension",
+      "$description": "Spacing 56px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "92": {
+      "$value": "92px",
+      "$type": "dimension",
+      "$description": "Spacing 92px"
+    }
+  },
+  "radius": {
+    "2xl": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "2xl-2": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl-2"
+    },
+    "3xl": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    },
+    "3xl-2": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl-2"
+    },
+    "3xl-3": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl-3"
+    },
+    "full": {
+      "$value": "100px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    },
+    "full-2": {
+      "$value": "800px",
+      "$type": "dimension",
+      "$description": "Border radius full-2"
+    }
+  },
+  "surface": {
+    "concrete-canvas": {
+      "$value": "#e2e2df",
+      "$type": "color",
+      "$description": "Surface level 1: Default page background — warm stone-gray, the floor everything sits on"
+    },
+    "cream-card": {
+      "$value": "#f7f6f2",
+      "$type": "color",
+      "$description": "Surface level 2: Cards, nav, metric panels — the standard elevated surface"
+    },
+    "citra-surface": {
+      "$value": "#fc5000",
+      "$type": "color",
+      "$description": "Surface level 3: Brand-bearing surface for stats and feature cards that need to shout"
+    },
+    "ion-surface": {
+      "$value": "#524ae9",
+      "$type": "color",
+      "$description": "Surface level 4: Decorative art surface for halftone hero panels"
+    }
+  },
+  "$extensions": {}
+}

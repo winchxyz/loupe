@@ -1,0 +1,477 @@
+{
+  "color": {
+    "lime-pulse": {
+      "$value": "#a3e635",
+      "$type": "color",
+      "$description": "Lime Pulse — Green action color for filled buttons, selected navigation states, and focused conversion moments."
+    },
+    "carbon-black": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Carbon Black — Primary text, all borders, hard offset shadows, icon strokes — the structural ink of the system"
+    },
+    "paper-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Paper White — Page canvas, card surfaces, button fills, input backgrounds — the base layer everything pins onto"
+    },
+    "graphite": {
+      "$value": "#171717",
+      "$type": "color",
+      "$description": "Graphite — Secondary borders, card outlines, badge strokes — a near-black for when pure #000 reads too harsh at thin weights"
+    },
+    "shadow-ink": {
+      "$value": "#0a0a0d",
+      "$type": "color",
+      "$description": "Shadow Ink — Hard offset shadow color (rgb 10,10,13) for buttons, nav, and elevated cards — barely distinguishable from black but used in shadow stacks for slight cool depth"
+    },
+    "fog": {
+      "$value": "#f5f5f5",
+      "$type": "color",
+      "$description": "Fog — Footer background, subtle surface recess — the only off-white that isn't a pastel tint"
+    },
+    "steel": {
+      "$value": "#737373",
+      "$type": "color",
+      "$description": "Steel — Muted helper text, icon strokes, input placeholder, disabled-state borders"
+    },
+    "iron": {
+      "$value": "#222222",
+      "$type": "color",
+      "$description": "Iron — Nav text, nav borders, secondary button text — a softer black for dense navigation"
+    },
+    "slate": {
+      "$value": "#333333",
+      "$type": "color",
+      "$description": "Slate — Link text, image fallback borders, tertiary borders"
+    },
+    "buttercream": {
+      "$value": "#fef3c8",
+      "$type": "color",
+      "$description": "Buttercream — Yellow wash for highlight backgrounds, decorative bands, and soft emphasis behind content"
+    },
+    "mint-wash": {
+      "$value": "#d2fae5",
+      "$type": "color",
+      "$description": "Mint Wash — Gray wash for highlight backgrounds, decorative bands, and soft emphasis behind content"
+    },
+    "lilac-mist": {
+      "$value": "#fae9ff",
+      "$type": "color",
+      "$description": "Lilac Mist — Soft section background, alternate surface, and quiet card fill"
+    },
+    "bubblegum": {
+      "$value": "#f5d1fe",
+      "$type": "color",
+      "$description": "Bubblegum — Pink wash for highlight backgrounds, decorative bands, and soft emphasis behind content"
+    },
+    "amber-spark": {
+      "$value": "#fbbf25",
+      "$type": "color",
+      "$description": "Amber Spark — Decorative illustration fill, accent icons, warm-highlight badges — a vivid yellow used sparingly for playful punctuation"
+    },
+    "sky-wash": {
+      "$value": "#b7eaf6",
+      "$type": "color",
+      "$description": "Sky Wash — Full-bleed hero section background — the dominant teal-blue band behind the primary headline"
+    },
+    "cobalt-field": {
+      "$value": "#3366e0",
+      "$type": "color",
+      "$description": "Cobalt Field — Full-bleed testimonial section background — the deep blue band used for social proof and quote panels"
+    },
+    "meadow": {
+      "$value": "#b9f0c0",
+      "$type": "color",
+      "$description": "Meadow — Full-bleed customer logo strip background — the green band under the product mockup"
+    },
+    "amber-gradient": {
+      "$value": "#fde5b1",
+      "$type": "color",
+      "$description": "Amber Gradient — Warm illustration gradient (ramp to #fcd683) — used for hero badges, illustrated sun/warmth motifs"
+    },
+    "lime-gradient": {
+      "$value": "#dbf4b5",
+      "$type": "color",
+      "$description": "Lime Gradient — Green illustration gradient (ramp to #c6ee89) — used for grass, growth, and vitality motifs"
+    }
+  },
+  "font": {
+    "satoshi": {
+      "$value": "Satoshi",
+      "$type": "fontFamily",
+      "$description": "Sole typeface — a geometric sans with circular o-forms and tall x-height. Weight 500 is the body and UI default (buttons, nav, labels); weight 700 is reserved for headlines and display copy. The negative tracking pattern (-1.34px at 64px scaling down to near-zero at 20px) is signature — it tightens display sizes aggressively while keeping body text comfortable. No italic, no light weight; the binary 500/700 gives the system a sticker-label confidence."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": 1.67
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "14px",
+        "fontWeight": 700,
+        "lineHeight": 1.14
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.57
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.44
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.44
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 18px"
+    },
+    "lg-3": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "18px",
+        "fontWeight": 700,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-3 at 18px"
+    },
+    "lg-4": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-4 at 18px"
+    },
+    "lg-5": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.44
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-5 at 18px"
+    },
+    "lg-6": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.44
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-6 at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "20px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "xl-2": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "20px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-2 at 20px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "24px",
+        "fontWeight": 700,
+        "lineHeight": 1.42
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 24px"
+    },
+    "2xl-2": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "24px",
+        "fontWeight": 500,
+        "lineHeight": 1.42
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-2 at 24px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "32px",
+        "fontWeight": 500,
+        "lineHeight": 1.38
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 32px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "36px",
+        "fontWeight": 700,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 36px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "48px",
+        "fontWeight": 500,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 48px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "48px",
+        "fontWeight": 500,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 48px"
+    },
+    "5xl-3": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "64px",
+        "fontWeight": 500,
+        "lineHeight": 1.16
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-3 at 64px"
+    },
+    "5xl-4": {
+      "$value": {
+        "fontFamily": "Satoshi",
+        "fontSize": "64px",
+        "fontWeight": 500,
+        "lineHeight": 1.16
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-4 at 64px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "28": {
+      "$value": "28px",
+      "$type": "dimension",
+      "$description": "Spacing 28px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "44": {
+      "$value": "44px",
+      "$type": "dimension",
+      "$description": "Spacing 44px"
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Spacing 48px"
+    },
+    "60": {
+      "$value": "60px",
+      "$type": "dimension",
+      "$description": "Spacing 60px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "88": {
+      "$value": "88px",
+      "$type": "dimension",
+      "$description": "Spacing 88px"
+    },
+    "100": {
+      "$value": "100px",
+      "$type": "dimension",
+      "$description": "Spacing 100px"
+    },
+    "120": {
+      "$value": "120px",
+      "$type": "dimension",
+      "$description": "Spacing 120px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "md": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Border radius md"
+    },
+    "lg": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "xl": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Border radius xl"
+    },
+    "2xl": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "2xl-2": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl-2"
+    },
+    "full": {
+      "$value": "100px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    }
+  },
+  "shadow": {
+    "subtle": {
+      "$value": "rgb(10, 10, 13) 2px 2px 0px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle"
+    },
+    "subtle-2": {
+      "$value": "rgb(10, 10, 13) 4px 4px 0px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle-2"
+    },
+    "subtle-3": {
+      "$value": "rgb(10, 10, 13) 1px 1px 0px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle-3"
+    },
+    "subtle-4": {
+      "$value": "rgb(23, 23, 23) 4px 4px 0px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle-4"
+    }
+  },
+  "surface": {
+    "paper-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 0: Base canvas — most content lives on white"
+    },
+    "fog": {
+      "$value": "#f5f5f5",
+      "$type": "color",
+      "$description": "Surface level 1: Subtle surface recess for footer and quiet bands"
+    },
+    "pastel-card-tints": {
+      "$value": "#fef3c8",
+      "$type": "color",
+      "$description": "Surface level 2: Colored info cards (yellow/green/purple/pink tints used interchangeably at this level)"
+    }
+  },
+  "$extensions": {}
+}

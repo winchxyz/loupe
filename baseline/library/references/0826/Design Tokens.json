@@ -1,0 +1,602 @@
+{
+  "color": {
+    "apple-blue": {
+      "$value": "#0071e3",
+      "$type": "color",
+      "$description": "Apple Blue — Blue supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+    },
+    "link-blue": {
+      "$value": "#0066cc",
+      "$type": "color",
+      "$description": "Link Blue — Inline text links, secondary clickable text in body copy and footers"
+    },
+    "space-black": {
+      "$value": "#1d1d1f",
+      "$type": "color",
+      "$description": "Space Black — Primary headings, body text, icon strokes, nav labels — the dominant text color across every surface"
+    },
+    "slate": {
+      "$value": "#313131",
+      "$type": "color",
+      "$description": "Slate — Secondary UI text, dark button labels, footer links, muted headings"
+    },
+    "gunmetal": {
+      "$value": "#444545",
+      "$type": "color",
+      "$description": "Gunmetal — Tertiary text and link color in darker UI contexts, secondary navigation"
+    },
+    "fog": {
+      "$value": "#6b6c6c",
+      "$type": "color",
+      "$description": "Fog — Muted body text, captions, sub-labels, secondary metadata, de-emphasized descriptions"
+    },
+    "pure-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Pure White — Card surfaces, elevated panels, button text on dark fills, content backgrounds"
+    },
+    "mist": {
+      "$value": "#f3f6f6",
+      "$type": "color",
+      "$description": "Mist — Page canvas, section backgrounds, subtle differentiation from white card surfaces"
+    },
+    "silver": {
+      "$value": "#e8e8ed",
+      "$type": "color",
+      "$description": "Silver — Light supporting surface for subtle backgrounds and section separation. Do not promote it to the primary CTA color"
+    },
+    "cloud": {
+      "$value": "#dedfe2",
+      "$type": "color",
+      "$description": "Cloud — Light dividers, secondary borders, input field backgrounds, table row alternation"
+    },
+    "obsidian": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Obsidian — True black for fine icon detail, input borders, maximum-contrast text in dark hero zones"
+    },
+    "pacific-gradient": {
+      "$value": "#297bc4",
+      "$type": "color",
+      "$description": "Pacific Gradient — Hero section gradient — the iPad Air product page opens with a deep-to-bright blue wash that cradles the product; mid-point #004c94 at 45%"
+    },
+    "spectrum": {
+      "$value": "#ba62fc",
+      "$type": "color",
+      "$description": "Spectrum — Rare decorative gradient appearing in special campaign banners — blue to violet to coral to orange; never used on UI controls"
+    },
+    "signal-teal": {
+      "$value": "#00a1b3",
+      "$type": "color",
+      "$description": "Signal Teal — Headline accent color for one specific product variant or campaign line"
+    },
+    "iris-violet": {
+      "$value": "#8668ff",
+      "$type": "color",
+      "$description": "Iris Violet — Headline accent color for a specific product variant section"
+    },
+    "ember": {
+      "$value": "#ed6300",
+      "$type": "color",
+      "$description": "Ember — Headline accent color for warm-product-variant callouts"
+    },
+    "russet": {
+      "$value": "#b64400",
+      "$type": "color",
+      "$description": "Russet — Dark warm accent for badge or tag color in product variant context"
+    }
+  },
+  "font": {
+    "sf-pro-text": {
+      "$value": "SF Pro Text",
+      "$type": "fontFamily",
+      "$description": "Button labels, navigation items, tab labels, in-card headings. Always semibold — Apple buttons are never bold, they are confident semibold."
+    },
+    "sf-pro-display": {
+      "$value": "SF Pro Display",
+      "$type": "fontFamily",
+      "$description": "All display and heading type — product page hero headlines (80–160px), section headings (40–56px), nav labels and eyebrow text (21–28px). Weight 600 for hero and key headlines, 400 for sub-headings. Aggressive negative letter-spacing tightens the visual density even at extreme sizes: -0.040em at 160px, -0.015em at 40–48px, near-zero at 21px. The signature choice: 160px headlines at weight 600 with -6.4px tracking are architectural, not decorative."
+    },
+    "arial": {
+      "$value": "Arial",
+      "$type": "fontFamily",
+      "$description": "Arial — detected in extracted data but not described by AI"
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "8px",
+        "fontWeight": 400,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 8px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 12px"
+    },
+    "xs-3": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-3 at 12px"
+    },
+    "xs-4": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.83
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-4 at 12px"
+    },
+    "xs-5": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "12px",
+        "fontWeight": 600,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-5 at 12px"
+    },
+    "xs-6": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "12px",
+        "fontWeight": 600,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-6 at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "Arial",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 13px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.29
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 14px"
+    },
+    "sm-4": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "14px",
+        "fontWeight": 600,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-4 at 14px"
+    },
+    "sm-5": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "14px",
+        "fontWeight": 600,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-5 at 14px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "lineHeight": 1.47
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 17px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "lineHeight": 2.41
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 17px"
+    },
+    "lg-3": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "lineHeight": 2.12
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-3 at 17px"
+    },
+    "lg-4": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "lineHeight": 1.47
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-4 at 17px"
+    },
+    "lg-5": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "17px",
+        "fontWeight": 600,
+        "lineHeight": 1.24
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-5 at 17px"
+    },
+    "lg-6": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "lineHeight": 1.18
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-6 at 17px"
+    },
+    "lg-7": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "lineHeight": 1.24
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-7 at 17px"
+    },
+    "lg-8": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-8 at 17px"
+    },
+    "lg-9": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "17px",
+        "fontWeight": 600,
+        "lineHeight": 1.47
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-9 at 17px"
+    },
+    "lg-10": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "18px",
+        "fontWeight": 300,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-10 at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "20px",
+        "fontWeight": 600,
+        "lineHeight": 1.47
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "xl-2": {
+      "$value": {
+        "fontFamily": "SF Pro Display",
+        "fontSize": "21px",
+        "fontWeight": 600,
+        "lineHeight": 1.14
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-2 at 21px"
+    },
+    "xl-3": {
+      "$value": {
+        "fontFamily": "SF Pro Display",
+        "fontSize": "21px",
+        "fontWeight": 400,
+        "lineHeight": 1.19
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-3 at 21px"
+    },
+    "xl-4": {
+      "$value": {
+        "fontFamily": "SF Pro Display",
+        "fontSize": "21px",
+        "fontWeight": 600,
+        "lineHeight": 1.38
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-4 at 21px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "24px",
+        "fontWeight": 300,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 24px"
+    },
+    "2xl-2": {
+      "$value": {
+        "fontFamily": "SF Pro Display",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "lineHeight": 1.14
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-2 at 28px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "34px",
+        "fontWeight": 600,
+        "lineHeight": 1.47
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 34px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "SF Pro Display",
+        "fontSize": "40px",
+        "fontWeight": 600,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 40px"
+    },
+    "4xl-2": {
+      "$value": {
+        "fontFamily": "SF Pro Text",
+        "fontSize": "44px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl-2 at 44px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "SF Pro Display",
+        "fontSize": "48px",
+        "fontWeight": 600,
+        "lineHeight": 1.08
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 48px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "SF Pro Display",
+        "fontSize": "56px",
+        "fontWeight": 600,
+        "lineHeight": 1.07
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 56px"
+    },
+    "5xl-3": {
+      "$value": {
+        "fontFamily": "SF Pro Display",
+        "fontSize": "80px",
+        "fontWeight": 600,
+        "lineHeight": 1.05
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-3 at 80px"
+    },
+    "5xl-4": {
+      "$value": {
+        "fontFamily": "SF Pro Display",
+        "fontSize": "160px",
+        "fontWeight": 600,
+        "lineHeight": 0.88
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-4 at 160px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "6": {
+      "$value": "6px",
+      "$type": "dimension",
+      "$description": "Spacing 6px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "9": {
+      "$value": "9px",
+      "$type": "dimension",
+      "$description": "Spacing 9px"
+    },
+    "10": {
+      "$value": "10px",
+      "$type": "dimension",
+      "$description": "Spacing 10px"
+    },
+    "11": {
+      "$value": "11px",
+      "$type": "dimension",
+      "$description": "Spacing 11px"
+    },
+    "13": {
+      "$value": "13px",
+      "$type": "dimension",
+      "$description": "Spacing 13px"
+    },
+    "14": {
+      "$value": "14px",
+      "$type": "dimension",
+      "$description": "Spacing 14px"
+    },
+    "19": {
+      "$value": "19px",
+      "$type": "dimension",
+      "$description": "Spacing 19px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "25": {
+      "$value": "25px",
+      "$type": "dimension",
+      "$description": "Spacing 25px"
+    },
+    "28": {
+      "$value": "28px",
+      "$type": "dimension",
+      "$description": "Spacing 28px"
+    },
+    "30": {
+      "$value": "30px",
+      "$type": "dimension",
+      "$description": "Spacing 30px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "44": {
+      "$value": "44px",
+      "$type": "dimension",
+      "$description": "Spacing 44px"
+    },
+    "83": {
+      "$value": "83px",
+      "$type": "dimension",
+      "$description": "Spacing 83px"
+    }
+  },
+  "radius": {
+    "xl": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Border radius xl"
+    },
+    "3xl": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    },
+    "3xl-2": {
+      "$value": "28px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl-2"
+    },
+    "3xl-3": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl-3"
+    },
+    "3xl-4": {
+      "$value": "36px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl-4"
+    },
+    "full": {
+      "$value": "170px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    },
+    "full-2": {
+      "$value": "980px",
+      "$type": "dimension",
+      "$description": "Border radius full-2"
+    }
+  },
+  "shadow": {
+    "subtle": {
+      "$value": "rgba(0, 0, 0, 0.11) 0px 0px 1px 0px inset",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle"
+    },
+    "xl": {
+      "$value": "rgba(0, 0, 0, 0.05) 0px 0px 35px 20px",
+      "$type": "shadow",
+      "$description": "Shadow elevation xl"
+    }
+  },
+  "surface": {
+    "canvas": {
+      "$value": "#f3f6f6",
+      "$type": "color",
+      "$description": "Surface level 0: Page-level background for body sections between hero bands"
+    },
+    "surface-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 1: Cards, content panels, product detail sections — the dominant elevated surface"
+    },
+    "hero-tint": {
+      "$value": "#0071e3",
+      "$type": "color",
+      "$description": "Surface level 2: Full-bleed gradient hero bands in deep blue (from rgb(0,76,148) to rgb(41,123,196))"
+    },
+    "divider-silver": {
+      "$value": "#e8e8ed",
+      "$type": "color",
+      "$description": "Surface level 3: Hairline separators, disabled states, subtle structural lines"
+    }
+  },
+  "$extensions": {}
+}

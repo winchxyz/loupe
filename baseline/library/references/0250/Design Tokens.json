@@ -1,0 +1,210 @@
+{
+  "color": {
+    "void-black": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Void Black — Page canvas, modal backdrops, particle field background"
+    },
+    "pure-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Pure White — Primary text, nav labels, button text on dark fills"
+    },
+    "graphite-border": {
+      "$value": "#4d4d4d",
+      "$type": "color",
+      "$description": "Graphite Border — Hairline dividers, faint structural rules"
+    },
+    "steel-border": {
+      "$value": "#808080",
+      "$type": "color",
+      "$description": "Steel Border — Outlined button borders, secondary dividers"
+    },
+    "fog-border": {
+      "$value": "#999999",
+      "$type": "color",
+      "$description": "Fog Border — Tertiary button borders, low-emphasis rules"
+    },
+    "ash-link": {
+      "$value": "#c6c6c6",
+      "$type": "color",
+      "$description": "Ash Link — Muted link color, secondary informational text"
+    },
+    "midnight-violet": {
+      "$value": "#343755",
+      "$type": "color",
+      "$description": "Midnight Violet — Violet supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+    }
+  },
+  "font": {
+    "nbarchitekt": {
+      "$value": "nbarchitekt",
+      "$type": "fontFamily",
+      "$description": "Signature technical-label typeface for navigation, buttons, and micro-copy. Its architectural/monospaced character gives the interface a drafting-blueprint quality — uppercase 10–12px labels at tight tracking feel like instrument markings rather than UI text. Substitute: Space Mono or IBM Plex Mono for similar geometric-technical character."
+    },
+    "times": {
+      "$value": "Times",
+      "$type": "fontFamily",
+      "$description": "System serif used for body passages and link text at 16px. The serif choice against an all-caps geometric label font creates a deliberate editorial/system contrast — Times carries readability, nbarchitekt carries identity. Substitute: any system serif (Georgia, Times New Roman)."
+    },
+    "arial": {
+      "$value": "Arial",
+      "$type": "fontFamily",
+      "$description": "Button fallback at 13px. Functions as a system safety net for nbarchitekt rendering — same role, neutral sans execution."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "nbarchitekt",
+        "fontSize": "10px",
+        "fontWeight": 400,
+        "lineHeight": 3
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 10px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "nbarchitekt",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "Arial",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 13px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "nbarchitekt",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "nbarchitekt",
+        "fontSize": "14px",
+        "fontWeight": 700,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 14px"
+    },
+    "sm-4": {
+      "$value": {
+        "fontFamily": "nbarchitekt",
+        "fontSize": "14px",
+        "fontWeight": 700,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-4 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.88
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "6": {
+      "$value": "6px",
+      "$type": "dimension",
+      "$description": "Spacing 6px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "13": {
+      "$value": "13px",
+      "$type": "dimension",
+      "$description": "Spacing 13px"
+    },
+    "14": {
+      "$value": "14px",
+      "$type": "dimension",
+      "$description": "Spacing 14px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "18": {
+      "$value": "18px",
+      "$type": "dimension",
+      "$description": "Spacing 18px"
+    },
+    "28": {
+      "$value": "28px",
+      "$type": "dimension",
+      "$description": "Spacing 28px"
+    }
+  },
+  "radius": {
+    "md": {
+      "$value": "5px",
+      "$type": "dimension",
+      "$description": "Border radius md"
+    },
+    "xl": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Border radius xl"
+    },
+    "full": {
+      "$value": "500px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    }
+  },
+  "surface": {
+    "void": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Surface level 0: Full-bleed page canvas, particle field, hero background"
+    },
+    "instrument-panel": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Surface level 1: Modal and elevated UI surfaces — same black as canvas, differentiated by thin border, not by fill"
+    }
+  },
+  "$extensions": {}
+}

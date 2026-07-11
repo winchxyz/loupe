@@ -1,0 +1,290 @@
+{
+  "color": {
+    "default-violet": {
+      "$value": "#5757f8",
+      "$type": "color",
+      "$description": "Default Violet — Violet action color for filled buttons, selected navigation states, and focused conversion moments"
+    },
+    "ink-black": {
+      "$value": "#202020",
+      "$type": "color",
+      "$description": "Ink Black — Primary text, icon strokes, hairline borders, dark ghost button borders — the structural anchor of the entire interface"
+    },
+    "carbon": {
+      "$value": "#333333",
+      "$type": "color",
+      "$description": "Carbon — Secondary text, muted UI text, input borders — one step lighter than Ink for hierarchy without color"
+    },
+    "frost": {
+      "$value": "#f5f5f5",
+      "$type": "color",
+      "$description": "Frost — Page canvas, subtle surface washes, input backgrounds, ghost button fills — the dominant background tone"
+    },
+    "paper-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Paper White — Card surfaces, elevated panels, button text on violet, input fields — the bright surface layer above Frost"
+    }
+  },
+  "font": {
+    "nb-international-pro": {
+      "$value": "NB International Pro",
+      "$type": "fontFamily",
+      "$description": "Display and heading type. Tight line-heights (0.97 at 72px) create compressed, architectural headlines rather than airy marketing type. The negative tracking (-0.02em) tightens large sizes into a single visual block. NB International's geometric grotesque character gives the system an engineered, technical voice."
+    },
+    "saans-trial": {
+      "$value": "Saans Trial",
+      "$type": "fontFamily",
+      "$description": "Body, UI controls, buttons, inputs, card text, nav links. The workhorse family for everything non-display. Weight 500 for body reads with quiet confidence; weight 700 for buttons and labels adds authority without aggression. Generous line-height (1.40–1.43) at body sizes keeps dense text blocks readable."
+    }
+  },
+  "typography": {
+    "sm": {
+      "$value": {
+        "fontFamily": "Saans Trial",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "Saans Trial",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "Saans Trial",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Saans Trial",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "Saans Trial",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "Saans Trial",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "Saans Trial",
+        "fontSize": "18px",
+        "fontWeight": 700,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "Saans Trial",
+        "fontSize": "20px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "NB International Pro",
+        "fontSize": "26px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 26px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "NB International Pro",
+        "fontSize": "36px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 36px"
+    },
+    "4xl-2": {
+      "$value": {
+        "fontFamily": "NB International Pro",
+        "fontSize": "36px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl-2 at 36px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "NB International Pro",
+        "fontSize": "48px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 48px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "NB International Pro",
+        "fontSize": "64px",
+        "fontWeight": 700,
+        "lineHeight": 0.97
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 64px"
+    },
+    "5xl-3": {
+      "$value": {
+        "fontFamily": "NB International Pro",
+        "fontSize": "72px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-3 at 72px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Spacing 48px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "88": {
+      "$value": "88px",
+      "$type": "dimension",
+      "$description": "Spacing 88px"
+    },
+    "96": {
+      "$value": "96px",
+      "$type": "dimension",
+      "$description": "Spacing 96px"
+    },
+    "176": {
+      "$value": "176px",
+      "$type": "dimension",
+      "$description": "Spacing 176px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "lg": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "xl": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Border radius xl"
+    },
+    "full": {
+      "$value": "1425.6px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    }
+  },
+  "surface": {
+    "canvas": {
+      "$value": "#f5f5f5",
+      "$type": "color",
+      "$description": "Surface level 0: Page background, section bands"
+    },
+    "card": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 1: Product screenshots, content cards, elevated panels"
+    },
+    "accent-fill": {
+      "$value": "#5757f8",
+      "$type": "color",
+      "$description": "Surface level 2: Primary action buttons, active states"
+    },
+    "ink-surface": {
+      "$value": "#202020",
+      "$type": "color",
+      "$description": "Surface level 3: Dark feature cards, illustration backgrounds"
+    }
+  },
+  "$extensions": {}
+}

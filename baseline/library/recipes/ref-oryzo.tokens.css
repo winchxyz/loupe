@@ -1,0 +1,32 @@
+/* oryzo.ai — design tokens. OUR harvest, live-validated 2026-06-25 (computed styles match the recorded recipe).
+   Reference only — attribute the source (Oryzo AI by Lusion). Warm earthy system: cream ink, cocoa grounds, ONE hot accent + olive secondary. */
+:root {
+  /* ── colour ── */
+  --oryzo-cream:    #ffedd7; /* primary text / "white" ground — warm bone, NOT pure white (dominant: ~2855 uses) */
+  --oryzo-cream-2:  #f6e0c6; /* light panel / lichen-lightest */
+  --oryzo-ink:      #100904; /* near-black warm cocoa — dark text / dark-mode ground */
+  --oryzo-coal:     #0c0a0a; /* deepest background */
+  --oryzo-brown:    #382416; /* dark surface / button ground */
+  --oryzo-brown-2:  #201914;
+  --oryzo-orange:   #dc5000; /* THE hot accent — CTA, animated glow halo (carries all the energy) */
+  --oryzo-olive:    #445231; /* secondary accent (the cutting-mat green) */
+  --oryzo-olive-2:  #5d6c49;
+  --oryzo-stone:    #bbac97; /* muted / low-emphasis text */
+
+  /* ── type ── (Adobe Typekit Halyard + self-hosted Literata/DM Mono; NO Google Fonts) */
+  --oryzo-display:  "halyard-display-variable", "Halyard Display", system-ui, sans-serif; /* variable 200–900 */
+  --oryzo-body:     "halyard-text-variable", "Halyard", system-ui, sans-serif;
+  --oryzo-serif:    "Literata", Georgia, serif;       /* editorial / pull-quote voice */
+  --oryzo-mono:     "DM Mono", ui-monospace, monospace; /* spec / technical labels */
+
+  /* scale — px-equivalents (the original is fluid: calc(N * --screen-unit)) */
+  --oryzo-hero:  123px; --oryzo-h2: 51px; --oryzo-h3: 34px; --oryzo-h4: 29px; --oryzo-h5: 24px;
+  --oryzo-body-size: 18px; --oryzo-small: 14px; --oryzo-label: 12px;
+
+  --oryzo-weight-base: 400;          /* body */
+  --oryzo-weight-mid:  500;          /* dominant — display + emphasis */
+  --oryzo-display-tracking: -0.018em; /* tight on display (hero ≈ -2.2px @ 123px) */
+  --oryzo-label-tracking:   0.018em;  /* opened up on small labels */
+  --oryzo-display-lh: 0.9;            /* dense display (hero lh ≈ 0.9, h2/h3 ≈ 1.0) */
+  --oryzo-body-lh:    1.5;
+}

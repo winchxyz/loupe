@@ -1,0 +1,417 @@
+{
+  "color": {
+    "paper-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Paper White — Card surfaces, testimonial panels, elevated content blocks"
+    },
+    "cool-mist": {
+      "$value": "#f7fafc",
+      "$type": "color",
+      "$description": "Cool Mist — Page canvas, alternating section bands, soft wash behind content"
+    },
+    "stone-edge": {
+      "$value": "#afb0b1",
+      "$type": "color",
+      "$description": "Stone Edge — Hairline dividers, FAQ separators, faint horizontal rules"
+    },
+    "graphite-mute": {
+      "$value": "#8d8d8d",
+      "$type": "color",
+      "$description": "Graphite Mute — Muted body copy, helper text, secondary metadata, grayscale logo cloud"
+    },
+    "charcoal-whisper": {
+      "$value": "#1e1e1e",
+      "$type": "color",
+      "$description": "Charcoal Whisper — Secondary text, subdued labels, supporting copy"
+    },
+    "midnight-ink": {
+      "$value": "#0f0f0f",
+      "$type": "color",
+      "$description": "Midnight Ink — Primary body and heading text — the voice of the page"
+    },
+    "onyx-button": {
+      "$value": "#0d111b",
+      "$type": "color",
+      "$description": "Onyx Button — Dark supporting neutral for text, icons, and strong contrast. Do not promote it to the primary CTA color"
+    },
+    "tinted-shadow": {
+      "$value": "#242628",
+      "$type": "color",
+      "$description": "Tinted Shadow — Button ring/border color and shadow base — gives dark CTAs dimensional edge without harshness"
+    },
+    "invoice-blue": {
+      "$value": "#0098f2",
+      "$type": "color",
+      "$description": "Invoice Blue — Eyebrow tags, feature checkmarks, inline accent links, brand highlight — the only saturated UI color, used as a small bright signal"
+    },
+    "magenta-tile": {
+      "$value": "#f200ca",
+      "$type": "color",
+      "$description": "Magenta Tile — Decorative avatar fills, sender-icon accents in invoice mockups, brand illustration highlight"
+    },
+    "iris-glow": {
+      "$value": "#6d56fc",
+      "$type": "color",
+      "$description": "Iris Glow — Decorative avatar fills, brand illustration accent, secondary color in product mockups"
+    },
+    "wash-sky": {
+      "$value": "#cfeafa",
+      "$type": "color",
+      "$description": "Wash Sky — Decorative pastel wash behind illustrations and product cards — the only chromatic surface tint"
+    },
+    "wash-lilac": {
+      "$value": "#e1e0fc",
+      "$type": "color",
+      "$description": "Wash Lilac — Decorative pastel wash for product card backgrounds — softens white without losing light theme"
+    },
+    "wash-petal": {
+      "$value": "#f6d2f4",
+      "$type": "color",
+      "$description": "Wash Petal — Decorative pastel wash for product card backgrounds — warm counterpoint to sky and lilac"
+    }
+  },
+  "font": {
+    "sans-serif": {
+      "$value": "sans-serif",
+      "$type": "fontFamily",
+      "$description": "sans-serif — detected in extracted data but not described by AI"
+    },
+    "open-runde": {
+      "$value": "Open Runde",
+      "$type": "fontFamily",
+      "$description": "Primary brand typeface — handles body, labels, subheadings, all headings, and the 64px display. The geometric forms with softened terminals give the system a modern-but-friendly voice; tight negative tracking on larger sizes (–0.037em at display) creates confident density without feeling heavy. Weights step from 400 body to 500 UI labels to 600 headings."
+    },
+    "caveat": {
+      "$value": "Caveat",
+      "$type": "fontFamily",
+      "$description": "Handwritten signature accent for testimonial attributions and small personal notes — a single humanizing voice against the geometric Open Runde. Use sparingly; one instance per testimonial, never in functional UI."
+    },
+    "inter": {
+      "$value": "Inter",
+      "$type": "fontFamily",
+      "$description": "Reserved fallback for system metadata rows; treated as utilitarian neutral text, not a brand voice"
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "Open Runde",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "Inter",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "Open Runde",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.71
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Open Runde",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "Open Runde",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.21
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "Open Runde",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 16px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "Open Runde",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.75
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 16px"
+    },
+    "base-5": {
+      "$value": {
+        "fontFamily": "Open Runde",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step base-5 at 16px"
+    },
+    "base-6": {
+      "$value": {
+        "fontFamily": "Open Runde",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-6 at 16px"
+    },
+    "base-7": {
+      "$value": {
+        "fontFamily": "Caveat",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-7 at 16px"
+    },
+    "base-8": {
+      "$value": {
+        "fontFamily": "Open Runde",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-8 at 16px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "Open Runde",
+        "fontSize": "20px",
+        "fontWeight": 600,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "Caveat",
+        "fontSize": "24px",
+        "fontWeight": 600,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 24px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "Open Runde",
+        "fontSize": "32px",
+        "fontWeight": 600,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 32px"
+    },
+    "3xl-2": {
+      "$value": {
+        "fontFamily": "Open Runde",
+        "fontSize": "32px",
+        "fontWeight": 600,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-2 at 32px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "Open Runde",
+        "fontSize": "40px",
+        "fontWeight": 600,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 40px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "Open Runde",
+        "fontSize": "64px",
+        "fontWeight": 600,
+        "lineHeight": 1.13
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 64px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Spacing 48px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "96": {
+      "$value": "96px",
+      "$type": "dimension",
+      "$description": "Spacing 96px"
+    },
+    "100": {
+      "$value": "100px",
+      "$type": "dimension",
+      "$description": "Spacing 100px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "xl": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Border radius xl"
+    },
+    "2xl": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "2xl-2": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl-2"
+    },
+    "3xl": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    },
+    "full": {
+      "$value": "100px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    },
+    "full-2": {
+      "$value": "1250px",
+      "$type": "dimension",
+      "$description": "Border radius full-2"
+    }
+  },
+  "shadow": {
+    "subtle": {
+      "$value": "rgba(0, 0, 0, 0.06) 0px 2.5px 2.5px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle"
+    },
+    "subtle-2": {
+      "$value": "rgb(36, 38, 40) 0px 0px 0px 1px, rgba(27, 28, 29, 0.48) 0px 1px 2px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle-2"
+    }
+  },
+  "surface": {
+    "page-canvas": {
+      "$value": "#f7fafc",
+      "$type": "color",
+      "$description": "Surface level 0: Default body background, alternating band behind text-heavy sections"
+    },
+    "card-surface": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 1: Testimonial panel, FAQ card, product mockup base — the only true white in the system"
+    },
+    "pastel-wash": {
+      "$value": "#cfeafa",
+      "$type": "color",
+      "$description": "Surface level 2: Decorative backing for invoice/avatar mockups — adds warmth without breaking the light theme"
+    },
+    "pastel-lilac": {
+      "$value": "#e1e0fc",
+      "$type": "color",
+      "$description": "Surface level 2: Secondary decorative wash, rotates with sky and petal in product mockups"
+    },
+    "pastel-petal": {
+      "$value": "#f6d2f4",
+      "$type": "color",
+      "$description": "Surface level 2: Tertiary decorative wash, completes the three-color pastel rotation behind illustrations"
+    }
+  },
+  "$extensions": {}
+}

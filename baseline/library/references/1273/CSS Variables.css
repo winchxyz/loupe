@@ -1,0 +1,90 @@
+:root {
+  /* Colors */
+  --color-electric-violet: #1009f6;
+  --color-solar-yellow: #ffba09;
+  --color-ink-black: #1a1a1a;
+  --color-pure-white: #ffffff;
+  --color-linen-cream: #f0f0ec;
+  --color-charcoal: #222222;
+  --color-stone-gray: #d4d4d0;
+  --color-silver-gray: #b3b3b3;
+  --color-pure-black: #000000;
+  --color-sky-mist: #add3e5;
+  --color-blossom-pink: #e3c7de;
+  --color-forest-dark: #304801;
+
+  /* Typography — Font Families */
+  --font-abcwhyte: 'Abcwhyte', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Typography — Scale */
+  --text-caption: 11px;
+  --leading-caption: 1.4;
+  --text-body: 14px;
+  --leading-body: 1.5;
+  --text-body-lg: 16px;
+  --leading-body-lg: 1.6;
+  --text-subheading: 25px;
+  --leading-subheading: 1.25;
+  --text-heading-sm: 28px;
+  --leading-heading-sm: 1.3;
+  --text-heading: 32px;
+  --leading-heading: 1.24;
+  --text-heading-lg: 40px;
+  --leading-heading-lg: 1.2;
+  --text-display: 48px;
+  --leading-display: 1.2;
+
+  /* Typography — Weights */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-5: 5px;
+  --spacing-6: 6px;
+  --spacing-7: 7px;
+  --spacing-9: 9px;
+  --spacing-11: 11px;
+  --spacing-12: 12px;
+  --spacing-14: 14px;
+  --spacing-16: 16px;
+  --spacing-18: 18px;
+  --spacing-21: 21px;
+  --spacing-22: 22px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-60: 60px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap: 64-80px;
+  --card-padding: 24px;
+  --element-gap: 14px;
+
+  /* Border Radius */
+  --radius-md: 4.375px;
+  --radius-lg: 10.5px;
+  --radius-2xl: 16px;
+  --radius-2xl-2: 20px;
+  --radius-3xl: 24px;
+  --radius-3xl-2: 32px;
+  --radius-3xl-3: 40px;
+  --radius-full: 96px;
+  --radius-full-2: 99px;
+  --radius-full-3: 999px;
+  --radius-full-4: 9999px;
+
+  /* Named Radii */
+  --radius-cards: 24px;
+  --radius-pills: 999px;
+  --radius-small: 10-16px;
+  --radius-images: 40px;
+  --radius-inputs: 4px;
+  --radius-buttons: 24px;
+
+  /* Surfaces */
+  --surface-linen-canvas: #f0f0ec;
+  --surface-pure-card: #ffffff;
+  --surface-stone-surface: #d4d4d0;
+}

@@ -1,0 +1,797 @@
+{
+  "color": {
+    "void": {
+      "$value": "#090909",
+      "$type": "color",
+      "$description": "Void — Page canvas, section backgrounds — the base dark that makes all color vibrate"
+    },
+    "bone-white": {
+      "$value": "#f7f9fa",
+      "$type": "color",
+      "$description": "Bone White — Primary text, icon fills, hairline borders — used at scale across headings, cards, and nav"
+    },
+    "ash": {
+      "$value": "#f0f0f0",
+      "$type": "color",
+      "$description": "Ash — Heading text and decorative type outlines, large-scale display borders"
+    },
+    "slate": {
+      "$value": "#6b6b6b",
+      "$type": "color",
+      "$description": "Slate — Muted borders, secondary icon strokes, subdued structural lines"
+    },
+    "graphite": {
+      "$value": "#454545",
+      "$type": "color",
+      "$description": "Graphite — Card borders, recessed surface edges — sits between canvas and text"
+    },
+    "smoke": {
+      "$value": "#828384",
+      "$type": "color",
+      "$description": "Smoke — Mid-tone borders and heading accents, button outlines on dark surfaces"
+    },
+    "iron": {
+      "$value": "#333333",
+      "$type": "color",
+      "$description": "Iron — Link underlines, image borders, subtle dividers"
+    },
+    "cinder": {
+      "$value": "#423738",
+      "$type": "color",
+      "$description": "Cinder — Warm-tinted surface variant, secondary button borders"
+    },
+    "iris": {
+      "$value": "#af50ff",
+      "$type": "color",
+      "$description": "Iris — Primary action glow, accent borders, button shadows, focus halos — the brand's single chromatic note, vivid violet against void creates electric contrast"
+    },
+    "plum": {
+      "$value": "#7f56d9",
+      "$type": "color",
+      "$description": "Plum — Active nav indicator, secondary accent — slightly cooler violet for structural highlights"
+    },
+    "aubergine": {
+      "$value": "#271635",
+      "$type": "color",
+      "$description": "Aubergine — Deep accent backgrounds, filled button border on dark — tonal violet anchor"
+    },
+    "storm-gray": {
+      "$value": "#475467",
+      "$type": "color",
+      "$description": "Storm Gray — Ghost button borders, nav text on glass surfaces — outlined action border"
+    },
+    "lavender-wash": {
+      "$value": "#e1bdff",
+      "$type": "color",
+      "$description": "Lavender Wash — Gradient highlight endpoint, soft violet glow surfaces"
+    },
+    "orchid-radial": {
+      "$value": "#6c4bd6",
+      "$type": "color",
+      "$description": "Orchid Radial — Ambient radial glow — softens the void with violet atmosphere"
+    },
+    "amethyst-band": {
+      "$value": "#4823b4",
+      "$type": "color",
+      "$description": "Amethyst Band — Section gradient band — deep violet sweep across comparison cards"
+    }
+  },
+  "font": {
+    "whyte-inktrap": {
+      "$value": "Whyte Inktrap",
+      "$type": "fontFamily",
+      "$description": "Primary interface typeface — geometric grotesque with inktrap terminals, used for nav, body, buttons, cards, and large display headlines. Weight 300 for hero serif replacement; 400 for body; 500 for subheads; 700 for emphasis. The inktraps are signature: they create breathing room at large sizes while maintaining clarity at small."
+    },
+    "whyte-inktrap-mono": {
+      "$value": "Whyte Inktrap Mono",
+      "$type": "fontFamily",
+      "$description": "Monospaced display variant — used at 74px as the stenciled feature-list treatment (airport departure-board aesthetic). The 0.20em letter-spacing creates deliberate gaps between glyphs, making the monospace outlines feel architectural rather than utilitarian. Also at 14px for code/data labels."
+    },
+    "grandslang": {
+      "$value": "GrandSlang",
+      "$type": "fontFamily",
+      "$description": "Editorial display serif (italic-leaning) — used for the hero phrase 'Your new' at 146px. This is the only serif in the system and its presence is the key brand-moment: it introduces a fashion/luxury quality against the industrial sans, making the product feel curated rather than utilitarian. Weight 300 at display sizes is anti-conventional restraint."
+    },
+    "system-ui-karla": {
+      "$value": "System UI / Karla",
+      "$type": "fontFamily",
+      "$description": "Fallback for button labels and tertiary nav — present at very low frequency, acts as a safety net for the custom typefaces."
+    },
+    "karla": {
+      "$value": "Karla",
+      "$type": "fontFamily",
+      "$description": "Karla — detected in extracted data but not described by AI"
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "10px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 10px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 12px"
+    },
+    "xs-3": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-3 at 12px"
+    },
+    "xs-4": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-4 at 12px"
+    },
+    "xs-5": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-5 at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap Mono",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "system-ui",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 16px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 16px"
+    },
+    "base-5": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step base-5 at 16px"
+    },
+    "base-6": {
+      "$value": {
+        "fontFamily": "Karla",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step base-6 at 16px"
+    },
+    "base-7": {
+      "$value": {
+        "fontFamily": "Karla",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step base-7 at 16px"
+    },
+    "base-8": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-8 at 16px"
+    },
+    "base-9": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step base-9 at 16px"
+    },
+    "base-10": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-10 at 16px"
+    },
+    "base-11": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "16px",
+        "fontWeight": 300,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step base-11 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.56
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.11
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "20px",
+        "fontWeight": 300,
+        "lineHeight": 1.6
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "xl-2": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "20px",
+        "fontWeight": 700,
+        "lineHeight": 1.6
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-2 at 20px"
+    },
+    "xl-3": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "20px",
+        "fontWeight": 300,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-3 at 20px"
+    },
+    "xl-4": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "20px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-4 at 20px"
+    },
+    "xl-5": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "20px",
+        "fontWeight": 700,
+        "lineHeight": 0.8
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-5 at 20px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "24px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 24px"
+    },
+    "2xl-2": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "24px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-2 at 24px"
+    },
+    "2xl-3": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "28px",
+        "fontWeight": 700,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-3 at 28px"
+    },
+    "2xl-4": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "28px",
+        "fontWeight": 300,
+        "lineHeight": 0.69
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-4 at 28px"
+    },
+    "2xl-5": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "28px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-5 at 28px"
+    },
+    "2xl-6": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "28px",
+        "fontWeight": 300,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-6 at 28px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "32px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 32px"
+    },
+    "3xl-2": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "32px",
+        "fontWeight": 400,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-2 at 32px"
+    },
+    "3xl-3": {
+      "$value": {
+        "fontFamily": "GrandSlang",
+        "fontSize": "32px",
+        "fontWeight": 400,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-3 at 32px"
+    },
+    "3xl-4": {
+      "$value": {
+        "fontFamily": "GrandSlang",
+        "fontSize": "32px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-4 at 32px"
+    },
+    "3xl-5": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "32px",
+        "fontWeight": 700,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-5 at 32px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "40px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 40px"
+    },
+    "4xl-2": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "40px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl-2 at 40px"
+    },
+    "4xl-3": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "40px",
+        "fontWeight": 300,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl-3 at 40px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "48px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 48px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "49px",
+        "fontWeight": 300,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 49px"
+    },
+    "5xl-3": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "50px",
+        "fontWeight": 300,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-3 at 50px"
+    },
+    "5xl-4": {
+      "$value": {
+        "fontFamily": "GrandSlang",
+        "fontSize": "50px",
+        "fontWeight": 300,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-4 at 50px"
+    },
+    "5xl-5": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "64px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-5 at 64px"
+    },
+    "5xl-6": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "64px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-6 at 64px"
+    },
+    "5xl-7": {
+      "$value": {
+        "fontFamily": "GrandSlang",
+        "fontSize": "64px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-7 at 64px"
+    },
+    "5xl-8": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap Mono",
+        "fontSize": "74px",
+        "fontWeight": 400,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-8 at 74px"
+    },
+    "5xl-9": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "80px",
+        "fontWeight": 700,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-9 at 80px"
+    },
+    "5xl-10": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "80px",
+        "fontWeight": 300,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-10 at 80px"
+    },
+    "5xl-11": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "88px",
+        "fontWeight": 500,
+        "lineHeight": 0.8
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-11 at 88px"
+    },
+    "5xl-12": {
+      "$value": {
+        "fontFamily": "GrandSlang",
+        "fontSize": "88px",
+        "fontWeight": 400,
+        "lineHeight": 0.8
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-12 at 88px"
+    },
+    "5xl-13": {
+      "$value": {
+        "fontFamily": "Whyte Inktrap",
+        "fontSize": "88px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-13 at 88px"
+    },
+    "5xl-14": {
+      "$value": {
+        "fontFamily": "GrandSlang",
+        "fontSize": "146px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-14 at 146px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Spacing 48px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "72": {
+      "$value": "72px",
+      "$type": "dimension",
+      "$description": "Spacing 72px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "96": {
+      "$value": "96px",
+      "$type": "dimension",
+      "$description": "Spacing 96px"
+    },
+    "128": {
+      "$value": "128px",
+      "$type": "dimension",
+      "$description": "Spacing 128px"
+    },
+    "136": {
+      "$value": "136px",
+      "$type": "dimension",
+      "$description": "Spacing 136px"
+    },
+    "160": {
+      "$value": "160px",
+      "$type": "dimension",
+      "$description": "Spacing 160px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "lg": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "lg-2": {
+      "$value": "10.8px",
+      "$type": "dimension",
+      "$description": "Border radius lg-2"
+    },
+    "2xl": {
+      "$value": "19.2px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "full": {
+      "$value": "99px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    },
+    "full-2": {
+      "$value": "1584px",
+      "$type": "dimension",
+      "$description": "Border radius full-2"
+    },
+    "full-3": {
+      "$value": "10000px",
+      "$type": "dimension",
+      "$description": "Border radius full-3"
+    }
+  },
+  "shadow": {
+    "subtle": {
+      "$value": "rgba(16, 24, 40, 0.05) 0px 1px 2px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle"
+    }
+  },
+  "surface": {
+    "void": {
+      "$value": "#090909",
+      "$type": "color",
+      "$description": "Surface level 1: Base page canvas — the infinite dark"
+    },
+    "cinder": {
+      "$value": "#423738",
+      "$type": "color",
+      "$description": "Surface level 2: Warm-tinted surface variant for secondary sections"
+    },
+    "graphite": {
+      "$value": "#454545",
+      "$type": "color",
+      "$description": "Surface level 3: Card surfaces with hairline borders"
+    },
+    "iris-glow": {
+      "$value": "#af50ff",
+      "$type": "color",
+      "$description": "Surface level 4: Accent surface — appears as button glow, card edge highlight"
+    }
+  },
+  "$extensions": {}
+}

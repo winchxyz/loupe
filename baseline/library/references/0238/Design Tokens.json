@@ -1,0 +1,257 @@
+{
+  "color": {
+    "cream-paper": {
+      "$value": "#fbfdf6",
+      "$type": "color",
+      "$description": "Cream Paper — Page canvas, card surfaces, inverted text on dark fills"
+    },
+    "botanical-ink": {
+      "$value": "#0a1d08",
+      "$type": "color",
+      "$description": "Botanical Ink — Primary headings, body text, outlined/ghost button borders, nav text"
+    },
+    "bark-brown": {
+      "$value": "#31200b",
+      "$type": "color",
+      "$description": "Bark Brown — Decorative fill, secondary text tone, SVG illustration depth"
+    },
+    "warm-loam": {
+      "$value": "#4a3212",
+      "$type": "color",
+      "$description": "Warm Loam — Primary action button fill — the single chromatic CTA, deep earthy brown against cream"
+    },
+    "forest-floor": {
+      "$value": "#203b14",
+      "$type": "color",
+      "$description": "Forest Floor — Green outline accent for tags, dividers, and focused UI edges. Do not promote it to the primary CTA color"
+    },
+    "sage-mist": {
+      "$value": "#eff2e8",
+      "$type": "color",
+      "$description": "Sage Mist — First elevated surface above canvas — subtle section banding"
+    },
+    "lichen": {
+      "$value": "#e0e5d5",
+      "$type": "color",
+      "$description": "Lichen — Secondary surface tint, pill button borders, hairline dividers"
+    },
+    "moss-veil": {
+      "$value": "#d7e8b5",
+      "$type": "color",
+      "$description": "Moss Veil — Tag/badge backgrounds, soft highlight washes, selected state fills"
+    },
+    "eucalyptus": {
+      "$value": "#c5ccb6",
+      "$type": "color",
+      "$description": "Eucalyptus — Tertiary surface, large decorative borders, muted section frames"
+    },
+    "onyx": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Onyx — Logo mark fill, SVG icon strokes, maximum-contrast elements"
+    }
+  },
+  "font": {
+    "akkurat": {
+      "$value": "Akkurat",
+      "$type": "fontFamily",
+      "$description": "Primary typeface across all UI — nav, body, headings, buttons. The tight -0.04em tracking at display sizes (47-53px) pulls letters together, giving headlines a dense, inked-on-page quality. Weight 400 is default; 700 reserved for emphasis and nav items. Akkurat's humanist grotesque proportions soften the technical context, making the AI/agent product feel editorial rather than engineering."
+    },
+    "fragment-mono": {
+      "$value": "Fragment Mono",
+      "$type": "fontFamily",
+      "$description": "Micro-labels, status indicators, tag text, code-adjacent annotations. Used sparingly as typographic punctuation — never for running text. The slight +0.02em tracking widens the mono for legibility at small sizes. Functions as the system's 'technical whisper'."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "akkurat",
+        "fontSize": "12px",
+        "fontWeight": 700,
+        "lineHeight": 1.67
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 12px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "akkurat",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "fragmentMono",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "akkurat",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "akkurat",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 14px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "akkurat",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.44
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "akkurat",
+        "fontSize": "47px",
+        "fontWeight": 400,
+        "lineHeight": 0.98
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 47px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "akkurat",
+        "fontSize": "53px",
+        "fontWeight": 400,
+        "lineHeight": 0.98
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 53px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "akkurat",
+        "fontSize": "53px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 53px"
+    }
+  },
+  "spacing": {
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Spacing 48px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "128": {
+      "$value": "128px",
+      "$type": "dimension",
+      "$description": "Spacing 128px"
+    },
+    "160": {
+      "$value": "160px",
+      "$type": "dimension",
+      "$description": "Spacing 160px"
+    },
+    "unit": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "lg": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "2xl": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    }
+  },
+  "shadow": {
+    "subtle": {
+      "$value": "rgba(99, 143, 61, 0.1) 0px 0px 0px 1px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle"
+    }
+  },
+  "surface": {
+    "canvas": {
+      "$value": "#fbfdf6",
+      "$type": "color",
+      "$description": "Surface level 0: Page background — warm off-white with green undertone"
+    },
+    "first-elevation": {
+      "$value": "#eff2e8",
+      "$type": "color",
+      "$description": "Surface level 1: Subtle section banding, alternating content blocks"
+    },
+    "second-elevation": {
+      "$value": "#e0e5d5",
+      "$type": "color",
+      "$description": "Surface level 2: Card surfaces, pill button outlines, bordered containers"
+    },
+    "third-elevation": {
+      "$value": "#d7e8b5",
+      "$type": "color",
+      "$description": "Surface level 3: Active states, selected highlights, accent tags"
+    },
+    "fourth-elevation": {
+      "$value": "#c5ccb6",
+      "$type": "color",
+      "$description": "Surface level 4: Decorative frames, large section borders, muted overlays"
+    }
+  },
+  "$extensions": {}
+}

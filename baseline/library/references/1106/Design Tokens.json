@@ -1,0 +1,260 @@
+{
+  "color": {
+    "void": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Void — Primary text, nav labels, filled CTA button background, icon fills — the singular chromatic anchor of the entire system"
+    },
+    "fog-border": {
+      "$value": "#e5e7eb",
+      "$type": "color",
+      "$description": "Fog Border — All dividing lines, card outlines, input borders, nav underlines — the lightest possible mark that still reads as a separator on white"
+    },
+    "chalk": {
+      "$value": "#f1f1f1",
+      "$type": "color",
+      "$description": "Chalk — Hover-state button backgrounds, subtle surface fills — one step off pure white without introducing warmth"
+    },
+    "graphite": {
+      "$value": "#666666",
+      "$type": "color",
+      "$description": "Graphite — Supporting body text, icon strokes, secondary labels — muted but still readable"
+    },
+    "ash": {
+      "$value": "#8f8f8f",
+      "$type": "color",
+      "$description": "Ash — Tertiary labels, disabled states, fine-grain icon strokes"
+    },
+    "canvas": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Canvas — Page background, card surfaces, all primary surfaces — absolute white with no warm or cool tint"
+    }
+  },
+  "font": {
+    "openai-sans": {
+      "$value": "OpenAI Sans",
+      "$type": "fontFamily",
+      "$description": "The single typeface for the entire site across every context — nav, body, headlines, buttons, inputs. At 48px display it runs at roughly -0.03em letter-spacing, making large text feel compressed and precise rather than airy. Weight 600 for headlines, 500 for UI labels, 400 for body. The custom cuts provide 'calt' and 'liga' features for text composition."
+    }
+  },
+  "typography": {
+    "sm": {
+      "$value": {
+        "fontFamily": "OpenAI Sans",
+        "fontSize": "13px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 13px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "OpenAI Sans",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "OpenAI Sans",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 14px"
+    },
+    "sm-4": {
+      "$value": {
+        "fontFamily": "OpenAI Sans",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.64
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-4 at 14px"
+    },
+    "sm-5": {
+      "$value": {
+        "fontFamily": "OpenAI Sans",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-5 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "OpenAI Sans",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "OpenAI Sans",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "lineHeight": 1.65
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 17px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "OpenAI Sans",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.32
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "OpenAI Sans",
+        "fontSize": "22px",
+        "fontWeight": 500,
+        "lineHeight": 1.26
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 22px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "OpenAI Sans",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "lineHeight": 1.21
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 28px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "OpenAI Sans",
+        "fontSize": "48px",
+        "fontWeight": 500,
+        "lineHeight": 1.16
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 48px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "52": {
+      "$value": "52px",
+      "$type": "dimension",
+      "$description": "Spacing 52px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "112": {
+      "$value": "112px",
+      "$type": "dimension",
+      "$description": "Spacing 112px"
+    },
+    "120": {
+      "$value": "120px",
+      "$type": "dimension",
+      "$description": "Spacing 120px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "md": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Border radius md"
+    },
+    "md-2": {
+      "$value": "6.08px",
+      "$type": "dimension",
+      "$description": "Border radius md-2"
+    },
+    "3xl": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    },
+    "3xl-2": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl-2"
+    },
+    "full": {
+      "$value": "9999px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    }
+  },
+  "shadow": {
+    "sm": {
+      "$value": "rgba(0, 0, 0, 0.02) 0px 4px 6px 0px, rgba(0, 0, 0, 0.05) 0px 0px 2px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation sm"
+    }
+  },
+  "$extensions": {}
+}

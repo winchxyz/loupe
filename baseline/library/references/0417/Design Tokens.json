@@ -1,0 +1,210 @@
+{
+  "color": {
+    "ink-black": {
+      "$value": "#0d0d0d",
+      "$type": "color",
+      "$description": "Ink Black — Dark supporting neutral for text, icons, and strong contrast. Do not promote it to the primary CTA color"
+    },
+    "paper": {
+      "$value": "#f9f9f9",
+      "$type": "color",
+      "$description": "Paper — Sidebar background, page canvas — the slightly cooler off-white that separates the nav rail from the main stage"
+    },
+    "snow": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Snow — Main content surface, input field background, card surfaces — the brighter white where the user's attention belongs"
+    },
+    "smoke": {
+      "$value": "#5d5d5d",
+      "$type": "color",
+      "$description": "Smoke — Tertiary text, subdued helper copy, subtle shadow tint — secondary to Ink Black"
+    },
+    "ash": {
+      "$value": "#8f8f8f",
+      "$type": "color",
+      "$description": "Ash — Placeholder text, inactive icons, secondary nav, muted meta — the quietest visible gray"
+    },
+    "fog": {
+      "$value": "#ececec",
+      "$type": "color",
+      "$description": "Fog — Light supporting surface for subtle backgrounds and section separation. Do not promote it to the primary CTA color"
+    }
+  },
+  "font": {
+    "ui-sans-serif": {
+      "$value": "ui-sans-serif",
+      "$type": "fontFamily",
+      "$description": "All UI text — sidebar nav at 14px/400, buttons and body at 16px/400-500, nav emphasis at 16px/500, the empty-state question at 24px/400. System stack only; no webfont loads for content text, which keeps the interface fast and platform-native."
+    },
+    "openai-sans": {
+      "$value": "OpenAI Sans",
+      "$type": "fontFamily",
+      "$description": "Brand wordmark 'ChatGPT' in the header only — the single branded typography moment on the page. Tight tracking (-0.015em) and weight 600 give it a compact, confident mark that contrasts with the regular-weight system sans surrounding it."
+    }
+  },
+  "typography": {
+    "sm": {
+      "$value": {
+        "fontFamily": "ui-sans-serif",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "ui-sans-serif",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "ui-sans-serif",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "ui-sans-serif",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "ui-sans-serif",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.56
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "OpenAI Sans",
+        "fontSize": "18px",
+        "fontWeight": 600,
+        "lineHeight": 1.56
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 18px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "ui-sans-serif",
+        "fontSize": "24px",
+        "fontWeight": 600,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 24px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "6": {
+      "$value": "6px",
+      "$type": "dimension",
+      "$description": "Spacing 6px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "10": {
+      "$value": "10px",
+      "$type": "dimension",
+      "$description": "Spacing 10px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "60": {
+      "$value": "60px",
+      "$type": "dimension",
+      "$description": "Spacing 60px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "127": {
+      "$value": "127px",
+      "$type": "dimension",
+      "$description": "Spacing 127px"
+    }
+  },
+  "radius": {
+    "lg": {
+      "$value": "10px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "2xl": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "3xl": {
+      "$value": "28px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    }
+  },
+  "surface": {
+    "sidebar-rail": {
+      "$value": "#f9f9f9",
+      "$type": "color",
+      "$description": "Surface level 0: Left navigation panel, always visible, slightly cooler than the main canvas to create separation without a border"
+    },
+    "main-stage": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 1: Primary content area, the bright surface where the prompt input and responses appear"
+    },
+    "input-field": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 2: Rounded prompt input — the focal object on the page, distinguished only by its 10px radius and 1px Fog border"
+    },
+    "filled-control": {
+      "$value": "#0d0d0d",
+      "$type": "color",
+      "$description": "Surface level 3: Log in button, Voice button — dark filled surfaces that invert the page polarity to signal action"
+    }
+  },
+  "$extensions": {}
+}

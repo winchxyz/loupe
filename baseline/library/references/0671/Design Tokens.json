@@ -1,0 +1,238 @@
+{
+  "color": {
+    "pure-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Pure White — Page canvas, light section backgrounds, card surfaces, text on dark backgrounds"
+    },
+    "pure-black": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Pure Black — Full-bleed dark hero and feature sections, deep navigation bar, primary text on light backgrounds"
+    },
+    "carbon-black": {
+      "$value": "#181818",
+      "$type": "color",
+      "$description": "Carbon Black — Secondary dark surfaces, dark cards, footer backgrounds — sits one step lifted from pure black"
+    },
+    "graphite": {
+      "$value": "#303030",
+      "$type": "color",
+      "$description": "Graphite — Elevated dark surfaces, dark borders, subtle dark-mode structure — one step lighter than Carbon"
+    },
+    "steel-gray": {
+      "$value": "#8f8f8f",
+      "$type": "color",
+      "$description": "Steel Gray — Muted helper text, secondary icon strokes, subdued metadata on both light and dark surfaces"
+    }
+  },
+  "font": {
+    "body-font": {
+      "$value": "Body-Font",
+      "$type": "fontFamily",
+      "$description": "Body-Font — detected in extracted data but not described by AI"
+    },
+    "ferrari-custom-sans-serif": {
+      "$value": "Ferrari custom sans-serif",
+      "$type": "fontFamily",
+      "$description": "Single weight 400 typeface used for everything — navigation, headlines, body, labels. All-caps headlines and nav with aggressive positive tracking (0.083–0.091em) is the signature move; body copy uses near-zero or slightly positive tracking (0.015–0.028em). Absence of bold/light weights is a deliberate editorial choice: hierarchy is created by size and tracking, never weight contrast."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "Body-Font",
+        "fontSize": "7px",
+        "fontWeight": 400,
+        "lineHeight": 2
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 7px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "Body-Font",
+        "fontSize": "9px",
+        "fontWeight": 400,
+        "lineHeight": 1.78
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 9px"
+    },
+    "xs-3": {
+      "$value": {
+        "fontFamily": "Body-Font",
+        "fontSize": "9px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-3 at 9px"
+    },
+    "xs-4": {
+      "$value": {
+        "fontFamily": "Body-Font",
+        "fontSize": "11px",
+        "fontWeight": 400,
+        "lineHeight": 1.27
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-4 at 11px"
+    },
+    "xs-5": {
+      "$value": {
+        "fontFamily": "Body-Font",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.27
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-5 at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "FerrariSans",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 13px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "Body-Font",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 13px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "FerrariSans",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 13px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "FerrariSans",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    }
+  },
+  "spacing": {
+    "5": {
+      "$value": "5px",
+      "$type": "dimension",
+      "$description": "Spacing 5px"
+    },
+    "6": {
+      "$value": "6px",
+      "$type": "dimension",
+      "$description": "Spacing 6px"
+    },
+    "10": {
+      "$value": "10px",
+      "$type": "dimension",
+      "$description": "Spacing 10px"
+    },
+    "15": {
+      "$value": "15px",
+      "$type": "dimension",
+      "$description": "Spacing 15px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "25": {
+      "$value": "25px",
+      "$type": "dimension",
+      "$description": "Spacing 25px"
+    },
+    "30": {
+      "$value": "30px",
+      "$type": "dimension",
+      "$description": "Spacing 30px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "44": {
+      "$value": "44px",
+      "$type": "dimension",
+      "$description": "Spacing 44px"
+    },
+    "50": {
+      "$value": "50px",
+      "$type": "dimension",
+      "$description": "Spacing 50px"
+    },
+    "54": {
+      "$value": "54px",
+      "$type": "dimension",
+      "$description": "Spacing 54px"
+    },
+    "55": {
+      "$value": "55px",
+      "$type": "dimension",
+      "$description": "Spacing 55px"
+    },
+    "60": {
+      "$value": "60px",
+      "$type": "dimension",
+      "$description": "Spacing 60px"
+    },
+    "123": {
+      "$value": "123px",
+      "$type": "dimension",
+      "$description": "Spacing 123px"
+    }
+  },
+  "surface": {
+    "canvas-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 0: Dominant page background for content sections"
+    },
+    "pure-black-stage": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Surface level 1: Full-bleed cinematic hero and feature sections — car photography lives here"
+    },
+    "carbon-surface": {
+      "$value": "#181818",
+      "$type": "color",
+      "$description": "Surface level 2: Navigation bar, dark cards, footer depth"
+    },
+    "graphite-surface": {
+      "$value": "#303030",
+      "$type": "color",
+      "$description": "Surface level 3: Elevated dark elements, subtle structure within dark sections"
+    }
+  },
+  "$extensions": {}
+}

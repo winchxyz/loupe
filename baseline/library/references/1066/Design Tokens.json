@@ -1,0 +1,375 @@
+{
+  "color": {
+    "slate-dark": {
+      "$value": "#141413",
+      "$type": "color",
+      "$description": "Slate Dark — Primary text, borders, nav items, icon fills, card backgrounds — the near-black that appears on both light and dark surfaces, making it function as both foreground and background"
+    },
+    "ivory-light": {
+      "$value": "#faf9f5",
+      "$type": "color",
+      "$description": "Ivory Light — Page background, button fills, light surface base — the warm off-white that gives the site its parchment character instead of clinical white"
+    },
+    "ivory-medium": {
+      "$value": "#f0eee6",
+      "$type": "color",
+      "$description": "Ivory Medium — Nav backgrounds, secondary surface level, border highlights"
+    },
+    "ivory-dark": {
+      "$value": "#e8e6dc",
+      "$type": "color",
+      "$description": "Ivory Dark — Body text on dark backgrounds, dividers, subtle borders"
+    },
+    "oat": {
+      "$value": "#e3dacc",
+      "$type": "color",
+      "$description": "Oat — Tertiary surface backgrounds, warm mid-tone fills"
+    },
+    "cloud-medium": {
+      "$value": "#b0aea5",
+      "$type": "color",
+      "$description": "Cloud Medium — Disabled/muted borders, secondary interactive borders, subdued UI chrome"
+    },
+    "cloud-light": {
+      "$value": "#d1cfc5",
+      "$type": "color",
+      "$description": "Cloud Light — Dividers, hairline borders, inactive states"
+    },
+    "cloud-dark": {
+      "$value": "#87867f",
+      "$type": "color",
+      "$description": "Cloud Dark — Secondary text, meta labels, timestamps"
+    },
+    "slate-medium": {
+      "$value": "#3d3d3a",
+      "$type": "color",
+      "$description": "Slate Medium — Mid-dark borders, focus rings on light surfaces"
+    },
+    "slate-light": {
+      "$value": "#5e5d59",
+      "$type": "color",
+      "$description": "Slate Light — Tertiary text, captions, footer secondary content"
+    },
+    "clay": {
+      "$value": "#d97757",
+      "$type": "color",
+      "$description": "Clay — Accent CTA elements, highlight states — warm terracotta held in reserve for moments of intentional warmth against the achromatic base"
+    },
+    "accent-ember": {
+      "$value": "#c6613f",
+      "$type": "color",
+      "$description": "Accent Ember — Deeper accent state, hover/pressed clay interactions"
+    },
+    "olive": {
+      "$value": "#788c5d",
+      "$type": "color",
+      "$description": "Olive — Thematic tag or category label color variant"
+    },
+    "sky": {
+      "$value": "#6a9bcc",
+      "$type": "color",
+      "$description": "Sky — Thematic tag or category label color variant"
+    },
+    "fig": {
+      "$value": "#c46686",
+      "$type": "color",
+      "$description": "Fig — Thematic tag or category label color variant"
+    },
+    "cactus": {
+      "$value": "#bcd1ca",
+      "$type": "color",
+      "$description": "Cactus — Thematic tag or category label color variant"
+    }
+  },
+  "font": {
+    "anthropic-sans": {
+      "$value": "Anthropic Sans",
+      "$type": "fontFamily",
+      "$description": "All UI chrome: navigation, buttons, labels, badges, footer, body copy. The custom grotesque with tight negative tracking at large sizes — at 61px with -0.02em it reads as architectural lettering, not typical web type. Used at weight 700 for the hero headline, weight 400 for body, weight 500–600 for interactive elements."
+    },
+    "anthropic-serif": {
+      "$value": "Anthropic Serif",
+      "$type": "fontFamily",
+      "$description": "Feature card headlines, editorial hero text, project titles. At 91px it dominates the dark feature cards — the serif at display scale against near-black reads as a printed broadsheet masthead. Weight 600 for emphasis within editorial contexts."
+    },
+    "anthropic-mono": {
+      "$value": "Anthropic Mono",
+      "$type": "fontFamily",
+      "$description": "Technical labels, metadata fields, category tags. Appears sparingly — its presence signals 'data' or 'classification' within otherwise typographic layouts."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 12px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 12px"
+    },
+    "xs-3": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-3 at 12px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 15px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 15px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "15px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 15px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 16px"
+    },
+    "base-5": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step base-5 at 16px"
+    },
+    "base-6": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base-6 at 16px"
+    },
+    "base-7": {
+      "$value": {
+        "fontFamily": "Anthropic Mono",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base-7 at 16px"
+    },
+    "base-8": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base-8 at 16px"
+    },
+    "base-9": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base-9 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "Anthropic Serif",
+        "fontSize": "18px",
+        "fontWeight": 600,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "Anthropic Serif",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "Anthropic Serif",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "Anthropic Serif",
+        "fontSize": "24px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 24px"
+    },
+    "2xl-2": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "24px",
+        "fontWeight": 600,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-2 at 24px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "61px",
+        "fontWeight": 700,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 61px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "Anthropic Serif",
+        "fontSize": "91px",
+        "fontWeight": 400,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 91px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "76": {
+      "$value": "76px",
+      "$type": "dimension",
+      "$description": "Spacing 76px"
+    },
+    "84": {
+      "$value": "84px",
+      "$type": "dimension",
+      "$description": "Spacing 84px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "lg": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "2xl": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "3xl": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    }
+  },
+  "surface": {
+    "page-base": {
+      "$value": "#faf9f5",
+      "$type": "color",
+      "$description": "Surface level 1: Root page background, button fills, default surface"
+    },
+    "nav-elevated-light": {
+      "$value": "#f0eee6",
+      "$type": "color",
+      "$description": "Surface level 2: Navigation bar background, secondary card surfaces"
+    },
+    "oat-card": {
+      "$value": "#e3dacc",
+      "$type": "color",
+      "$description": "Surface level 3: Tertiary card backgrounds, callout sections"
+    },
+    "feature-dark": {
+      "$value": "#141413",
+      "$type": "color",
+      "$description": "Surface level 4: Editorial feature cards, inverted content blocks — maximum contrast against page base"
+    }
+  },
+  "$extensions": {}
+}

@@ -1,0 +1,340 @@
+{
+  "color": {
+    "ivory-canvas": {
+      "$value": "#faf9f5",
+      "$type": "color",
+      "$description": "Ivory Canvas — Page background, primary canvas — warm off-white that makes the interface feel like printed paper rather than a screen"
+    },
+    "pure-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Pure White — Card surfaces, input fields, elevated containers sitting atop the ivory canvas"
+    },
+    "warm-parchment": {
+      "$value": "#f0eee6",
+      "$type": "color",
+      "$description": "Warm Parchment — Secondary surface for subtle differentiation — toggle backgrounds, hover washes, muted zones"
+    },
+    "ink-black": {
+      "$value": "#141413",
+      "$type": "color",
+      "$description": "Ink Black — Primary text, dark filled buttons, high-emphasis UI elements — near-black with a warm cast"
+    },
+    "charcoal": {
+      "$value": "#1f1e1d",
+      "$type": "color",
+      "$description": "Charcoal — Secondary text, nav text, body copy — slightly lighter than Ink for hierarchical depth"
+    },
+    "warm-slate": {
+      "$value": "#3d3d3a",
+      "$type": "color",
+      "$description": "Warm Slate — Tertiary text, button labels, subdued body content — reads as soft graphite"
+    },
+    "stone-gray": {
+      "$value": "#73726c",
+      "$type": "color",
+      "$description": "Stone Gray — Muted helper text, captions, inactive nav items — quiet supporting voice"
+    },
+    "pewter": {
+      "$value": "#9c9a92",
+      "$type": "color",
+      "$description": "Pewter — Subtle icons, decorative strokes, low-emphasis inline elements"
+    },
+    "linen-border": {
+      "$value": "#dedcd1",
+      "$type": "color",
+      "$description": "Linen Border — Hairline borders, card outlines, dividers — the warm taupe that defines surfaces without harshness"
+    },
+    "cool-stone": {
+      "$value": "#b7b7b5",
+      "$type": "color",
+      "$description": "Cool Stone — Supporting neutral for secondary UI, dividers, and muted labels. Do not promote it to the primary CTA color"
+    },
+    "dust-blue": {
+      "$value": "#ccdbe8",
+      "$type": "color",
+      "$description": "Dust Blue — Sole chromatic accent — link states, decorative highlights, subtle wash backgrounds, icon tints. The only color in an otherwise monochrome system"
+    }
+  },
+  "font": {
+    "anthropic-serif": {
+      "$value": "Anthropic Serif",
+      "$type": "fontFamily",
+      "$description": "Editorial display and heading type. Used for hero headlines (56px weight 330), section headings (30px), plan tier names, and price figures. The low weight 330 for large display sizes is anti-convention — most tech brands use 700+ for hero text, but this whisper-weight serif creates authority through literary restraint rather than visual volume. Liga features enabled for refined ligatures."
+    },
+    "anthropic-sans": {
+      "$value": "Anthropic Sans",
+      "$type": "fontFamily",
+      "$description": "Interface and body type. Weight 430 (between regular and medium) is the workhorse for body text and buttons — 400 for body, 430 for buttons and emphasis, 500 for subheadings, 600 for strong UI labels. Size 24px sans serves as a mid-scale heading or prominent label. The 430 weight is distinctive — it provides more presence than 400 without jumping to the heaviness of 500, giving the UI a slightly warmer, less clinical feel than standard system fonts."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "11px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 11px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 12px"
+    },
+    "xs-3": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.63
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-3 at 12px"
+    },
+    "xs-4": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-4 at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 15px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 16px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "16px",
+        "fontWeight": 430,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 16px"
+    },
+    "base-5": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-5 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "Anthropic Serif",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.56
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "Anthropic Sans",
+        "fontSize": "24px",
+        "fontWeight": 600,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 24px"
+    },
+    "2xl-2": {
+      "$value": {
+        "fontFamily": "Anthropic Serif",
+        "fontSize": "24px",
+        "fontWeight": 400,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-2 at 24px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "Anthropic Serif",
+        "fontSize": "30px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 30px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "Anthropic Serif",
+        "fontSize": "56px",
+        "fontWeight": 330,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 56px"
+    }
+  },
+  "spacing": {
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Spacing 48px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "96": {
+      "$value": "96px",
+      "$type": "dimension",
+      "$description": "Spacing 96px"
+    },
+    "unit": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "lg": {
+      "$value": "9.6px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "2xl": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "3xl": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    },
+    "3xl-2": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl-2"
+    }
+  },
+  "surface": {
+    "ivory-canvas": {
+      "$value": "#faf9f5",
+      "$type": "color",
+      "$description": "Surface level 0: Base page background — the warm off-white that defines the entire visual atmosphere"
+    },
+    "pure-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 1: Card surfaces, input fields, form containers — elements that need to lift off the canvas"
+    },
+    "warm-parchment": {
+      "$value": "#f0eee6",
+      "$type": "color",
+      "$description": "Surface level 2: Tertiary surfaces for toggle tracks, subtle hover zones, and areas needing quiet differentiation from the base canvas"
+    },
+    "charcoal-block": {
+      "$value": "#1f1e1d",
+      "$type": "color",
+      "$description": "Surface level 3: Inverted surface for primary buttons and interactive dark elements — the only non-white opaque surface in the light system"
+    }
+  },
+  "$extensions": {}
+}

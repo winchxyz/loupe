@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SVH one-screen</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* A genuinely one-screen page: its height is viewport-relative (svh). Inside the webview, 100svh
+       measures against the webview's height — which the host sets to `pageH`. If pageH is stale-tall,
+       this page inflates to match it (the circular bug). The did-start-loading pageH reset breaks that. */
+    html, body { margin: 0; }
+    .one-screen { min-height: 100svh; display: flex; align-items: center; justify-content: center; }
+  </style>
+</head>
+<body>
+  <main class="one-screen"><h1>One screen (svh)</h1></main>
+</body>
+</html>

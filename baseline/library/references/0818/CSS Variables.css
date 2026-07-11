@@ -1,0 +1,78 @@
+:root {
+  /* Colors */
+  --color-void: #0b0b0b;
+  --color-carbon: #272a2a;
+  --color-ash: #858585;
+  --color-fog: #cecece;
+  --color-pure: #ffffff;
+  --color-absinthe: #000000;
+  --color-ember: #cc6437;
+
+  /* Typography — Font Families */
+  --font-pragmatica-cond: 'Pragmatica Cond', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-roboto-mono: 'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-pragmatica: 'Pragmatica', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Typography — Scale */
+  --text-caption: 11px;
+  --leading-caption: 1.2;
+  --tracking-caption: -0.22px;
+  --text-body-sm: 14px;
+  --leading-body-sm: 1.43;
+  --tracking-body-sm: -0.28px;
+  --text-subheading: 20px;
+  --leading-subheading: 1.1;
+  --tracking-subheading: -0.4px;
+  --text-heading-sm: 24px;
+  --leading-heading-sm: 1.2;
+  --tracking-heading-sm: -0.24px;
+  --text-heading: 32px;
+  --leading-heading: 1.05;
+  --tracking-heading: -0.64px;
+  --text-display: 62px;
+  --leading-display: 0.9;
+  --tracking-display: -1.24px;
+
+  /* Typography — Weights */
+  --font-weight-regular: 400;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-36: 36px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-60: 60px;
+  --spacing-72: 72px;
+  --spacing-80: 80px;
+  --spacing-100: 100px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap: 80-120px;
+  --card-padding: 20px;
+  --element-gap: 7-10px;
+
+  /* Border Radius */
+  --radius-sm: 1px;
+  --radius-md: 4px;
+  --radius-lg: 10px;
+  --radius-full: 1440px;
+
+  /* Named Radii */
+  --radius-nav: 4px;
+  --radius-cards: 10px;
+  --radius-pills: 1440px;
+  --radius-hairlines: 1px;
+
+  /* Surfaces */
+  --surface-void: #0b0b0b;
+  --surface-carbon: #272a2a;
+  --surface-ash: #858585;
+}

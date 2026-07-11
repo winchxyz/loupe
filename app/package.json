@@ -1,0 +1,113 @@
+{
+  "name": "loupe-app",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Loupe — a desktop AI studio for designing and building real websites.",
+  "author": "winchxyz <winchxyz@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/winchxyz/loupe",
+  "repository": { "type": "git", "url": "https://github.com/winchxyz/loupe.git" },
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev:renderer": "vite",
+    "dev": "concurrently -k -n vite,electron \"vite\" \"wait-on tcp:127.0.0.1:5173 && electron .\"",
+    "build": "vite build",
+    "start": "npm run dev",
+    "smoke": "node test/smoke.mjs",
+    "scale": "node test/r2-scale-probe.mjs",
+    "refsite": "node test/refsite-probe.mjs",
+    "icon": "node scripts/make-ico.mjs",
+    "dist": "vite build && electron-builder --win --publish never"
+  },
+  "devDependencies": {
+    "@fontsource-variable/inter": "^5.2.8",
+    "@fontsource-variable/jetbrains-mono": "^5.2.8",
+    "@phosphor-icons/react": "^2.1.10",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "electron": "^43.1.0",
+    "electron-builder": "^26.15.3",
+    "playwright": "^1.61.1",
+    "pngjs": "^7.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^6.0.7",
+    "wait-on": "^8.0.1"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.3.183",
+    "zod": "^4.4.3"
+  },
+  "build": {
+    "appId": "com.loupe.app",
+    "productName": "Loupe",
+    "copyright": "Copyright (c) 2026 winchxyz",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "electron/**/*",
+      "dist-renderer/**/*",
+      "shared/**/*",
+      "agents/**/*",
+      "brand/**/*",
+      "!brand/render-icon.mjs",
+      "package.json",
+      "!node_modules/@anthropic-ai/claude-agent-sdk-win32-x64/**"
+    ],
+    "extraResources": [
+      {
+        "from": "../baseline/library",
+        "to": "library",
+        "filter": [
+          "**/*",
+          "!sources/**",
+          "!recipes/assets/**",
+          "!snippets/system-design-space/**",
+          "!snippets/codrops/**",
+          "!snippets/css-tricks/**",
+          "!snippets/olivierlarose/**",
+          "!snippets/react-bits/**",
+          "!snippets/codepen-picks/**"
+        ]
+      },
+      { "from": "../LICENSE", "to": "LICENSE" },
+      { "from": "../ATTRIBUTION.md", "to": "ATTRIBUTION.md" },
+      { "from": "../THIRD-PARTY-NOTICES.md", "to": "THIRD-PARTY-NOTICES.md" }
+    ],
+    "asarUnpack": [
+      "node_modules/@anthropic-ai/claude-agent-sdk/**"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "zip",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "brand/loupe-icon.ico",
+      "artifactName": "Loupe-${version}-win-${arch}.${ext}",
+      "signtoolOptions": {
+        "publisherName": "winchxyz"
+      }
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "artifactName": "Loupe-Setup-${version}.${ext}",
+      "shortcutName": "Loupe",
+      "installerSidebar": "build/installerSidebar.bmp",
+      "installerHeader": "build/installerHeader.bmp",
+      "license": "../LICENSE",
+      "runAfterFinish": true
+    }
+  }
+}

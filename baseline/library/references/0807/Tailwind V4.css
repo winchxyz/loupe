@@ -1,0 +1,76 @@
+@theme {
+  /* Colors */
+  --color-midnight-navy: #1b2540;
+  --color-deep-cosmos: #001033;
+  --color-chartreuse-pulse: #d0f100;
+  --color-ice-veil: #e0f6ff;
+  --color-ghost-canvas: #f8f9fc;
+  --color-pure-surface: #ffffff;
+  --color-slate-ink: #6b7184;
+  --color-ash-medium: #7c8293;
+  --color-storm-gray: #596075;
+  --color-fog-border: #b1b5c0;
+  --color-hero-gradient: #0050f8;
+  --color-blue-glow-radial: #0080f8;
+
+  /* Typography */
+  --font-abcdfont: 'abcdFont', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-ivartextfont: 'ivarTextFont', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Typography — Scale */
+  --text-caption: 13px;
+  --leading-caption: 1;
+  --tracking-caption: -0.21px;
+  --text-body: 16px;
+  --leading-body: 1.5;
+  --tracking-body: -0.16px;
+  --text-subheading: 18px;
+  --leading-subheading: 1.33;
+  --tracking-subheading: -0.09px;
+  --text-heading-sm: 22px;
+  --leading-heading-sm: 1.29;
+  --tracking-heading-sm: -0.22px;
+  --text-heading: 28px;
+  --leading-heading: 1.17;
+  --tracking-heading: -0.14px;
+  --text-heading-lg: 40px;
+  --leading-heading-lg: 1.05;
+  --tracking-heading-lg: -0.4px;
+  --text-display: 48px;
+  --leading-display: 1.04;
+  --tracking-display: -0.48px;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-56: 56px;
+  --spacing-60: 60px;
+  --spacing-72: 72px;
+  --spacing-96: 96px;
+  --spacing-160: 160px;
+  --spacing-232: 232px;
+
+  /* Border Radius */
+  --radius-sm: 2px;
+  --radius-md: 6px;
+  --radius-2xl: 16px;
+  --radius-2xl-2: 20px;
+  --radius-3xl: 28px;
+  --radius-full: 60px;
+  --radius-full-2: 720px;
+
+  /* Shadows */
+  --shadow-md: rgba(0, 39, 80, 0.08) 0px 6px 16px -3px, rgba(0, 39, 80, 0.04) 0px 0px 0px 1px;
+  --shadow-md-2: rgba(255, 255, 255, 0.08) 0px 0px 16px 8px inset, rgba(255, 255, 255, 0.08) 0px 0px 8px 4px inset, rgba(255, 255, 255, 0.08) 0px 0px 4px 2px inset, rgba(255, 255, 255, 0.12) 0px 0px 2px 1px inset;
+  --shadow-subtle: rgba(255, 255, 255, 0.72) 0px 1px 1px 0px inset, rgba(4, 33, 80, 0.02) 0px 8px 16px 0px, rgba(4, 33, 80, 0.03) 0px 4px 12px 0px, rgba(4, 33, 80, 0.06) 0px 1px 2px 0px, rgba(4, 33, 80, 0.04) 0px 0px 0px 1px;
+  --shadow-subtle-2: color(srgb 0.878431 0.964706 1 / 0.24) 0px 0.5px 0.5px 0px inset, color(srgb 0.878431 0.964706 1 / 0.24) 0px -0.5px 0.5px 0px inset;
+  --shadow-xl: rgba(0, 39, 80, 0.03) 0px 56px 72px -16px, rgba(0, 39, 80, 0.03) 0px 32px 32px -16px, rgba(0, 39, 80, 0.04) 0px 6px 12px -3px, rgba(0, 39, 80, 0.04) 0px 0px 0px 1px;
+  --shadow-subtle-3: rgba(24, 37, 66, 0.32) 0px 1px 3px 0px, rgba(24, 37, 66, 0.12) 0px 0.5px 0.5px 0px, rgba(24, 37, 66, 0.44) 0px 12px 24px -12px, rgba(219, 247, 255, 0.06) 0px 8px 16px 0px inset, rgba(219, 247, 255, 0.48) 0px 0.5px 0.5px 0px inset, rgba(219, 247, 255, 0.04) 0px -4px 8px 0px inset, rgba(219, 247, 255, 0.24) 0px -0.5px 0.5px 0px inset;
+  --shadow-subtle-4: rgba(255, 255, 255, 0.88) 0px 1px 1px 0px inset, rgba(0, 39, 80, 0.04) 0px 48px 72px -12px, rgba(0, 39, 80, 0.03) 0px 28px 40px 0px, rgba(0, 39, 80, 0.02) 0px 4px 12px 0px, rgba(0, 39, 80, 0.04) 0px 0px 0px 1px;
+}

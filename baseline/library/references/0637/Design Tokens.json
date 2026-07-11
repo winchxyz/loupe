@@ -1,0 +1,395 @@
+{
+  "color": {
+    "bark": {
+      "$value": "#17150e",
+      "$type": "color",
+      "$description": "Bark — Primary text, dark filled buttons, logo wordmark, footer, FAQ section background. Warm near-black with olive-brown undertones — it never reads as flat black against the mint canvas"
+    },
+    "paper-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Paper White — Elevated card surfaces, button text on dark fills, inverted panels"
+    },
+    "bone-mist": {
+      "$value": "#f0f7f6",
+      "$type": "color",
+      "$description": "Bone Mist — Page canvas, hero background, soft section fills, card surfaces. The cool mint-white warms slightly against Bark text without ever crossing into beige"
+    },
+    "ash": {
+      "$value": "#e2e2e2",
+      "$type": "color",
+      "$description": "Ash — Hairline dividers, subtle borders between sections"
+    },
+    "ink": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Ink — True black reserved for icons and select typographic emphasis"
+    },
+    "slate": {
+      "$value": "#333333",
+      "$type": "color",
+      "$description": "Slate — Secondary muted text, image captions, tertiary content"
+    },
+    "charcoal": {
+      "$value": "#0e1011",
+      "$type": "color",
+      "$description": "Charcoal — Navigation text and links — slightly cooler than Bark for hierarchy"
+    },
+    "chartreuse-pop": {
+      "$value": "#cccc25",
+      "$type": "color",
+      "$description": "Chartreuse Pop — Yellow supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+    },
+    "periwinkle-wash": {
+      "$value": "#9fa6ff",
+      "$type": "color",
+      "$description": "Periwinkle Wash — Feature card gradient base, announcement bar tint. Soft lavender that cools the palette where editorial sections need a color break"
+    },
+    "moss": {
+      "$value": "#6c8853",
+      "$type": "color",
+      "$description": "Moss — Feature card gradient base for alternative editorial blocks — deep botanical green"
+    },
+    "slate-blue": {
+      "$value": "#6883a1",
+      "$type": "color",
+      "$description": "Slate Blue — Feature card gradient base — muted denim for cool-toned editorial sections"
+    },
+    "sage": {
+      "$value": "#9ac192",
+      "$type": "color",
+      "$description": "Sage — Feature card gradient base — fresh botanical green for wellness-leaning blocks"
+    }
+  },
+  "font": {
+    "basel-grotesk-book": {
+      "$value": "Basel Grotesk Book",
+      "$type": "fontFamily",
+      "$description": "The workhorse. Nav labels, body, subheads, headings, and display up to 72px. Tracking tightens aggressively with size — from 0.071em at 13px to -0.04em at 48px+ — which is the system's signature: large headlines almost touch. The intermediate weight 500 is the de-emphasized body for meta; 600 is reserved for emphasis and small caps labels."
+    },
+    "basel-classic-book": {
+      "$value": "Basel Classic Book",
+      "$type": "fontFamily",
+      "$description": "Oversized display voice. Steps in for the rare 96-144px statements where the grotesk would feel too literal — the line-height collapse to 0.80 and tight -0.03em tracking make these words feel like editorial pull-quotes, not UI."
+    }
+  },
+  "typography": {
+    "sm": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "13px",
+        "fontWeight": 500,
+        "lineHeight": 1.13
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 13px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 14px"
+    },
+    "sm-4": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-4 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "18px",
+        "fontWeight": 600,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 18px"
+    },
+    "lg-3": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-3 at 18px"
+    },
+    "lg-4": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-4 at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "22px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 22px"
+    },
+    "xl-2": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "22px",
+        "fontWeight": 400,
+        "lineHeight": 1.02
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-2 at 22px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "32px",
+        "fontWeight": 500,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 32px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "40px",
+        "fontWeight": 500,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 40px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "48px",
+        "fontWeight": 500,
+        "lineHeight": 1.05
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 48px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "Basel Grotesk Book",
+        "fontSize": "72px",
+        "fontWeight": 500,
+        "lineHeight": 0.97
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 72px"
+    },
+    "5xl-3": {
+      "$value": {
+        "fontFamily": "Basel Classic Book",
+        "fontSize": "96px",
+        "fontWeight": 400,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-3 at 96px"
+    },
+    "5xl-4": {
+      "$value": {
+        "fontFamily": "Basel Classic Book",
+        "fontSize": "144px",
+        "fontWeight": 400,
+        "lineHeight": 0.8
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-4 at 144px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Spacing 48px"
+    },
+    "56": {
+      "$value": "56px",
+      "$type": "dimension",
+      "$description": "Spacing 56px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "96": {
+      "$value": "96px",
+      "$type": "dimension",
+      "$description": "Spacing 96px"
+    },
+    "108": {
+      "$value": "108px",
+      "$type": "dimension",
+      "$description": "Spacing 108px"
+    },
+    "120": {
+      "$value": "120px",
+      "$type": "dimension",
+      "$description": "Spacing 120px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "lg": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "2xl": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "3xl": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    },
+    "3xl-2": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl-2"
+    },
+    "full": {
+      "$value": "1440px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    }
+  },
+  "surface": {
+    "bone-mist-canvas": {
+      "$value": "#f0f7f6",
+      "$type": "color",
+      "$description": "Surface level 0: Page background, hero background, most editorial sections"
+    },
+    "paper-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 1: Elevated cards, product screenshots, dialog surfaces"
+    },
+    "bark-inverted": {
+      "$value": "#17150",
+      "$type": "color",
+      "$description": "Surface level 2: Dark FAQ band, footer, dark filled buttons"
+    },
+    "periwinkle-wash": {
+      "$value": "#9fa6ff",
+      "$type": "color",
+      "$description": "Surface level 3: Gradient feature card backgrounds"
+    }
+  },
+  "$extensions": {}
+}

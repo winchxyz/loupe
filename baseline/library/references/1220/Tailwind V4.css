@@ -1,0 +1,77 @@
+@theme {
+  /* Colors */
+  --color-graphite: #171717;
+  --color-marble-white: #fafafa;
+  --color-pearl: #ffffff;
+  --color-hairline: #ebebeb;
+  --color-felt-gray: #4d4d4d;
+  --color-smoke: #666666;
+  --color-ash: #a8a8a8;
+  --color-fog: #7d7d7d;
+  --color-ice-tint: #f0fbff;
+  --color-carbon: #000000;
+  --color-prism-blue: #52aeff;
+  --color-prism-red: #e5484d;
+  --color-prism-teal: #45dec5;
+  --color-vercel-blue: #0070f3;
+
+  /* Typography */
+  --font-geist: 'Geist', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-geist-mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Typography — Scale */
+  --text-caption: 12px;
+  --leading-caption: 1.5;
+  --tracking-caption: -0.02px;
+  --text-body: 14px;
+  --leading-body: 1.56;
+  --tracking-body: -0.02px;
+  --text-heading-sm: 20px;
+  --leading-heading-sm: 1.33;
+  --tracking-heading-sm: -0.04px;
+  --text-heading: 24px;
+  --leading-heading: 1.25;
+  --tracking-heading: -0.05px;
+  --text-heading-lg: 32px;
+  --leading-heading-lg: 1.2;
+  --tracking-heading-lg: -0.05px;
+  --text-display: 48px;
+  --leading-display: 1.17;
+  --tracking-display: -0.06px;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-6: 6px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-14: 14px;
+  --spacing-16: 16px;
+  --spacing-18: 18px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-44: 44px;
+  --spacing-48: 48px;
+  --spacing-50: 50px;
+  --spacing-135: 135px;
+  --spacing-157: 157px;
+
+  /* Border Radius */
+  --radius-md: 6px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+  --radius-3xl: 32px;
+  --radius-full: 64px;
+  --radius-full-2: 100px;
+  --radius-full-3: 9999px;
+
+  /* Shadows */
+  --shadow-subtle: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 2px 2px 0px, rgb(250, 250, 250) 0px 0px 0px 1px;
+  --shadow-subtle-2: rgba(0, 0, 0, 0.04) 0px 2px 2px 0px;
+  --shadow-subtle-3: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 2px 2px 0px, rgba(0, 0, 0, 0.04) 0px 8px 8px -8px, rgb(250, 250, 250) 0px 0px 0px 1px;
+  --shadow-subtle-4: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgb(250, 250, 250) 0px 0px 0px 1px;
+  --shadow-subtle-5: rgb(235, 235, 235) 0px 0px 0px 1px;
+  --shadow-subtle-6: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  --shadow-subtle-7: rgb(235, 235, 235) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}

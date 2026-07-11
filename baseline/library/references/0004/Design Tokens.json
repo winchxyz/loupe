@@ -1,0 +1,415 @@
+{
+  "color": {
+    "void-black": {
+      "$value": "#0e100f",
+      "$type": "color",
+      "$description": "Void Black — Page canvas, card surfaces, primary background — the dark stage that makes all accent colors appear to emit light"
+    },
+    "cream-glow": {
+      "$value": "#fffce1",
+      "$type": "color",
+      "$description": "Cream Glow — Primary text, icon strokes, button borders, nav link colors — warm off-white reads softer than pure white against the near-black canvas and carries a slight luminosity"
+    },
+    "olive-stone": {
+      "$value": "#42433d",
+      "$type": "color",
+      "$description": "Olive Stone — Muted borders, secondary dividers, low-emphasis UI structure"
+    },
+    "ash-gray": {
+      "$value": "#7c7c6f",
+      "$type": "color",
+      "$description": "Ash Gray — Body metadata, icon fills at reduced weight, helper text — the desaturated middle ground that recedes from the cream foreground"
+    },
+    "pulse-green": {
+      "$value": "#0ae448",
+      "$type": "color",
+      "$description": "Pulse Green — Section headings, nav active states, accent borders — the brand's primary chromatic voice, electric and high-energy; Diagonal brand gradient for decorative illustrations and section accents"
+    },
+    "candy-pink": {
+      "$value": "#fec5fb",
+      "$type": "color",
+      "$description": "Candy Pink — Tool category accent (Scroll), section headings, decorative borders — soft pastel that glows against the void"
+    },
+    "ember-orange": {
+      "$value": "#ff8709",
+      "$type": "color",
+      "$description": "Ember Orange — Tool category accent (SVG), section headings, warm punctuation — saturated amber that cuts through the cool palette"
+    },
+    "electric-violet": {
+      "$value": "#9d95ff",
+      "$type": "color",
+      "$description": "Electric Violet — Tool category accent, section headings, decorative strokes — cool purple that signals creativity tools"
+    },
+    "signal-blue": {
+      "$value": "#00bae2",
+      "$type": "color",
+      "$description": "Signal Blue — Tool category accent, section headings, link-like emphasis — cyan that reads as technical/precise"
+    },
+    "lime-flash": {
+      "$value": "#abff84",
+      "$type": "color",
+      "$description": "Lime Flash — Gradient endpoint, secondary green accent, highlights — lighter companion to Pulse Green, used in the diagonal brand gradient"
+    }
+  },
+  "font": {
+    "mori": {
+      "$value": "Mori",
+      "$type": "fontFamily",
+      "$description": "Sole typeface across all contexts — body, nav, headings, hero. The custom face is sculpted for display use: it sustains legibility at 224px hero scale and stays friendly at 14px body. Weight 600 is reserved for emphasized words inline (e.g. 'effortlessly') and active nav items; weight 400 carries everything else. The very tight line-heights (0.90–1.05) at large sizes let the type become a spatial object rather than just text. Substitute with Inter Tight or Manrope for a similar geometric-but-friendly feel."
+    }
+  },
+  "typography": {
+    "sm": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.15
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": 1.05
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": 1.15
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 16px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 17px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "18px",
+        "fontWeight": 600,
+        "lineHeight": 1.05
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 18px"
+    },
+    "lg-3": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "19px",
+        "fontWeight": 400,
+        "lineHeight": 1.15
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-3 at 19px"
+    },
+    "lg-4": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "19px",
+        "fontWeight": 600,
+        "lineHeight": 1.15
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-4 at 19px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "20px",
+        "fontWeight": 600,
+        "lineHeight": 1.05
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "xl-2": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "21px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-2 at 21px"
+    },
+    "xl-3": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "23px",
+        "fontWeight": 400,
+        "lineHeight": 1.38
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-3 at 23px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "24px",
+        "fontWeight": 400,
+        "lineHeight": 1.15
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 24px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "32px",
+        "fontWeight": 400,
+        "lineHeight": 1.15
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 32px"
+    },
+    "3xl-2": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "32px",
+        "fontWeight": 600,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-2 at 32px"
+    },
+    "3xl-3": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "33px",
+        "fontWeight": 600,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-3 at 33px"
+    },
+    "3xl-4": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "34px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-4 at 34px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "40px",
+        "fontWeight": 600,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 40px"
+    },
+    "4xl-2": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "40px",
+        "fontWeight": 600,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl-2 at 40px"
+    },
+    "4xl-3": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "44px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl-3 at 44px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "66px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 66px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "76px",
+        "fontWeight": 600,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 76px"
+    },
+    "5xl-3": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "89px",
+        "fontWeight": 600,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-3 at 89px"
+    },
+    "5xl-4": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "101px",
+        "fontWeight": 600,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-4 at 101px"
+    },
+    "5xl-5": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "224px",
+        "fontWeight": 600,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-5 at 224px"
+    },
+    "5xl-6": {
+      "$value": {
+        "fontFamily": "Mori",
+        "fontSize": "224px",
+        "fontWeight": 400,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-6 at 224px"
+    }
+  },
+  "spacing": {
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "76": {
+      "$value": "76px",
+      "$type": "dimension",
+      "$description": "Spacing 76px"
+    },
+    "96": {
+      "$value": "96px",
+      "$type": "dimension",
+      "$description": "Spacing 96px"
+    },
+    "108": {
+      "$value": "108px",
+      "$type": "dimension",
+      "$description": "Spacing 108px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "sm": {
+      "$value": "1px",
+      "$type": "dimension",
+      "$description": "Border radius sm"
+    },
+    "lg": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "full": {
+      "$value": "100px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    }
+  },
+  "surface": {
+    "canvas": {
+      "$value": "#0e100f",
+      "$type": "color",
+      "$description": "Surface level 1: Full-page background, hero sections, content bands — the single flat dark surface"
+    },
+    "raised-surface": {
+      "$value": "#0e100f",
+      "$type": "color",
+      "$description": "Surface level 2: Cards and contained blocks use the same canvas color, separated only by 1px cream borders at 8px radius — no tonal lift"
+    }
+  },
+  "$extensions": {}
+}

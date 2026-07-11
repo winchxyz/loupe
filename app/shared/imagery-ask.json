@@ -1,0 +1,10 @@
+{
+  "_comment": "T8 (audit 2026-07-09): the ONE imagery ASK — shared by the Solo/Studio mid-turn gate (main.cjs) and the pre-/flow gate (App.jsx) so every build path asks the same question with the same options.",
+  "question": "Imagery for this site — what should carry the visuals?",
+  "options": [
+    { "label": "Real photography", "desc": "Licensed stock photos, vision-checked on-topic — hero + key sections.", "recommended": true },
+    { "label": "CSS/SVG illustrations - no stock photos", "desc": "Deliberate drawn visuals, diagrams, gradients — nothing from photo stocks." },
+    { "label": "Typography-led - minimal imagery", "desc": "Layout, type and color carry the design; no photos." }
+  ],
+  "genOption": { "label": "AI-generated imagery", "desc": "Bespoke images generated for you by your connected AI — costs per image." }
+}

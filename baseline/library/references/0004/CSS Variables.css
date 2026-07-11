@@ -1,0 +1,86 @@
+:root {
+  /* Colors */
+  --color-void-black: #0e100f;
+  --color-cream-glow: #fffce1;
+  --color-olive-stone: #42433d;
+  --color-ash-gray: #7c7c6f;
+  --color-pulse-green: #0ae448;
+  --gradient-pulse-green: linear-gradient(114.41deg, #0ae448 20.74%, #abff84 65.5%);
+  --color-candy-pink: #fec5fb;
+  --color-ember-orange: #ff8709;
+  --color-electric-violet: #9d95ff;
+  --color-signal-blue: #00bae2;
+  --color-lime-flash: #abff84;
+
+  /* Typography — Font Families */
+  --font-mori: 'Mori', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Typography — Scale */
+  --text-caption: 14px;
+  --leading-caption: 1.38;
+  --tracking-caption: -0.14px;
+  --text-body-sm: 16px;
+  --leading-body-sm: 1.4;
+  --tracking-body-sm: -0.16px;
+  --text-body: 18px;
+  --leading-body: 1.38;
+  --tracking-body: -0.18px;
+  --text-subheading: 21px;
+  --leading-subheading: 1.2;
+  --tracking-subheading: -0.23px;
+  --text-heading-sm: 24px;
+  --leading-heading-sm: 1.15;
+  --tracking-heading-sm: -0.26px;
+  --text-heading: 34px;
+  --leading-heading: 1.15;
+  --tracking-heading: -0.37px;
+  --text-heading-lg: 44px;
+  --leading-heading-lg: 1.1;
+  --tracking-heading-lg: -0.48px;
+  --text-display: 89px;
+  --leading-display: 1.05;
+  --tracking-display: -1.78px;
+  --text-display-lg: 101px;
+  --leading-display-lg: 1;
+  --tracking-display-lg: -2.02px;
+  --text-hero: 224px;
+  --leading-hero: 0.9;
+  --tracking-hero: -4.48px;
+
+  /* Typography — Weights */
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-76: 76px;
+  --spacing-96: 96px;
+  --spacing-108: 108px;
+
+  /* Layout */
+  --page-max-width: 1280px;
+  --section-gap: 80px;
+  --card-padding: 24px;
+  --element-gap: 16px;
+
+  /* Border Radius */
+  --radius-sm: 1px;
+  --radius-lg: 8px;
+  --radius-full: 100px;
+
+  /* Named Radii */
+  --radius-tags: 100px;
+  --radius-cards: 8px;
+  --radius-buttons: 100px;
+  --radius-nav-items: 100px;
+
+  /* Surfaces */
+  --surface-canvas: #0e100f;
+  --surface-raised-surface: #0e100f;
+}

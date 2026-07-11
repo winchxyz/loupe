@@ -1,0 +1,82 @@
+:root {
+  /* Colors */
+  --color-graphite: #0a0a0a;
+  --color-pure-black: #000000;
+  --color-carbon: #171717;
+  --color-concrete: #737373;
+  --color-ash: #a1a1a1;
+  --color-smoke: #b9b9b9;
+  --color-hairline: #e5e5e5;
+  --color-mist: #f2f2f2;
+  --color-chalk: #ffffff;
+
+  /* Typography — Font Families */
+  --font-geist: 'Geist', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-geist-mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Typography — Scale */
+  --text-caption: 12px;
+  --leading-caption: 1.5;
+  --text-body: 14px;
+  --leading-body: 1.43;
+  --text-subheading: 18px;
+  --leading-subheading: 1.5;
+  --tracking-subheading: -0.45px;
+  --text-display: 48px;
+  --leading-display: 1.1;
+  --tracking-display: -2.4px;
+
+  /* Typography — Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-5: 5px;
+  --spacing-6: 6px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-80: 80px;
+  --spacing-83: 83px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap: 48px;
+  --card-padding: 16px;
+  --element-gap: 8px;
+
+  /* Border Radius */
+  --radius-md: 4px;
+  --radius-lg: 10px;
+  --radius-xl: 14px;
+  --radius-3xl: 26px;
+  --radius-full: 9996px;
+  --radius-full-2: 9999px;
+  --radius-full-3: 159981px;
+  --radius-full-4: 159984px;
+
+  /* Named Radii */
+  --radius-nav: 10px;
+  --radius-cards: 14px;
+  --radius-pills: 9999px;
+  --radius-badges: 26px;
+  --radius-inputs: 10px;
+  --radius-buttons: 10px;
+
+  /* Shadows */
+  --shadow-subtle: lab(100 0 0) 0px 0px 0px 2px;
+  --shadow-subtle-2: oklab(0.145 -0.00000143796 0.00000340492 / 0.1) 0px 0px 0px 1px;
+
+  /* Surfaces */
+  --surface-canvas: #ffffff;
+  --surface-card: #ffffff;
+  --surface-muted-surface: #f2f2f2;
+  --surface-inverted-surface: #171717;
+}

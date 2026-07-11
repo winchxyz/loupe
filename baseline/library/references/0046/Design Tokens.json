@@ -1,0 +1,330 @@
+{
+  "color": {
+    "cream-paper": {
+      "$value": "#fff5ee",
+      "$type": "color",
+      "$description": "Cream Paper — Page canvas, section backgrounds — warm off-white that softens the whole interface and distinguishes Workable from stark-white SaaS"
+    },
+    "ink-black": {
+      "$value": "#0f161e",
+      "$type": "color",
+      "$description": "Ink Black — Primary text, dark filled buttons, body copy, nav links, borders — the cool near-black that grounds all warm surfaces"
+    },
+    "pure-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Pure White — Card surfaces, product screenshot backgrounds, text on dark fills — the cleanest highlight in the surface stack"
+    },
+    "graphite": {
+      "$value": "#333942",
+      "$type": "color",
+      "$description": "Graphite — Secondary text, muted body copy, link borders — readable but receding"
+    },
+    "forest-teal": {
+      "$value": "#004038",
+      "$type": "color",
+      "$description": "Forest Teal — Brand primary — headings, link borders, section dividers, outlined actions, tag accents; a deep blue-green that signals trust and growth without tech-bro blue"
+    },
+    "deep-moss": {
+      "$value": "#00544c",
+      "$type": "color",
+      "$description": "Deep Moss — Secondary brand tone for borders, decorative fills, and supporting UI accents — slightly lighter than Forest Teal for layering"
+    },
+    "mint-glow": {
+      "$value": "#7edcaf",
+      "$type": "color",
+      "$description": "Mint Glow — Decorative heading underlines, section dividers, illustrated accents — the cheerful green that sits between brand teal and lime; Signature tri-stop gradient: cyan → lime → violet, used as product-screenshot backdrop washes and decorative hero atmosphere"
+    },
+    "lime-spark": {
+      "$value": "#d5ff4d",
+      "$type": "color",
+      "$description": "Lime Spark — Highlight stroke, gradient endpoint, decorative punctuation in illustrations"
+    },
+    "cyan-pulse": {
+      "$value": "#00f5dc",
+      "$type": "color",
+      "$description": "Cyan Pulse — Gradient start, feature card wash, energetic accent in hero composition"
+    },
+    "apricot-wash": {
+      "$value": "#fde8ce",
+      "$type": "color",
+      "$description": "Apricot Wash — Soft card surface for feature blocks — warm pastel that adds depth without competing with content"
+    },
+    "peach-tile": {
+      "$value": "#ffdcbf",
+      "$type": "color",
+      "$description": "Peach Tile — Card background variant for category differentiation in feature sections"
+    },
+    "sky-tile": {
+      "$value": "#bee9f4",
+      "$type": "color",
+      "$description": "Sky Tile — Card background variant — cool pastel counterpoint to the warm peach and apricot"
+    }
+  },
+  "font": {
+    "proxima-nova": {
+      "$value": "Proxima Nova",
+      "$type": "fontFamily",
+      "$description": "All UI type — nav, body, buttons, headings, badges. Weight 700 for headlines and CTAs creates confident display moments; weight 400 keeps body copy approachable. The single-family system is deliberate: one voice across the whole product, distinguished only by size and weight."
+    },
+    "source-serif-pro": {
+      "$value": "Source Serif Pro",
+      "$type": "fontFamily",
+      "$description": "Sparse accent for editorial pull-quote moments in long-form body copy — used rarely to break rhythm when a paragraph needs to feel reflective rather than instructional"
+    }
+  },
+  "typography": {
+    "base": {
+      "$value": {
+        "fontFamily": "proxima-nova",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "proxima-nova",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "lineHeight": 1.75
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "proxima-nova",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.38
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 16px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "proxima-nova",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 16px"
+    },
+    "base-5": {
+      "$value": {
+        "fontFamily": "proxima-nova",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step base-5 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "proxima-nova",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.56
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "proxima-nova",
+        "fontSize": "18px",
+        "fontWeight": 700,
+        "lineHeight": 1.56
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "proxima-nova",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "xl-2": {
+      "$value": {
+        "fontFamily": "proxima-nova",
+        "fontSize": "20px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-2 at 20px"
+    },
+    "xl-3": {
+      "$value": {
+        "fontFamily": "proxima-nova",
+        "fontSize": "20px",
+        "fontWeight": 700,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-3 at 20px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "proxima-nova",
+        "fontSize": "24px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 24px"
+    },
+    "2xl-2": {
+      "$value": {
+        "fontFamily": "source-serif-pro",
+        "fontSize": "24px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-2 at 24px"
+    },
+    "2xl-3": {
+      "$value": {
+        "fontFamily": "proxima-nova",
+        "fontSize": "24px",
+        "fontWeight": 700,
+        "lineHeight": 1.17
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-3 at 24px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "proxima-nova",
+        "fontSize": "32px",
+        "fontWeight": 700,
+        "lineHeight": 1.13
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 32px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "proxima-nova",
+        "fontSize": "56px",
+        "fontWeight": 700,
+        "lineHeight": 1.14
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 56px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "proxima-nova",
+        "fontSize": "72px",
+        "fontWeight": 700,
+        "lineHeight": 1.22
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 72px"
+    }
+  },
+  "spacing": {
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "88": {
+      "$value": "88px",
+      "$type": "dimension",
+      "$description": "Spacing 88px"
+    },
+    "104": {
+      "$value": "104px",
+      "$type": "dimension",
+      "$description": "Spacing 104px"
+    },
+    "unit": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "lg": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "2xl": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "3xl": {
+      "$value": "25px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    }
+  },
+  "surface": {
+    "canvas": {
+      "$value": "#fff5ee",
+      "$type": "color",
+      "$description": "Surface level 1: Page and section background — the warm cream that defines the entire site"
+    },
+    "card-surface": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 2: Product screenshot panels, elevated content blocks on top of canvas"
+    },
+    "pastel-card": {
+      "$value": "#fde8ce",
+      "$type": "color",
+      "$description": "Surface level 3: Soft category-differentiated feature cards — warm peach tone"
+    },
+    "pastel-variant": {
+      "$value": "#bee9f4",
+      "$type": "color",
+      "$description": "Surface level 4: Cool pastel card surface for visual variety in multi-card grids"
+    },
+    "gradient-atmosphere": {
+      "$value": "#7edcaf",
+      "$type": "color",
+      "$description": "Surface level 5: Decorative backdrop wash behind product screenshots and hero artwork"
+    }
+  },
+  "$extensions": {}
+}

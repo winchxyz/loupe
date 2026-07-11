@@ -1,0 +1,482 @@
+{
+  "color": {
+    "midnight-navy": {
+      "$value": "#02093a",
+      "$type": "color",
+      "$description": "Midnight Navy — Hero and feature-section canvas — the signature dark surface that makes white headlines and cobalt CTAs feel like glowing panels in a night-shift control room"
+    },
+    "cobalt-blue": {
+      "$value": "#455dd3",
+      "$type": "color",
+      "$description": "Cobalt Blue — Violet action color for filled buttons, selected navigation states, and focused conversion moments."
+    },
+    "signal-blue": {
+      "$value": "#0075de",
+      "$type": "color",
+      "$description": "Signal Blue — Outlined action borders, inline text links, and chromatic hover states — a slightly cooler blue for secondary interactivity"
+    },
+    "ice-blue": {
+      "$value": "#62aef0",
+      "$type": "color",
+      "$description": "Ice Blue — Blue outline accent for tags, dividers, and focused UI edges"
+    },
+    "info-blue": {
+      "$value": "#097fe8",
+      "$type": "color",
+      "$description": "Info Blue — Semantic info badges and accent borders on dark surfaces"
+    },
+    "indigo": {
+      "$value": "#2537b1",
+      "$type": "color",
+      "$description": "Indigo — Decorative illustration strokes, SVG accent fills, gradient transition points"
+    },
+    "deep-indigo": {
+      "$value": "#213183",
+      "$type": "color",
+      "$description": "Deep Indigo — Hover/pressed state of Cobalt Blue on dark surfaces"
+    },
+    "obsidian": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Obsidian — Primary text, heavy borders, high-contrast strokes"
+    },
+    "ink": {
+      "$value": "#0b0b0b",
+      "$type": "color",
+      "$description": "Ink — Primary text on light surfaces, card borders, strong dividers"
+    },
+    "charcoal": {
+      "$value": "#31302e",
+      "$type": "color",
+      "$description": "Charcoal — Navigation text, dense bordered text blocks, tertiary heading color"
+    },
+    "warm-gray": {
+      "$value": "#615d59",
+      "$type": "color",
+      "$description": "Warm Gray — Muted body text, icon strokes, helper captions on light backgrounds"
+    },
+    "stone": {
+      "$value": "#a39e98",
+      "$type": "color",
+      "$description": "Stone — Disabled states, secondary icon fills, low-emphasis borders"
+    },
+    "silver": {
+      "$value": "#c6c6c5",
+      "$type": "color",
+      "$description": "Silver — Subtle borders, placeholders, divider hairlines on light surfaces"
+    },
+    "cream": {
+      "$value": "#f6f5f4",
+      "$type": "color",
+      "$description": "Cream — Page background, off-white content canvas, the warm neutral that makes navy sections feel deliberate"
+    },
+    "paper-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Paper White — Card surfaces, button text, input fields — the clean reading surface"
+    },
+    "ice-wash": {
+      "$value": "#f2f9ff",
+      "$type": "color",
+      "$description": "Ice Wash — Soft info-badge background wash paired with Info Blue text"
+    }
+  },
+  "font": {
+    "notion-inter": {
+      "$value": "Notion Inter",
+      "$type": "fontFamily",
+      "$description": "Primary interface and heading family — the only sans used across the entire product surface, from 12px helper text to 64px hero headlines. Tabular lining numerals and localized forms are always on. Weight 600–700 carries headings and button labels; weight 400 carries body and descriptions."
+    },
+    "lyon-text": {
+      "$value": "Lyon Text",
+      "$type": "fontFamily",
+      "$description": "Sparingly used editorial serif at 32px for moments that need a magazine-cover feel — never repeated in dense UI. Its appearance is a deliberate counterpoint to the otherwise all-sans system."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "12px",
+        "fontWeight": 600,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 12px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 15px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "15px",
+        "fontWeight": 600,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 15px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "15px",
+        "fontWeight": 700,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 15px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 16px"
+    },
+    "base-5": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-5 at 16px"
+    },
+    "base-6": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-6 at 16px"
+    },
+    "base-7": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step base-7 at 16px"
+    },
+    "base-8": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-8 at 16px"
+    },
+    "base-9": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step base-9 at 16px"
+    },
+    "base-10": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.35
+      },
+      "$type": "typography",
+      "$description": "Typography step base-10 at 16px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "xl-2": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "20px",
+        "fontWeight": 600,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-2 at 20px"
+    },
+    "xl-3": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-3 at 20px"
+    },
+    "xl-4": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "22px",
+        "fontWeight": 700,
+        "lineHeight": 1.27
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-4 at 22px"
+    },
+    "xl-5": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "22px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-5 at 22px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "24px",
+        "fontWeight": 500,
+        "lineHeight": 0.83
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 24px"
+    },
+    "2xl-2": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "26px",
+        "fontWeight": 700,
+        "lineHeight": 1.23
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-2 at 26px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "Lyon Text",
+        "fontSize": "32px",
+        "fontWeight": 400,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 32px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "40px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 40px"
+    },
+    "4xl-2": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "42px",
+        "fontWeight": 700,
+        "lineHeight": 1.14
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl-2 at 42px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "54px",
+        "fontWeight": 700,
+        "lineHeight": 1.04
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 54px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "NotionInter",
+        "fontSize": "64px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 64px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "28": {
+      "$value": "28px",
+      "$type": "dimension",
+      "$description": "Spacing 28px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "36": {
+      "$value": "36px",
+      "$type": "dimension",
+      "$description": "Spacing 36px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "180": {
+      "$value": "180px",
+      "$type": "dimension",
+      "$description": "Spacing 180px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "md": {
+      "$value": "5px",
+      "$type": "dimension",
+      "$description": "Border radius md"
+    },
+    "lg": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "xl": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Border radius xl"
+    },
+    "full": {
+      "$value": "9999px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    }
+  },
+  "shadow": {
+    "subtle": {
+      "$value": "rgba(0, 0, 0, 0.01) 0px 1px 3px 0px, rgba(0, 0, 0, 0.02) 0px 3px 7px 0px, rgba(0, 0, 0, 0.02) 0px 7px 15px 0px, rgba(0, 0, 0, 0.04) 0px 14px 28px 0px, rgba(0, 0, 0, 0.05) 0px 23px 52px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle"
+    }
+  },
+  "surface": {
+    "midnight-canvas": {
+      "$value": "#02093a",
+      "$type": "color",
+      "$description": "Surface level 0: Hero and dark feature sections — the signature nocturnal surface"
+    },
+    "cream-page": {
+      "$value": "#f6f5f4",
+      "$type": "color",
+      "$description": "Surface level 1: Default body content background — warm, slightly off-white to avoid clinical starkness"
+    },
+    "paper-card": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 2: Elevated card surfaces for features, testimonials, product UI embeds"
+    },
+    "dark-card": {
+      "$value": "#02093a",
+      "$type": "color",
+      "$description": "Surface level 3: Inverted cards on light backgrounds for contrast and emphasis"
+    }
+  },
+  "$extensions": {}
+}

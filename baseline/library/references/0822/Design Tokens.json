@@ -1,0 +1,258 @@
+{
+  "color": {
+    "revolut-black": {
+      "$value": "#191c1f",
+      "$type": "color",
+      "$description": "Revolut Black — Primary text, dark CTA backgrounds, footers, borders. Establishes a deep, serious foundation."
+    },
+    "cloud-white": {
+      "$value": "#f4f4f4",
+      "$type": "color",
+      "$description": "Cloud White — Primary light CTA backgrounds, some page sections. A soft off-white that feels less stark than pure white."
+    },
+    "pure-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Pure White — Primary page background, text on dark surfaces."
+    },
+    "onyx-black": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Onyx Black — Text on light CTA buttons, some secondary CTA backgrounds."
+    },
+    "slate-gray": {
+      "$value": "#8d969",
+      "$type": "color",
+      "$description": "Slate Gray — Secondary body text, disabled states, helper text."
+    },
+    "ash": {
+      "$value": "#505a63",
+      "$type": "color",
+      "$description": "Ash — Tertiary text, subtle UI elements."
+    },
+    "pebble": {
+      "$value": "#c9c9cd",
+      "$type": "color",
+      "$description": "Pebble — Borders and dividers."
+    },
+    "light-tint": {
+      "$value": "#ebebf0",
+      "$type": "color",
+      "$description": "Light-Tint — Subtle button backgrounds and hover states."
+    }
+  },
+  "font": {
+    "aeonik-pro": {
+      "$value": "Aeonik Pro",
+      "$type": "fontFamily",
+      "$description": "All major headings (H1-H4) and display text. Its slightly condensed and geometric form creates a modern, architectural feel. The signature use of tight negative letter-spacing at large sizes is critical to its identity."
+    },
+    "inter": {
+      "$value": "Inter",
+      "$type": "fontFamily",
+      "$description": "Body copy, button text, labels, captions, and legal text. A neutral, highly-legible workhorse font that recedes to let headings and imagery stand out."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "Inter",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 12px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "Inter",
+        "fontSize": "12px",
+        "fontWeight": 700,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 12px"
+    },
+    "xs-3": {
+      "$value": {
+        "fontFamily": "Inter",
+        "fontSize": "12px",
+        "fontWeight": 600,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-3 at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "Inter",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.57
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "Aeonik Pro",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.38
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "Aeonik Pro",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "Aeonik Pro",
+        "fontSize": "24px",
+        "fontWeight": 500,
+        "lineHeight": 1.17
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 24px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "Aeonik Pro",
+        "fontSize": "32px",
+        "fontWeight": 500,
+        "lineHeight": 1.19
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 32px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "Aeonik Pro",
+        "fontSize": "40px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 40px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "Aeonik Pro",
+        "fontSize": "53px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 53px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "Aeonik Pro",
+        "fontSize": "89px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 89px"
+    }
+  },
+  "spacing": {
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "56": {
+      "$value": "56px",
+      "$type": "dimension",
+      "$description": "Spacing 56px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "232": {
+      "$value": "232px",
+      "$type": "dimension",
+      "$description": "Spacing 232px"
+    },
+    "unit": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "xl": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Border radius xl"
+    },
+    "2xl": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "2xl-2": {
+      "$value": "22.5px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl-2"
+    },
+    "full": {
+      "$value": "9999px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    }
+  },
+  "$extensions": {}
+}

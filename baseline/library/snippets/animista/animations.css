@@ -1,0 +1,340 @@
+/* source: https://animista.net/ · author/owner: Ana Travas (Animista, v1.1.0) · license: generator output, FreeBSD-style per site terms (free for commercial & personal use) · saved: 2026-06-18 */
+/*
+  CURATED REPRESENTATIVE SUBSET of Animista's on-demand CSS animation library.
+  Animista catalog = 6 categories / 75 groups / 662 variations. This file ships ONE
+  canonical variation per useful group (entrances, exits, text-focus, attention, bg) so
+  the patterns + exact keyframe shapes + Animista's default easings are on disk.
+  To get any other direction/variation (…-top, …-tr, …-left, 2x/3x/…), generate it at
+  animista.net — the keyframe math is identical, only translate/origin/timing differ.
+
+  Animista's default easing labels → cubic-bezier (verified against the site's own
+  data-appear attributes and animista.json):
+    easeOutQuad   cubic-bezier(0.250, 0.460, 0.450, 0.940)
+    easeOutQuint  cubic-bezier(0.230, 1.000, 0.320, 1.000)
+    easeInQuad    cubic-bezier(0.550, 0.085, 0.680, 0.530)
+    easeOutSine   cubic-bezier(0.390, 0.575, 0.565, 1.000)
+    easeInOutQuad cubic-bezier(0.455, 0.030, 0.515, 0.955)
+
+  USAGE: apply one class, OR copy a single @keyframes + the `animation:` shorthand.
+    <h1 class="anim-slide-in-blurred-bottom">…</h1>
+  All entrance/exit blocks use `animation-fill-mode: both` so the element holds its
+  start state before play and its end state after — no flash of unstyled content.
+*/
+
+/* ============================================================
+   1. ENTRANCES (play once on mount / on-scroll reveal)
+   ============================================================ */
+
+/* scale-in-center — easeOutQuad 0.5s. The default "pop in". */
+@keyframes scale-in-center {
+  0%   { transform: scale(0); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.anim-scale-in-center {
+  animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* fade-in-bottom — easeOutSine. Workhorse scroll-reveal (subtle rise + fade). */
+@keyframes fade-in-bottom {
+  0%   { transform: translateY(50px); opacity: 0; }
+  100% { transform: translateY(0);    opacity: 1; }
+}
+.anim-fade-in-bottom {
+  animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/* slide-in-blurred-bottom — easeOutQuint 0.6s. Premium reveal: motion blur + scale snap.
+   This is the single highest-value Animista entrance for a "designed" feel. */
+@keyframes slide-in-blurred-bottom {
+  0% {
+    transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+    transform-origin: 50% 100%;
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scaleY(1) scaleX(1);
+    transform-origin: 50% 50%;
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+.anim-slide-in-blurred-bottom {
+  animation: slide-in-blurred-bottom 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+/* slide-in-bottom — easeOutQuad 0.5s. Plain directional slide, no blur. */
+@keyframes slide-in-bottom {
+  0%   { transform: translateY(1000px); opacity: 0; }
+  100% { transform: translateY(0);      opacity: 1; }
+}
+.anim-slide-in-bottom {
+  animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* rotate-in-center — easeOutQuad 0.6s. Spin + fade entrance. */
+@keyframes rotate-in-center {
+  0%   { transform: rotate(-360deg); opacity: 0; }
+  100% { transform: rotate(0);       opacity: 1; }
+}
+.anim-rotate-in-center {
+  animation: rotate-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* swirl-in-fwd — easeOut 0.6s. Rotate + scale-up from zero (logo / badge intro). */
+@keyframes swirl-in-fwd {
+  0%   { transform: rotate(-540deg) scale(0); opacity: 0; }
+  100% { transform: rotate(0) scale(1);       opacity: 1; }
+}
+.anim-swirl-in-fwd {
+  animation: swirl-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/* flip-in-hor-bottom — easeOutQuad 0.5s. 3D card flip in (needs perspective on parent). */
+@keyframes flip-in-hor-bottom {
+  0%   { transform: rotateX(80deg); opacity: 0; }
+  100% { transform: rotateX(0);     opacity: 1; }
+}
+.anim-flip-in-hor-bottom {
+  animation: flip-in-hor-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* bounce-in-top — ease 1.1s. Multi-keyframe spring drop (playful, attention-grabbing). */
+@keyframes bounce-in-top {
+  0%   { transform: translateY(-500px); animation-timing-function: ease-in;  opacity: 0; }
+  38%  { transform: translateY(0);      animation-timing-function: ease-out; opacity: 1; }
+  55%  { transform: translateY(-65px);  animation-timing-function: ease-in; }
+  72%  { transform: translateY(0);      animation-timing-function: ease-out; }
+  81%  { transform: translateY(-28px);  animation-timing-function: ease-in; }
+  90%  { transform: translateY(0);      animation-timing-function: ease-out; }
+  95%  { transform: translateY(-8px);   animation-timing-function: ease-in; }
+  100% { transform: translateY(0);      animation-timing-function: ease-out; }
+}
+.anim-bounce-in-top {
+  animation: bounce-in-top 1.1s both;
+}
+
+/* roll-in-left — easeOut 0.6s. Slide + spin in from the side. */
+@keyframes roll-in-left {
+  0%   { transform: translateX(-800px) rotate(-540deg); opacity: 0; }
+  100% { transform: translateX(0) rotate(0);            opacity: 1; }
+}
+.anim-roll-in-left {
+  animation: roll-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/* puff-in-center — easeInSine 0.7s. Blur + scale-down into place (soft "focus" entrance). */
+@keyframes puff-in-center {
+  0%   { transform: scale(2);   filter: blur(4px); opacity: 0; }
+  100% { transform: scale(1);   filter: blur(0);   opacity: 1; }
+}
+.anim-puff-in-center {
+  animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+/* ============================================================
+   2. EXITS (play on dismiss / before unmount — pair with JS)
+   ============================================================ */
+
+/* scale-out-center — easeInQuad 0.5s. Mirror of scale-in. */
+@keyframes scale-out-center {
+  0%   { transform: scale(1); opacity: 1; }
+  100% { transform: scale(0); opacity: 1; }
+}
+.anim-scale-out-center {
+  animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+/* fade-out — easeOut 1s. Plain opacity exit. */
+@keyframes fade-out {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+.anim-fade-out {
+  animation: fade-out 1s ease both;
+}
+
+/* slide-out-bottom — easeInQuad 0.5s. Directional dismiss. */
+@keyframes slide-out-bottom {
+  0%   { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(1000px); opacity: 0; }
+}
+.anim-slide-out-bottom {
+  animation: slide-out-bottom 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+/* puff-out-center — easeOutQuart 1s. Blur + scale-up out (soft dismiss). */
+@keyframes puff-out-center {
+  0%   { transform: scale(1); filter: blur(0);   opacity: 1; }
+  100% { transform: scale(2); filter: blur(4px); opacity: 0; }
+}
+.anim-puff-out-center {
+  animation: puff-out-center 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
+}
+
+/* ============================================================
+   3. TEXT-FOCUS / TEXT animations (headlines, hero type)
+   ============================================================ */
+
+/* text-focus-in — easeInQuad 1s. Blur-to-sharp headline reveal. */
+@keyframes text-focus-in {
+  0%   { filter: blur(12px); opacity: 0; }
+  100% { filter: blur(0);    opacity: 1; }
+}
+.anim-text-focus-in {
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+/* focus-in-expand — letter-spacing widens + de-blur. Great for kicker/eyebrow text. */
+@keyframes focus-in-expand {
+  0%   { letter-spacing: -0.5em; filter: blur(12px); opacity: 0; }
+  100% { letter-spacing: normal; filter: blur(0);    opacity: 1; }
+}
+.anim-focus-in-expand {
+  animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* tracking-in-expand — easeOutCubic 0.7s. Letters spread out from tight + fade. */
+@keyframes tracking-in-expand {
+  0%   { letter-spacing: -0.5em; opacity: 0; }
+  40%  { opacity: 0.6; }
+  100% { letter-spacing: normal; opacity: 1; }
+}
+.anim-tracking-in-expand {
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+/* text-pop-up-top — easeOutQuad 0.5s. Type lifts up + shadow drops away (depth pop). */
+@keyframes text-pop-up-top {
+  0% {
+    transform: translateY(0);
+    transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    transform: translateY(-50px);
+    transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc,
+                 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc,
+                 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc,
+                 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+.anim-text-pop-up-top {
+  animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* ============================================================
+   4. ATTENTION (loop these: iteration-count > 1 or infinite)
+   ============================================================ */
+
+/* heartbeat — easeInOut 1.5s infinite. Pulse to draw the eye (notification dot, CTA). */
+@keyframes heartbeat {
+  from { transform: scale(1);    transform-origin: center center; animation-timing-function: ease-out; }
+  10%  { transform: scale(0.91); animation-timing-function: ease-in; }
+  17%  { transform: scale(0.98); animation-timing-function: ease-out; }
+  33%  { transform: scale(0.87); animation-timing-function: ease-in; }
+  45%  { transform: scale(1);    animation-timing-function: ease-out; }
+}
+.anim-heartbeat {
+  animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+/* pulsate-fwd — easeInOut 0.5s infinite. Gentle scale breathe. */
+@keyframes pulsate-fwd {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+.anim-pulsate-fwd {
+  animation: pulsate-fwd 0.5s ease-in-out infinite both;
+}
+
+/* ping — single ripple-out + fade (radar / "new" indicator). Pair with a static dot under it. */
+@keyframes ping {
+  0%   { transform: scale(0.2); opacity: 0.8; }
+  80%  { transform: scale(1.2); opacity: 0; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+.anim-ping {
+  animation: ping 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+}
+
+/* shake-horizontal — easeInOutQuad 0.8s. Error / invalid-input shake. */
+@keyframes shake-horizontal {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70% { transform: translateX(-10px); }
+  20%, 40%, 60% { transform: translateX(10px); }
+  80% { transform: translateX(8px); }
+  90% { transform: translateX(-8px); }
+}
+.anim-shake-horizontal {
+  animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+/* vibrate-1 — linear 0.3s. Tight jitter (alert / glitch accent). */
+@keyframes vibrate-1 {
+  0%, 100% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+}
+.anim-vibrate-1 {
+  animation: vibrate-1 0.3s linear infinite both;
+}
+
+/* jello-horizontal — ease 0.9s. Skew-wobble (button click / playful confirm). */
+@keyframes jello-horizontal {
+  0%   { transform: scale3d(1, 1, 1); }
+  30%  { transform: scale3d(1.25, 0.75, 1); }
+  40%  { transform: scale3d(0.75, 1.25, 1); }
+  50%  { transform: scale3d(1.15, 0.85, 1); }
+  65%  { transform: scale3d(0.95, 1.05, 1); }
+  75%  { transform: scale3d(1.05, 0.95, 1); }
+  100% { transform: scale3d(1, 1, 1); }
+}
+.anim-jello-horizontal {
+  animation: jello-horizontal 0.9s both;
+}
+
+/* ============================================================
+   5. BACKGROUND (long, looping, ambient — heroes & sections)
+   ============================================================ */
+
+/* kenburns-top — easeOut 5s. Slow zoom + pan for a static hero image (no JS, no video). */
+@keyframes kenburns-top {
+  0% {
+    transform: scale(1) translateY(0);
+    transform-origin: 50% 16%;
+  }
+  100% {
+    transform: scale(1.25) translateY(-15px);
+    transform-origin: top;
+  }
+}
+.anim-kenburns-top {
+  animation: kenburns-top 5s ease-out both;
+}
+
+/* bg-pan-left — ease 8s. Pans a gradient across its box (needs an oversized bg + bg-size).
+   Apply to an element whose background is a wide/repeating gradient. */
+@keyframes bg-pan-left {
+  0%   { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.anim-bg-pan-left {
+  /* example surface; swap the gradient for your palette */
+  background: linear-gradient(-225deg, #22e1ff 0%, #1d8fe1 48%, #625eb1 100%);
+  background-size: 600% 100%;
+  animation: bg-pan-left 8s ease infinite both;
+}
+
+/* color-change-2x — linear 2s infinite alternate. Cycles bg between two colors. */
+@keyframes color-change-2x {
+  0%   { background: #19dcea; }
+  100% { background: #b22cff; }
+}
+.anim-color-change-2x {
+  animation: color-change-2x 2s linear infinite alternate both;
+}

@@ -1,0 +1,447 @@
+{
+  "color": {
+    "void-black": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Void Black — Page canvas, image backgrounds, text inversion panels"
+    },
+    "carbon": {
+      "$value": "#202020",
+      "$type": "color",
+      "$description": "Carbon — Elevated surface layer, card backgrounds, modals"
+    },
+    "graphite": {
+      "$value": "#333333",
+      "$type": "color",
+      "$description": "Graphite — Hairline borders, divider rules, badge outlines, subtle surface dividers"
+    },
+    "bone": {
+      "$value": "#c0c0c0",
+      "$type": "color",
+      "$description": "Bone — Mid-neutral text, secondary metadata, icon strokes on dark"
+    },
+    "smoke": {
+      "$value": "#999999",
+      "$type": "color",
+      "$description": "Smoke — Muted helper text, de-emphasized labels, disabled state"
+    },
+    "ash": {
+      "$value": "#b3b3b3",
+      "$type": "color",
+      "$description": "Ash — Tertiary body text, captions over imagery"
+    },
+    "fog": {
+      "$value": "#cccccc",
+      "$type": "color",
+      "$description": "Fog — Quaternary text, subtle dividers on light sections"
+    },
+    "chalk": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Chalk — Primary headlines, body text, icon fills, pill button surface and text"
+    },
+    "linen": {
+      "$value": "#f5f5f0",
+      "$type": "color",
+      "$description": "Linen — Warm off-white contrast surface — inverted panels, cream text on dark, button hover fill. Sits between pure white and black as the system's only warm neutral"
+    }
+  },
+  "font": {
+    "visueltpro": {
+      "$value": "VisueltPro",
+      "$type": "fontFamily",
+      "$description": "Primary UI and body face — navigation, buttons, body copy, meta, badges, lists. Weight 300 for body creates the system's anti-emphasis: text whispers rather than asserts. Weight 500 reserved for nav and button labels where legibility at small sizes matters."
+    },
+    "bradford": {
+      "$value": "Bradford",
+      "$type": "fontFamily",
+      "$description": "Editorial display serif for hero and section headlines. Carries brand authority through typographic rarity — a serif in a sea of dark sans-serif SaaS. Single weight 500 with tight tracking at -0.025em to -0.050em compresses letterforms into sculptural blocks. Use at 58px+ only; below that the system falls back to VisueltPro."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "10px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 10px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "11px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 11px"
+    },
+    "xs-3": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "11px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-3 at 11px"
+    },
+    "xs-4": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-4 at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 13px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 13px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 13px"
+    },
+    "sm-4": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-4 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "15px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 15px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 16px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 16px"
+    },
+    "base-5": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base-5 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "20px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "xl-2": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "22px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-2 at 22px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "30px",
+        "fontWeight": 300,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 30px"
+    },
+    "3xl-2": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "32px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-2 at 32px"
+    },
+    "3xl-3": {
+      "$value": {
+        "fontFamily": "Bradford",
+        "fontSize": "32px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-3 at 32px"
+    },
+    "3xl-4": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "32px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-4 at 32px"
+    },
+    "3xl-5": {
+      "$value": {
+        "fontFamily": "Bradford",
+        "fontSize": "32px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-5 at 32px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "54px",
+        "fontWeight": 300,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 54px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "58px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 58px"
+    },
+    "5xl-3": {
+      "$value": {
+        "fontFamily": "Bradford",
+        "fontSize": "58px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-3 at 58px"
+    },
+    "5xl-4": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "115px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-4 at 115px"
+    },
+    "5xl-5": {
+      "$value": {
+        "fontFamily": "VisueltPro",
+        "fontSize": "128px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-5 at 128px"
+    },
+    "5xl-6": {
+      "$value": {
+        "fontFamily": "Bradford",
+        "fontSize": "128px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-6 at 128px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "28": {
+      "$value": "28px",
+      "$type": "dimension",
+      "$description": "Spacing 28px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "96": {
+      "$value": "96px",
+      "$type": "dimension",
+      "$description": "Spacing 96px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "lg": {
+      "$value": "10px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "full": {
+      "$value": "9999px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    }
+  },
+  "shadow": {
+    "xl": {
+      "$value": "rgba(0, 0, 0, 0.35) 0px 10px 30px 0px, rgba(255, 255, 255, 0.08) 0px 1px 0px 0px inset",
+      "$type": "shadow",
+      "$description": "Shadow elevation xl"
+    },
+    "lg": {
+      "$value": "rgba(0, 0, 0, 0.15) 0px 4px 20px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation lg"
+    }
+  },
+  "surface": {
+    "void": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Surface level 1: Base page canvas — every section defaults here"
+    },
+    "carbon": {
+      "$value": "#202020",
+      "$type": "color",
+      "$description": "Surface level 2: Raised cards, modals, image overlay scrims"
+    },
+    "graphite": {
+      "$value": "#333333",
+      "$type": "color",
+      "$description": "Surface level 3: Border-defined surfaces, badge outlines, subtle elevation via border rather than shadow"
+    },
+    "linen": {
+      "$value": "#f5f5f0",
+      "$type": "color",
+      "$description": "Surface level 4: Inverted warm panel — the system's contrast surface for callouts and inverted buttons"
+    }
+  },
+  "$extensions": {}
+}

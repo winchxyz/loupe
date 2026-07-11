@@ -1,0 +1,298 @@
+{
+  "color": {
+    "paper-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Paper White — Page canvas, card surfaces, image backgrounds — the dominant surface that lets typography and gridlines read as structure"
+    },
+    "charcoal-ink": {
+      "$value": "#292929",
+      "$type": "color",
+      "$description": "Charcoal Ink — Primary text, heading fills, hairline borders, gridlines, button text — the only working neutral, doing 90% of visual heavy lifting"
+    },
+    "carbon-black": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Carbon Black — SVG fills, input borders, deepest text emphasis — used sparingly for maximum-contrast accents only"
+    }
+  },
+  "font": {
+    "nh": {
+      "$value": "NH",
+      "$type": "fontFamily",
+      "$description": "Primary editorial typeface: body copy at 16px/18px weight 400, subheadings at 25–32px weight 300, page titles at 40–43px weight 100–300. The whisper-light 100 weight on large display sizes is the signature move — headlines feel like ghost prints, not announcements. Substitute with a neo-grotesque like Inter at matching weights."
+    },
+    "s-condensed": {
+      "$value": "S-Condensed",
+      "$type": "fontFamily",
+      "$description": "Condensed workhorse for meta labels, navigation, button text, list markers, input fields, and the vertical sidebar text. Aggressive 0.1–0.2em tracking on small sizes creates the all-caps 'label-tag' voice that contrasts NH's editorial body. Substitute with a condensed grotesque like Barlow Condensed."
+    },
+    "ev": {
+      "$value": "EV",
+      "$type": "fontFamily",
+      "$description": "Ultra-thin display face for single hero moments — razor-stroke weight paired with -0.05em tracking creates a fragile, almost-typographic-as-art effect. Used once per page maximum. Substitute with a hairline display like Migra Italic Hairline or GT Sectra Hairline."
+    },
+    "s-works": {
+      "$value": "S-Works",
+      "$type": "fontFamily",
+      "$description": "Heavier companion to EV for display moments that need more presence. The 350 weight is a deliberate 'almost bold' — heavier than NH's 300 but lighter than conventional 600/700. Substitute with a workhorse display like NB Architekt."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "S-Condensed",
+        "fontSize": "12px",
+        "fontWeight": 300,
+        "lineHeight": 1.34
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "S-Condensed",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.34
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "S-Condensed",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "S-Condensed",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.34
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 14px"
+    },
+    "sm-4": {
+      "$value": {
+        "fontFamily": "S-Condensed",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-4 at 14px"
+    },
+    "sm-5": {
+      "$value": {
+        "fontFamily": "S-Condensed",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.18
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-5 at 14px"
+    },
+    "sm-6": {
+      "$value": {
+        "fontFamily": "S-Condensed",
+        "fontSize": "14px",
+        "fontWeight": 300,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-6 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "NH",
+        "fontSize": "16px",
+        "fontWeight": 300,
+        "lineHeight": 1.34
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "NH",
+        "fontSize": "18px",
+        "fontWeight": 300,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "NH",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 18px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "NH",
+        "fontSize": "25px",
+        "fontWeight": 300,
+        "lineHeight": 1.27
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 25px"
+    },
+    "2xl-2": {
+      "$value": {
+        "fontFamily": "NH",
+        "fontSize": "25px",
+        "fontWeight": 300,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-2 at 25px"
+    },
+    "2xl-3": {
+      "$value": {
+        "fontFamily": "EV",
+        "fontSize": "28px",
+        "fontWeight": 100,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-3 at 28px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "NH",
+        "fontSize": "32px",
+        "fontWeight": 100,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 32px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "S-Condensed",
+        "fontSize": "40px",
+        "fontWeight": 300,
+        "lineHeight": 1.34
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 40px"
+    },
+    "4xl-2": {
+      "$value": {
+        "fontFamily": "NH",
+        "fontSize": "40px",
+        "fontWeight": 300,
+        "lineHeight": 1.34
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl-2 at 40px"
+    },
+    "4xl-3": {
+      "$value": {
+        "fontFamily": "S-Works",
+        "fontSize": "40px",
+        "fontWeight": 350,
+        "lineHeight": 1.34
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl-3 at 40px"
+    },
+    "4xl-4": {
+      "$value": {
+        "fontFamily": "NH",
+        "fontSize": "43px",
+        "fontWeight": 300,
+        "lineHeight": 1.34
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl-4 at 43px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "5": {
+      "$value": "5px",
+      "$type": "dimension",
+      "$description": "Spacing 5px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "23": {
+      "$value": "23px",
+      "$type": "dimension",
+      "$description": "Spacing 23px"
+    },
+    "25": {
+      "$value": "25px",
+      "$type": "dimension",
+      "$description": "Spacing 25px"
+    },
+    "43": {
+      "$value": "43px",
+      "$type": "dimension",
+      "$description": "Spacing 43px"
+    },
+    "45": {
+      "$value": "45px",
+      "$type": "dimension",
+      "$description": "Spacing 45px"
+    },
+    "50": {
+      "$value": "50px",
+      "$type": "dimension",
+      "$description": "Spacing 50px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "surface": {
+    "paper": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 0: Page canvas — the only background in the system"
+    },
+    "charcoal-block": {
+      "$value": "#292929",
+      "$type": "color",
+      "$description": "Surface level 1: Inverted surface for rare filled states (hover on buttons) — text becomes #ffffff"
+    },
+    "carbon": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Surface level 2: Deepest contrast for SVG fills and select input borders only"
+    }
+  },
+  "$extensions": {}
+}

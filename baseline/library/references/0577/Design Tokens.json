@@ -1,0 +1,283 @@
+{
+  "color": {
+    "duo-green": {
+      "$value": "#58cc02",
+      "$type": "color",
+      "$description": "Duo Green — Primary CTAs, logos, headlines, interactive highlights — the brand's key signifier of action and identity."
+    },
+    "sky-blue": {
+      "$value": "#1cb0f6",
+      "$type": "color",
+      "$description": "Sky Blue — Secondary outline buttons, inline text links — provides a clear, alternative interactive cue."
+    },
+    "duo-green-light": {
+      "$value": "#d7ffb8",
+      "$type": "color",
+      "$description": "Duo Green Light — Background tints for highlighted or active states, often paired with Duo Green."
+    },
+    "sunshine-yellow": {
+      "$value": "#ffc700",
+      "$type": "color",
+      "$description": "Sunshine Yellow — Used exclusively within illustrations for pops of warmth and energy."
+    },
+    "grape-soda": {
+      "$value": "#a570ff",
+      "$type": "color",
+      "$description": "Grape Soda — Used exclusively within illustrations as a cool, playful accent."
+    },
+    "bubblegum-pink": {
+      "$value": "#cc348d",
+      "$type": "color",
+      "$description": "Bubblegum Pink — Used exclusively within illustrations for vibrant, friendly details."
+    },
+    "snow-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Snow White — Page backgrounds, button text, card surfaces."
+    },
+    "cloud-gray": {
+      "$value": "#e5e5e5",
+      "$type": "color",
+      "$description": "Cloud Gray — Borders for secondary buttons and dividers."
+    },
+    "silver": {
+      "$value": "#afafaf",
+      "$type": "color",
+      "$description": "Silver — Placeholder text, disabled states, secondary info text."
+    },
+    "graphite": {
+      "$value": "#777777",
+      "$type": "color",
+      "$description": "Graphite — Body copy, descriptive text."
+    },
+    "charcoal": {
+      "$value": "#4b4b4b",
+      "$type": "color",
+      "$description": "Charcoal — Subheadings, secondary headlines."
+    },
+    "almost-black": {
+      "$value": "#3c3c3c",
+      "$type": "color",
+      "$description": "Almost Black — Primary body and UI text."
+    }
+  },
+  "font": {
+    "feather": {
+      "$value": "feather",
+      "$type": "fontFamily",
+      "$description": "Used exclusively for large, impactful headlines (H1, H2). Its extremely rounded, heavy, and slightly condensed character gives the brand its signature playful and confident voice."
+    },
+    "din-round": {
+      "$value": "din-round",
+      "$type": "fontFamily",
+      "$description": "The workhorse font for all UI text, body copy, and buttons. The noticeably wide letter-spacing (`0.053em`) is a key trait, creating a very open and readable texture. Weight 700 is used for buttons and emphasized text."
+    }
+  },
+  "typography": {
+    "sm": {
+      "$value": {
+        "fontFamily": "din-round",
+        "fontSize": "13px",
+        "fontWeight": 700,
+        "lineHeight": 1.23
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 13px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "din-round",
+        "fontSize": "14px",
+        "fontWeight": 700,
+        "lineHeight": 1.21
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "din-round",
+        "fontSize": "15px",
+        "fontWeight": 700,
+        "lineHeight": 1.15
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 15px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "din-round",
+        "fontSize": "15px",
+        "fontWeight": 700,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 15px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "din-round",
+        "fontSize": "15px",
+        "fontWeight": 700,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 15px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "din-round",
+        "fontSize": "15px",
+        "fontWeight": 700,
+        "lineHeight": 1.47
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 15px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "din-round",
+        "fontSize": "17px",
+        "fontWeight": 500,
+        "lineHeight": 1.18
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 17px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "din-round",
+        "fontSize": "17px",
+        "fontWeight": 500,
+        "lineHeight": 1.41
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 17px"
+    },
+    "lg-3": {
+      "$value": {
+        "fontFamily": "din-round",
+        "fontSize": "17px",
+        "fontWeight": 700,
+        "lineHeight": 1.41
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-3 at 17px"
+    },
+    "lg-4": {
+      "$value": {
+        "fontFamily": "din-round",
+        "fontSize": "17px",
+        "fontWeight": 700,
+        "lineHeight": 1.18
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-4 at 17px"
+    },
+    "lg-5": {
+      "$value": {
+        "fontFamily": "din-round",
+        "fontSize": "19px",
+        "fontWeight": 700,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-5 at 19px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "din-round",
+        "fontSize": "32px",
+        "fontWeight": 700,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 32px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "feather",
+        "fontSize": "48px",
+        "fontWeight": 700,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 48px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "feather",
+        "fontSize": "64px",
+        "fontWeight": 700,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 64px"
+    }
+  },
+  "spacing": {
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Spacing 48px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "96": {
+      "$value": "96px",
+      "$type": "dimension",
+      "$description": "Spacing 96px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "xl": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Border radius xl"
+    }
+  },
+  "$extensions": {}
+}

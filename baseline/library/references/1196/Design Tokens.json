@@ -1,0 +1,365 @@
+{
+  "color": {
+    "canvas-mist": {
+      "$value": "#e5e7eb",
+      "$type": "color",
+      "$description": "Canvas Mist — Page background, section canvases, hairline dividers and UI borders — the quiet ground on which all display type rests"
+    },
+    "pure-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Pure White — Card surfaces, navigation pill background, elevated panels, button and nav text"
+    },
+    "surface-mist": {
+      "$value": "#f3f3f3",
+      "$type": "color",
+      "$description": "Surface Mist — Subtle secondary surfaces, button hover washes, low-emphasis panels one step off the canvas"
+    },
+    "ink-black": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Ink Black — Primary headings, body text, and icon fills on light surfaces. Do not promote it to the primary CTA color"
+    },
+    "steel-gray": {
+      "$value": "#979797",
+      "$type": "color",
+      "$description": "Steel Gray — Secondary body text, captions, muted link text, placeholder fills — the quietest readable neutral"
+    },
+    "graphite": {
+      "$value": "#444444",
+      "$type": "color",
+      "$description": "Graphite — Navigation text at rest, secondary borders, subdued button outlines"
+    },
+    "mint-pulse": {
+      "$value": "#d1ffca",
+      "$type": "color",
+      "$description": "Mint Pulse — Sole highlight wash behind emphasized inline links or selected tags — a single soft chromatic moment against the monochrome field"
+    },
+    "electric-yellow": {
+      "$value": "#fff100",
+      "$type": "color",
+      "$description": "Electric Yellow — Inline text emphasis, marker highlights, and the dominant hue inside the 3D hero illustration — the loudest voice in the system, reserved for moments that must stop the eye"
+    }
+  },
+  "font": {
+    "suisseintl": {
+      "$value": "SuisseIntl",
+      "$type": "fontFamily",
+      "$description": "Primary UI and body face — nav links, buttons, body copy, subheadings. Medium weight (450) acts as the system's quiet semibold for buttons and small headings without introducing a heavy bold voice."
+    },
+    "suisseintlcond": {
+      "$value": "SuisseIntlCond",
+      "$type": "fontFamily",
+      "$description": "Display headline face for hero and section statements. The 0.90 line-height and 700 condensed weight stack letters into monumental blocks; 130px is reserved for the hero, 80px for second-tier section openers. The signature choice — every other system reaches for a regular-width display weight; this one crams vertical density into headline space."
+    },
+    "suisseintlmono": {
+      "$value": "SuisseIntlMono",
+      "$type": "fontFamily",
+      "$description": "Mono micro-voice for tags, category labels, small button text, and inline markers. 12px is the only size — it functions as a typographic system signature, not a body alternative."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "SuisseIntlMono",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.6
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 12px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "SuisseIntlMono",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.6
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 12px"
+    },
+    "xs-3": {
+      "$value": {
+        "fontFamily": "SuisseIntlMono",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-3 at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "SuisseIntl",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "SuisseIntl",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "SuisseIntl",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.14
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 14px"
+    },
+    "sm-4": {
+      "$value": {
+        "fontFamily": "SuisseIntl",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-4 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "SuisseIntl",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "SuisseIntl",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "SuisseIntl",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 16px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "SuisseIntl",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "SuisseIntl",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "SuisseIntl",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "SuisseIntl",
+        "fontSize": "28px",
+        "fontWeight": 500,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 28px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "SuisseIntl",
+        "fontSize": "40px",
+        "fontWeight": 450,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 40px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "SuisseIntlCond",
+        "fontSize": "48px",
+        "fontWeight": 700,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 48px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "SuisseIntlCond",
+        "fontSize": "64px",
+        "fontWeight": 700,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 64px"
+    },
+    "5xl-3": {
+      "$value": {
+        "fontFamily": "SuisseIntlCond",
+        "fontSize": "80px",
+        "fontWeight": 700,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-3 at 80px"
+    },
+    "5xl-4": {
+      "$value": {
+        "fontFamily": "SuisseIntlCond",
+        "fontSize": "130px",
+        "fontWeight": 700,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-4 at 130px"
+    }
+  },
+  "spacing": {
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "96": {
+      "$value": "96px",
+      "$type": "dimension",
+      "$description": "Spacing 96px"
+    },
+    "unit": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "md": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Border radius md"
+    },
+    "lg": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "xl": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Border radius xl"
+    },
+    "2xl": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "3xl": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    },
+    "3xl-2": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl-2"
+    },
+    "full": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    },
+    "full-2": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Border radius full-2"
+    }
+  },
+  "surface": {
+    "canvas": {
+      "$value": "#e5e7eb",
+      "$type": "color",
+      "$description": "Surface level 1: Page and section ground"
+    },
+    "card": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 2: Cards, nav pill, elevated content blocks"
+    },
+    "subtle-surface": {
+      "$value": "#f3f3f3",
+      "$type": "color",
+      "$description": "Surface level 3: Secondary wash for buttons, hovered rows, low-contrast panels"
+    },
+    "accent-wash": {
+      "$value": "#d1ffca",
+      "$type": "color",
+      "$description": "Surface level 4: Mint highlight behind emphasized links or selected tags"
+    },
+    "accent-loud": {
+      "$value": "#fff100",
+      "$type": "color",
+      "$description": "Surface level 5: Yellow marker surface for spotlight moments and illustration"
+    }
+  },
+  "$extensions": {}
+}

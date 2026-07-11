@@ -1,0 +1,402 @@
+{
+  "color": {
+    "ink": {
+      "$value": "#17191c",
+      "$type": "color",
+      "$description": "Ink — Primary text, filled CTA buttons, dark surfaces — near-black with a whisper of warmth that pairs naturally with the peach accent"
+    },
+    "pure-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Pure White — Page canvas, card surfaces, text on dark buttons"
+    },
+    "fog": {
+      "$value": "#f7f7f8",
+      "$type": "color",
+      "$description": "Fog — Secondary canvas and section backgrounds, sidebar surfaces"
+    },
+    "ash": {
+      "$value": "#4c4c4c",
+      "$type": "color",
+      "$description": "Ash — Muted body text, secondary strokes"
+    },
+    "graphite": {
+      "$value": "#777b86",
+      "$type": "color",
+      "$description": "Graphite — Tertiary text, icon strokes, inactive link borders"
+    },
+    "dove": {
+      "$value": "#a3a6af",
+      "$type": "color",
+      "$description": "Dove — Hairline borders, placeholder text, low-emphasis dividers"
+    },
+    "slate": {
+      "$value": "#8b8c8d",
+      "$type": "color",
+      "$description": "Slate — Subtle icon and link borders in low-emphasis contexts"
+    },
+    "obsidian": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Obsidian — Sharp borders, hairlines, deep strokes — used at very small weights to delineate without color"
+    },
+    "rust": {
+      "$value": "#5d2a1a",
+      "$type": "color",
+      "$description": "Rust — Signature warm accent — donut chart strokes, chart line accents, warm data-viz borders, decorative strokes"
+    },
+    "apricot-wash": {
+      "$value": "#fbe1d1",
+      "$type": "color",
+      "$description": "Apricot Wash — Soft warm card background for warm-toned data widgets, hero glow tint"
+    },
+    "sky-wash": {
+      "$value": "#d3e3fc",
+      "$type": "color",
+      "$description": "Sky Wash — Soft cool card background for cool-toned data widgets and chat surfaces"
+    }
+  },
+  "font": {
+    "signifier": {
+      "$value": "Signifier",
+      "$type": "fontFamily",
+      "$description": "Display serif used exclusively for hero and section headlines — the only place the brand 'raises its voice'. Its editorial weight against Sohne's utility is the system's most distinctive typographic move"
+    },
+    "sohne": {
+      "$value": "Sohne",
+      "$type": "fontFamily",
+      "$description": "Body and UI workhorse — navigation, buttons, table cells, form labels, captions. The unusual 430/450/480 micro-weights create a finely graduated hierarchy across data-dense screens without changing font families"
+    }
+  },
+  "typography": {
+    "sm": {
+      "$value": {
+        "fontFamily": "Sohne",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Sohne",
+        "fontSize": "15px",
+        "fontWeight": 430,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 15px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "Sohne",
+        "fontSize": "15px",
+        "fontWeight": 430,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 15px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "Sohne",
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 15px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "Sohne",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 16px"
+    },
+    "base-5": {
+      "$value": {
+        "fontFamily": "Sohne",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.38
+      },
+      "$type": "typography",
+      "$description": "Typography step base-5 at 16px"
+    },
+    "base-6": {
+      "$value": {
+        "fontFamily": "Sohne",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.38
+      },
+      "$type": "typography",
+      "$description": "Typography step base-6 at 16px"
+    },
+    "base-7": {
+      "$value": {
+        "fontFamily": "Sohne",
+        "fontSize": "16px",
+        "fontWeight": 430,
+        "lineHeight": 1.31
+      },
+      "$type": "typography",
+      "$description": "Typography step base-7 at 16px"
+    },
+    "base-8": {
+      "$value": {
+        "fontFamily": "Sohne",
+        "fontSize": "16px",
+        "fontWeight": 480,
+        "lineHeight": 1.31
+      },
+      "$type": "typography",
+      "$description": "Typography step base-8 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "Sohne",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 17px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "Sohne",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "lineHeight": 1.35
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 17px"
+    },
+    "lg-3": {
+      "$value": {
+        "fontFamily": "Sohne",
+        "fontSize": "18px",
+        "fontWeight": 430,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-3 at 18px"
+    },
+    "lg-4": {
+      "$value": {
+        "fontFamily": "Sohne",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-4 at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "Sohne",
+        "fontSize": "22px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 22px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "Sohne",
+        "fontSize": "26px",
+        "fontWeight": 450,
+        "lineHeight": 1.18
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 26px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "Signifier",
+        "fontSize": "44px",
+        "fontWeight": 400,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 44px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "Signifier",
+        "fontSize": "64px",
+        "fontWeight": 400,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 64px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "Signifier",
+        "fontSize": "90px",
+        "fontWeight": 400,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 90px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "28": {
+      "$value": "28px",
+      "$type": "dimension",
+      "$description": "Spacing 28px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "96": {
+      "$value": "96px",
+      "$type": "dimension",
+      "$description": "Spacing 96px"
+    },
+    "124": {
+      "$value": "124px",
+      "$type": "dimension",
+      "$description": "Spacing 124px"
+    },
+    "128": {
+      "$value": "128px",
+      "$type": "dimension",
+      "$description": "Spacing 128px"
+    },
+    "160": {
+      "$value": "160px",
+      "$type": "dimension",
+      "$description": "Spacing 160px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "sm": {
+      "$value": "0.01px",
+      "$type": "dimension",
+      "$description": "Border radius sm"
+    },
+    "xl": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Border radius xl"
+    },
+    "2xl": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "2xl-2": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl-2"
+    },
+    "3xl": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    }
+  },
+  "shadow": {
+    "subtle": {
+      "$value": "rgba(4, 23, 43, 0.05) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle"
+    }
+  },
+  "surface": {
+    "canvas": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 1: Page background, hero backdrop"
+    },
+    "fog": {
+      "$value": "#f7f7f8",
+      "$type": "color",
+      "$description": "Surface level 2: Section backgrounds, sidebar canvas, product shell"
+    },
+    "card": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 3: Elevated content cards with 24px radius"
+    },
+    "warm-tint": {
+      "$value": "#fbe1d1",
+      "$type": "color",
+      "$description": "Surface level 4: Data visualization cards with warm-toned charts"
+    },
+    "cool-tint": {
+      "$value": "#d3e3fc",
+      "$type": "color",
+      "$description": "Surface level 5: Data visualization cards with cool-toned charts, chat bubble surfaces"
+    },
+    "ink": {
+      "$value": "#17191c",
+      "$type": "color",
+      "$description": "Surface level 6: Dark surface for filled CTAs, high-contrast blocks"
+    }
+  },
+  "$extensions": {}
+}

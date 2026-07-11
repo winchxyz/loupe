@@ -1,0 +1,76 @@
+:root {
+  /* Colors */
+  --color-cream-paper: #fff5ee;
+  --color-ink-black: #0f161e;
+  --color-pure-white: #ffffff;
+  --color-graphite: #333942;
+  --color-forest-teal: #004038;
+  --color-deep-moss: #00544c;
+  --color-mint-glow: #7edcaf;
+  --gradient-mint-glow: linear-gradient(90deg, rgb(0, 245, 220), rgb(213, 255, 77) 48.5%, rgb(183, 115, 255));
+  --color-lime-spark: #d5ff4d;
+  --color-cyan-pulse: #00f5dc;
+  --color-apricot-wash: #fde8ce;
+  --color-peach-tile: #ffdcbf;
+  --color-sky-tile: #bee9f4;
+
+  /* Typography — Font Families */
+  --font-proxima-nova: 'Proxima Nova', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-source-serif-pro: 'Source Serif Pro', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  /* Typography — Scale */
+  --text-caption: 16px;
+  --leading-caption: 1.5;
+  --text-body-sm: 18px;
+  --leading-body-sm: 1.56;
+  --text-body: 20px;
+  --leading-body: 1.5;
+  --text-subheading: 24px;
+  --leading-subheading: 1.38;
+  --text-heading-sm: 32px;
+  --leading-heading-sm: 1.25;
+  --text-heading: 56px;
+  --leading-heading: 1.14;
+  --text-display: 72px;
+  --leading-display: 1.13;
+
+  /* Typography — Weights */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-unit: 8px;
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-64: 64px;
+  --spacing-88: 88px;
+  --spacing-104: 104px;
+
+  /* Layout */
+  --page-max-width: 1200px;
+  --section-gap: 64px;
+  --card-padding: 32px;
+  --element-gap: 8px;
+
+  /* Border Radius */
+  --radius-lg: 8px;
+  --radius-2xl: 16px;
+  --radius-3xl: 25px;
+
+  /* Named Radii */
+  --radius-nav: 8px;
+  --radius-cards: 16px;
+  --radius-badges: 25px;
+  --radius-images: 16px;
+  --radius-buttons: 16px;
+
+  /* Surfaces */
+  --surface-canvas: #fff5ee;
+  --surface-card-surface: #ffffff;
+  --surface-pastel-card: #fde8ce;
+  --surface-pastel-variant: #bee9f4;
+  --surface-gradient-atmosphere: #7edcaf;
+}

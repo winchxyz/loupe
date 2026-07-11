@@ -1,0 +1,275 @@
+{
+  "color": {
+    "bone-white": {
+      "$value": "#fffdf9",
+      "$type": "color",
+      "$description": "Bone White — Primary text, headlines, nav links, all foreground typography. The warm off-white (not pure white) is the single most-used color in the system and gives the dark canvas a paper-print feel rather than a screen-glow feel"
+    },
+    "slate-veil": {
+      "$value": "#495764",
+      "$type": "color",
+      "$description": "Slate Veil — Dominant page background and the base canvas. This desaturated dark blue-slate is the entire stage — every section sits on it directly with no card or panel treatment"
+    },
+    "carbon": {
+      "$value": "#101010",
+      "$type": "color",
+      "$description": "Carbon — Deeper accent within dark passages, occasional icon fills, and decorative surface variation. A step darker than Slate Veil for moments that need recess rather than flat canvas"
+    },
+    "obsidian": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Obsidian — Pure black used sparingly for 3D-rendered glass prism fills and icon glyphs. Anchors decorative elements against the Slate Veil canvas"
+    },
+    "graphite": {
+      "$value": "#403f3f",
+      "$type": "color",
+      "$description": "Graphite — Rare border and divider color for very subtle structural lines. Not used for text or backgrounds"
+    },
+    "gunmetal-blue": {
+      "$value": "#6f879c",
+      "$type": "color",
+      "$description": "Gunmetal Blue — The only chromatic accent in the system — appears as outlined button borders, hairline icon strokes, and selected/active states. Cool blue-gray gives interactivity a quiet presence without breaking the monochromatic mood"
+    }
+  },
+  "font": {
+    "neue-montreal": {
+      "$value": "Neue Montreal",
+      "$type": "fontFamily",
+      "$description": "Sole typeface across all UI and editorial text. Used at weight 400 for body and nav, weight 700 reserved for emphasis words inside body copy and the rare bolded phrase. The 105–136px display sizes are the signature — nearly line-height 1.0 with -0.02em tracking makes the headlines feel like they are pressed against the canvas, not floating above it."
+    }
+  },
+  "typography": {
+    "sm": {
+      "$value": {
+        "fontFamily": "Neue Montreal",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Neue Montreal",
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 15px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "Neue Montreal",
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 15px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "Neue Montreal",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 17px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "Neue Montreal",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 18px"
+    },
+    "lg-3": {
+      "$value": {
+        "fontFamily": "Neue Montreal",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.17
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-3 at 18px"
+    },
+    "lg-4": {
+      "$value": {
+        "fontFamily": "Neue Montreal",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-4 at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "Neue Montreal",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "xl-2": {
+      "$value": {
+        "fontFamily": "Neue Montreal",
+        "fontSize": "21px",
+        "fontWeight": 400,
+        "lineHeight": 1.24
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-2 at 21px"
+    },
+    "xl-3": {
+      "$value": {
+        "fontFamily": "Neue Montreal",
+        "fontSize": "22px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-3 at 22px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "Neue Montreal",
+        "fontSize": "32px",
+        "fontWeight": 400,
+        "lineHeight": 1.01
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 32px"
+    },
+    "3xl-2": {
+      "$value": {
+        "fontFamily": "Neue Montreal",
+        "fontSize": "33px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-2 at 33px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "Neue Montreal",
+        "fontSize": "36px",
+        "fontWeight": 700,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 36px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "Neue Montreal",
+        "fontSize": "56px",
+        "fontWeight": 400,
+        "lineHeight": 1.13
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 56px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "Neue Montreal",
+        "fontSize": "105px",
+        "fontWeight": 400,
+        "lineHeight": 1.01
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 105px"
+    },
+    "5xl-3": {
+      "$value": {
+        "fontFamily": "Neue Montreal",
+        "fontSize": "136px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-3 at 136px"
+    }
+  },
+  "spacing": {
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "56": {
+      "$value": "56px",
+      "$type": "dimension",
+      "$description": "Spacing 56px"
+    },
+    "60": {
+      "$value": "60px",
+      "$type": "dimension",
+      "$description": "Spacing 60px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "72": {
+      "$value": "72px",
+      "$type": "dimension",
+      "$description": "Spacing 72px"
+    },
+    "108": {
+      "$value": "108px",
+      "$type": "dimension",
+      "$description": "Spacing 108px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "md": {
+      "$value": "5px",
+      "$type": "dimension",
+      "$description": "Border radius md"
+    },
+    "xl": {
+      "$value": "15px",
+      "$type": "dimension",
+      "$description": "Border radius xl"
+    }
+  },
+  "surface": {
+    "slate-veil-canvas": {
+      "$value": "#495764",
+      "$type": "color",
+      "$description": "Surface level 1: Page background for every section. Full-bleed, no card treatment."
+    },
+    "carbon-recess": {
+      "$value": "#101010",
+      "$type": "color",
+      "$description": "Surface level 2: Optional deeper surface for inset blocks, darker text blocks, or decorative gradients — used rarely to add depth variation."
+    }
+  },
+  "$extensions": {}
+}

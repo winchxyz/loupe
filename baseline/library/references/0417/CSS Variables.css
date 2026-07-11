@@ -1,0 +1,62 @@
+:root {
+  /* Colors */
+  --color-ink-black: #0d0d0d;
+  --color-paper: #f9f9f9;
+  --color-snow: #ffffff;
+  --color-smoke: #5d5d5d;
+  --color-ash: #8f8f8f;
+  --color-fog: #ececec;
+
+  /* Typography — Font Families */
+  --font-ui-sans-serif: 'ui-sans-serif', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-openai-sans: 'OpenAI Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Typography — Scale */
+  --text-caption: 14px;
+  --leading-caption: 20;
+  --text-body: 16px;
+  --leading-body: 24;
+  --text-subheading: 18px;
+  --leading-subheading: 28;
+  --tracking-subheading: -0.27px;
+  --text-heading: 24px;
+  --leading-heading: 24;
+
+  /* Typography — Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-6: 6px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-60: 60px;
+  --spacing-64: 64px;
+  --spacing-127: 127px;
+
+  /* Layout */
+  --section-gap: 60-64px;
+  --element-gap: 6-8px;
+
+  /* Border Radius */
+  --radius-lg: 10px;
+  --radius-2xl: 16px;
+  --radius-3xl: 28px;
+
+  /* Named Radii */
+  --radius-inputs: 10px;
+  --radius-buttons: 10px;
+  --radius-navitems: 10px;
+  --radius-largeelements: 28px;
+
+  /* Surfaces */
+  --surface-sidebar-rail: #f9f9f9;
+  --surface-main-stage: #ffffff;
+  --surface-input-field: #ffffff;
+  --surface-filled-control: #0d0d0d;
+}

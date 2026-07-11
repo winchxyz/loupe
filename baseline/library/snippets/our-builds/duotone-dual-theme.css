@@ -1,0 +1,70 @@
+/* source: baseline/sites/01b-prediction-aggregator-ref/styles.css · project: deZign-pro 02b/TESQ · saved: 2026-06-18 */
+/*
+  Strict-duotone dual-theme system. Two complete 3-ink palettes switched by data-theme on
+  <html> (toggle persisted in localStorage). Layout only ever reads --bg / --fg / --accent;
+  .invert flips bg<->fg full-bleed so sections read as one material flipped, not a theme
+  break. White never appears; "muted" = the same ink at lower alpha. In resort mode the
+  accent IS the ink (no second hue at all).
+*/
+
+:root {
+  --dur-s: 0.4s;
+  --dur-m: 0.6s;
+  --dur-l: 1.2s;
+  --ease: cubic-bezier(0.65, 0, 0.35, 1);
+  --font-sans: "Archivo", system-ui, sans-serif;     /* caps-only, wght 400/500/800 */
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace; /* tabular figures */
+}
+
+/* terminal: HyperOdds dark + Hyperliquid mint */
+[data-theme="terminal"] {
+  --c-paper: #07090b;
+  --c-ink:   #e6edeb;
+  --c-accent:#4fe3c1;
+  --c-down:  #e36a6a;
+}
+/* resort: sondaven sand/umbra duotone — accent and down ARE the ink */
+[data-theme="resort"] {
+  --c-paper: #a89474;
+  --c-ink:   #2c2824;
+  --c-accent:#2c2824;
+  --c-down:  #2c2824;
+}
+
+/* layout reads these three; default section = paper bg, ink fg */
+* , section { --bg: var(--c-paper); --fg: var(--c-ink); }
+body { --accent: var(--c-accent); }
+
+/* full-bleed inversion: ink-on-paper -> paper-on-ink */
+.invert { --bg: var(--c-ink); --fg: var(--c-paper); }
+[data-theme="resort"]  .invert { --accent: var(--c-paper); }
+/* terminal inverts to mint-as-background (never white), with a dark ink for contrast */
+[data-theme="terminal"] .invert {
+  --bg: var(--c-accent);
+  --fg: var(--c-paper);
+  --accent: #06231c;
+}
+
+body, section {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  /* animate the swap so a theme toggle reads as the material flipping */
+  transition: background-color var(--dur-m) var(--ease), color var(--dur-m) var(--ease);
+}
+.mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+
+/* caps-only, two-extreme type */
+.kicker  { font-size: 0.7rem; letter-spacing: 0.14em; line-height: 1.6; text-transform: uppercase; }
+.display { letter-spacing: -0.04em; line-height: 0.96; text-transform: uppercase; }
+/* min(10vw,20vh) keeps display legible on wide/short Full-HD viewports */
+.manifesto .display, .cta .display { font-size: clamp(3rem, min(10vw, 20vh), 13rem); }
+
+/* radius system: pills for chrome, circles for buttons/ornaments, 20px for framed insets */
+.corner-link { border-radius: 999px; }
+.cta-go      { border-radius: 50%; }
+.frame       { border-radius: 20px; }
+
+/* scene-cover: scenes are sticky; the next block rolls over them while GSAP scrubs
+   scale 1->1.1 + brightness 1->0.7 (see app.js). */
+.scene { position: sticky; top: 0; }

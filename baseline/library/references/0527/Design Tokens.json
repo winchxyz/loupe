@@ -1,0 +1,407 @@
+{
+  "color": {
+    "phosphor-mint": {
+      "$value": "#ddffdc",
+      "$type": "color",
+      "$description": "Phosphor Mint — Primary text on dark surfaces, body type on black — pale green reads as luminescent rather than white, reinforcing the terminal metaphor"
+    },
+    "reactor-green": {
+      "$value": "#7fee64",
+      "$type": "color",
+      "$description": "Reactor Green — Green action color for filled buttons, selected navigation states, and focused conversion moments"
+    },
+    "soft-glow": {
+      "$value": "#c8f9b6",
+      "$type": "color",
+      "$description": "Soft Glow — Accent backgrounds and highlighted text, eyebrow labels over imagery — diluted green for surfaces that need to feel alive without competing with Reactor Green"
+    },
+    "pale-mist": {
+      "$value": "#def0dd",
+      "$type": "color",
+      "$description": "Pale Mist — Inverted section background for testimonials and proof — the only light surface, a cool exhale from the dark engine room"
+    },
+    "sage-tint": {
+      "$value": "#aed2a4",
+      "$type": "color",
+      "$description": "Sage Tint — Secondary muted accent, subtle decorative strokes and dimmed green states"
+    },
+    "void": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Void — Page canvas, image backgrounds, code editor surfaces — true black, no warm cast, so the green accents read as the only light source"
+    },
+    "carbon": {
+      "$value": "#212525",
+      "$type": "color",
+      "$description": "Carbon — Elevated surface level one — nav bar, card base on dark, subtle distinction from pure black at ~15.5:1 contrast against white"
+    },
+    "moss": {
+      "$value": "#3e4a3c",
+      "$type": "color",
+      "$description": "Moss — Elevated surface level two, icon strokes on dark, button borders — green-tinted dark that keeps the surface hierarchy within the brand hue family"
+    },
+    "fern": {
+      "$value": "#485346",
+      "$type": "color",
+      "$description": "Fern — Card borders, button outlines, link underlines — the workhorse border color, green-tinted to avoid the clinical look of pure gray on black"
+    },
+    "lichen": {
+      "$value": "#677d64",
+      "$type": "color",
+      "$description": "Lichen — Muted body text, secondary borders — readable but recedes, used for supporting copy and metadata"
+    },
+    "slate": {
+      "$value": "#697368",
+      "$type": "color",
+      "$description": "Slate — Quiet utility borders and de-emphasized text — sits between Lichen and Stone in the neutral scale"
+    },
+    "stone": {
+      "$value": "#859085",
+      "$type": "color",
+      "$description": "Stone — Mid-gray borders, dividers between sections — achromatic enough to separate content blocks without pulling focus"
+    },
+    "bone": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Bone — Maximum-contrast text and icon fills, sparingly used where mint green would be insufficient"
+    }
+  },
+  "font": {
+    "goga": {
+      "$value": "Goga",
+      "$type": "fontFamily",
+      "$description": "Display and heading face — a custom grotesque with slightly humanist proportions and subtle character alternates. Used for hero headlines at 60-64px (line-height 1.0-1.1, whisper-tight), section headings at 40-54px, and subheadings at 20-24px. The negative letter-spacing (-0.015em at large sizes, -0.006em at medium) tightens the word image so headlines feel carved rather than set. ss01 alternates should be on to activate the custom g and other details that give Goga its identity."
+    },
+    "inter-variable": {
+      "$value": "Inter Variable",
+      "$type": "fontFamily",
+      "$description": "Operational UI and body type — nav items, button labels, form fields, body copy, code annotations. Tight tracking at small sizes (-0.026em at 12px, -0.022em at 14px) keeps dense UI text compact. The cv11 character variant should be active to apply Inter's single-story 'a' and other refinements. Uppercase eyebrow labels use 0.1em positive tracking for the spaced-out labeling convention seen in 'WHY MODAL' and 'PROGRAMMABLE INFRA'."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "Inter Variable",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": 1.38
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 12px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "Inter Variable",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 12px"
+    },
+    "xs-3": {
+      "$value": {
+        "fontFamily": "Inter Variable",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-3 at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "Inter Variable",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "Inter Variable",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Inter Variable",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "Inter Variable",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "Inter Variable",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 16px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "Inter Variable",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 16px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "Goga",
+        "fontSize": "20px",
+        "fontWeight": 500,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "xl-2": {
+      "$value": {
+        "fontFamily": "Goga",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-2 at 20px"
+    },
+    "xl-3": {
+      "$value": {
+        "fontFamily": "Goga",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-3 at 20px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "Goga",
+        "fontSize": "24px",
+        "fontWeight": 500,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 24px"
+    },
+    "2xl-2": {
+      "$value": {
+        "fontFamily": "Goga",
+        "fontSize": "24px",
+        "fontWeight": 400,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-2 at 24px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "Goga",
+        "fontSize": "40px",
+        "fontWeight": 400,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 40px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "Goga",
+        "fontSize": "54px",
+        "fontWeight": 400,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 54px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "Goga",
+        "fontSize": "60px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 60px"
+    },
+    "5xl-3": {
+      "$value": {
+        "fontFamily": "Goga",
+        "fontSize": "64px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-3 at 64px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "36": {
+      "$value": "36px",
+      "$type": "dimension",
+      "$description": "Spacing 36px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Spacing 48px"
+    },
+    "56": {
+      "$value": "56px",
+      "$type": "dimension",
+      "$description": "Spacing 56px"
+    },
+    "60": {
+      "$value": "60px",
+      "$type": "dimension",
+      "$description": "Spacing 60px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "120": {
+      "$value": "120px",
+      "$type": "dimension",
+      "$description": "Spacing 120px"
+    },
+    "128": {
+      "$value": "128px",
+      "$type": "dimension",
+      "$description": "Spacing 128px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "md": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Border radius md"
+    },
+    "lg": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "2xl": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "full": {
+      "$value": "9999px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    }
+  },
+  "shadow": {
+    "md": {
+      "$value": "rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px",
+      "$type": "shadow",
+      "$description": "Shadow elevation md"
+    }
+  },
+  "surface": {
+    "void-canvas": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Surface level 0: Page background — true black anchors all content and makes green accents appear to emit light"
+    },
+    "carbon-surface": {
+      "$value": "#212525",
+      "$type": "color",
+      "$description": "Surface level 1: Nav bar, sticky headers, first elevation step from canvas"
+    },
+    "moss-surface": {
+      "$value": "#3e4a3c",
+      "$type": "color",
+      "$description": "Surface level 2: Card backgrounds on dark, icon containers, code block surfaces"
+    },
+    "fern-surface": {
+      "$value": "#485346",
+      "$type": "color",
+      "$description": "Surface level 3: Highlighted card states, active containers, secondary button backgrounds"
+    },
+    "pale-mist-surface": {
+      "$value": "#def0dd",
+      "$type": "color",
+      "$description": "Surface level 4: Inverted light section for testimonials — the only departure from the dark surface stack"
+    }
+  },
+  "$extensions": {}
+}

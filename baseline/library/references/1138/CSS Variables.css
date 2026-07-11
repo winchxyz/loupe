@@ -1,0 +1,50 @@
+:root {
+  /* Colors */
+  --color-void: #000000;
+  --color-carbon: #1d1d1d;
+  --color-graphite: #383838;
+  --color-ash: #888888;
+  --color-bone: #ffffff;
+
+  /* Typography — Font Families */
+  --font-soehne-mono: 'Soehne Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Typography — Scale */
+  --text-caption: 16px;
+  --leading-caption: 1;
+  --tracking-caption: 0.24px;
+
+  /* Typography — Weights */
+  --font-weight-regular: 400;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-5: 5px;
+  --spacing-6: 6px;
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-19: 19px;
+  --spacing-26: 26px;
+  --spacing-27: 27px;
+  --spacing-32: 32px;
+
+  /* Layout */
+  --page-max-width: 1280px;
+  --section-gap: 32px;
+  --card-padding: 19-27px;
+  --element-gap: 16px;
+
+  /* Border Radius */
+  --radius-lg: 10px;
+
+  /* Named Radii */
+  --radius-tabs: 10px;
+  --radius-cards: 10px;
+  --radius-inputs: 10px;
+  --radius-buttons: 10px;
+
+  /* Surfaces */
+  --surface-void: #000000;
+  --surface-carbon: #1d1d1d;
+  --surface-image-surface: #ffffff;
+}

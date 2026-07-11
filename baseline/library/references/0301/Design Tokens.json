@@ -1,0 +1,247 @@
+{
+  "color": {
+    "void-black": {
+      "$value": "#0c0c0b",
+      "$type": "color",
+      "$description": "Void Black — Page canvas, input fills, icon backgrounds — the base layer everything floats on"
+    },
+    "graphite": {
+      "$value": "#1f2228",
+      "$type": "color",
+      "$description": "Graphite — Hairline borders across all containers, cards, nav separators, and input outlines — defines structural edges without contrast"
+    },
+    "charcoal": {
+      "$value": "#141619",
+      "$type": "color",
+      "$description": "Charcoal — Secondary border tone for deeper structural edges"
+    },
+    "smoke": {
+      "$value": "#474747",
+      "$type": "color",
+      "$description": "Smoke — Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color"
+    },
+    "ash": {
+      "$value": "#7d8187",
+      "$type": "color",
+      "$description": "Ash — Muted helper text, badge labels, secondary nav links — the voice that whispers rather than speaks"
+    },
+    "bone": {
+      "$value": "#71717a",
+      "$type": "color",
+      "$description": "Bone — Input focus ring shadow at 0px 0px 0px 2px — the only ambient glow in the system"
+    },
+    "stellar-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Stellar White — Primary text, icon strokes, ghost-pill borders, and the hero wordmark — everything that should feel like emitted light"
+    },
+    "signal-blue": {
+      "$value": "#2563eb",
+      "$type": "color",
+      "$description": "Signal Blue — Input focus border — the single chromatic accent, used exclusively to signal active state in text fields"
+    },
+    "horizon-amber": {
+      "$value": "#ff6308",
+      "$type": "color",
+      "$description": "Horizon Amber — Footer atmospheric wash — warm light bleeding from the bottom edge, transitioning through to cool blue at the horizon line"
+    }
+  },
+  "font": {
+    "universalsans": {
+      "$value": "universalSans",
+      "$type": "fontFamily",
+      "$description": "All display, heading, and body text — used universally across hero wordmark, section titles, card titles, descriptions, and navigation"
+    },
+    "geistmono": {
+      "$value": "GeistMono",
+      "$type": "fontFamily",
+      "$description": "Eyebrow labels in [ BRACKETS ], nav links, badge text, button micro-labels — tracked out at +0.1em to function as technical metadata"
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "GeistMono",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 2
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 12px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "GeistMono",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.33
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "GeistMono",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.43
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "universalSans",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "universalSans",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "xl-2": {
+      "$value": {
+        "fontFamily": "universalSans",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-2 at 20px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "universalSans",
+        "fontSize": "36px",
+        "fontWeight": 400,
+        "lineHeight": 1.11
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 36px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "universalSans",
+        "fontSize": "48px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 48px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "universalSans",
+        "fontSize": "80px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 80px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Spacing 48px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "128": {
+      "$value": "128px",
+      "$type": "dimension",
+      "$description": "Spacing 128px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "3xl": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    },
+    "full": {
+      "$value": "9999px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    }
+  },
+  "shadow": {
+    "subtle": {
+      "$value": "rgb(113, 113, 122) 0px 0px 0px 2px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle"
+    }
+  },
+  "surface": {
+    "void": {
+      "$value": "#0c0c0b",
+      "$type": "color",
+      "$description": "Surface level 0: Page canvas — the space everything exists in"
+    },
+    "input-surface": {
+      "$value": "#0c0c0b",
+      "$type": "color",
+      "$description": "Surface level 1: Text field fills, same as canvas — fields are defined by border + focus ring, not fill contrast"
+    }
+  },
+  "$extensions": {}
+}

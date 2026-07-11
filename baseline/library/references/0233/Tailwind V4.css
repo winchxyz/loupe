@@ -1,0 +1,81 @@
+@theme {
+  /* Colors */
+  --color-sky-wash: #ebf5ff;
+  --color-paper-white: #fafdff;
+  --color-cloud-veil: #f6f7f8;
+  --color-pure-white: #ffffff;
+  --color-midnight-ink: #0a0d12;
+  --color-pressed-charcoal: #181d27;
+  --color-stone: #535862;
+  --color-fog: #93979f;
+  --color-cornflower: #4fbeff;
+  --color-tangerine: #f26110;
+  --color-amethyst: #9552e0;
+  --color-mustard: #bb9915;
+  --color-signal-blue: #0099ff;
+  --color-deep-cobalt: #0069e0;
+  --color-morning-tint: #cce7ff;
+  --color-lilac-mist: #f1e6ff;
+  --color-sprout: #d3f6e3;
+  --color-buttery-gradient: #fff2be;
+  --color-lilac-gradient: #e4ccff;
+  --color-sky-gradient: #c2e9ff;
+  --color-sunset-gradient: #ffd1b8;
+  --color-brand-blue-gradient: #479dff;
+
+  /* Typography */
+  --font-aeonik: 'Aeonik', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-geist: 'Geist', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Typography — Scale */
+  --text-caption: 10px;
+  --leading-caption: 1.14;
+  --tracking-caption: -0.1px;
+  --text-body: 14px;
+  --leading-body: 1.35;
+  --tracking-body: -0.14px;
+  --text-body-lg: 16px;
+  --leading-body-lg: 1.5;
+  --tracking-body-lg: -0.16px;
+  --text-subheading: 18px;
+  --leading-subheading: 1.4;
+  --tracking-subheading: -0.18px;
+  --text-heading-sm: 20px;
+  --leading-heading-sm: 1.25;
+  --tracking-heading-sm: -0.4px;
+  --text-heading: 32px;
+  --leading-heading: 1.2;
+  --tracking-heading: -0.64px;
+  --text-heading-lg: 48px;
+  --leading-heading-lg: 1.17;
+  --tracking-heading-lg: -0.96px;
+  --text-display: 72px;
+  --leading-display: 1.11;
+  --tracking-display: -1.44px;
+
+  /* Spacing */
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-88: 88px;
+  --spacing-120: 120px;
+  --spacing-160: 160px;
+
+  /* Border Radius */
+  --radius-lg: 8px;
+  --radius-2xl: 16px;
+  --radius-3xl: 24px;
+  --radius-3xl-2: 32px;
+  --radius-3xl-3: 36px;
+  --radius-full: 90px;
+
+  /* Shadows */
+  --shadow-lg: rgba(4, 69, 144, 0.08) 0px 14px 20px 4px;
+  --shadow-subtle: rgba(10, 13, 18, 0.8) 0px 1px 2px 0px, rgb(10, 13, 18) 0px 0px 0px 1px;
+}

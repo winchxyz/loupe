@@ -1,0 +1,562 @@
+{
+  "color": {
+    "obsidian": {
+      "$value": "#09090b",
+      "$type": "color",
+      "$description": "Obsidian — Primary filled button backgrounds, display heading text on white surfaces — the system's anchor dark, nearly true black"
+    },
+    "ink": {
+      "$value": "#18181b",
+      "$type": "color",
+      "$description": "Ink — Body text, nav text, badge text on light surfaces — one shade lighter than Obsidian, used for reading-weight text"
+    },
+    "graphite": {
+      "$value": "#3f3f46",
+      "$type": "color",
+      "$description": "Graphite — Button borders, badge backgrounds (dark variant), border strokes across components — the dominant UI border tone"
+    },
+    "slate": {
+      "$value": "#52525b",
+      "$type": "color",
+      "$description": "Slate — Mid-dark card backgrounds in dark sections, subtle icon fills"
+    },
+    "steel": {
+      "$value": "#71717a",
+      "$type": "color",
+      "$description": "Steel — Muted body copy, helper text labels such as stat captions"
+    },
+    "ash": {
+      "$value": "#a1a1aa",
+      "$type": "color",
+      "$description": "Ash — Subdued heading variants, placeholder text, decorative rule strokes"
+    },
+    "pebble": {
+      "$value": "#d4d4d8",
+      "$type": "color",
+      "$description": "Pebble — Hairline dividers, inactive link backgrounds, lightest visible border on white cards"
+    },
+    "fog": {
+      "$value": "#ececee",
+      "$type": "color",
+      "$description": "Fog — Card backgrounds (mid variant), badge borders, section dividers — the second surface step above the canvas"
+    },
+    "mist": {
+      "$value": "#f4f4f5",
+      "$type": "color",
+      "$description": "Mist — Page canvas, light card backgrounds, tag/link hover surface — the dominant background tone"
+    },
+    "snow": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Snow — White card surfaces, input backgrounds, button fill for outlined variant — the brightest surface in the stack"
+    },
+    "ember": {
+      "$value": "#ff5a00",
+      "$type": "color",
+      "$description": "Ember — YC batch badge backgrounds — vivid orange signals startup-ecosystem provenance, appears only on badge-sized labels"
+    },
+    "orchid-flash": {
+      "$value": "#fe45e2",
+      "$type": "color",
+      "$description": "Orchid Flash — Decorative card wash accent — single-use vivid pink on a large card background to punctuate the portfolio grid"
+    }
+  },
+  "font": {
+    "cosmica": {
+      "$value": "Cosmica",
+      "$type": "fontFamily",
+      "$description": "The sole typeface across the entire system — every badge, button, nav link, heading, and body copy uses Cosmica. Its wide weight range means all typographic hierarchy is weight-driven rather than family-switching. At 56–64px the light-to-medium weights feel assertive without shouting; at 10–14px the medium-to-semibold weights keep small labels legible at compact density."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "10px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 10px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": 1.64
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "13px",
+        "fontWeight": 500,
+        "lineHeight": 1.25
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 13px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "13px",
+        "fontWeight": 500,
+        "lineHeight": 1.55
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 13px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "13px",
+        "fontWeight": 500,
+        "lineHeight": 1.35
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 13px"
+    },
+    "sm-4": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-4 at 13px"
+    },
+    "sm-5": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.62
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-5 at 13px"
+    },
+    "sm-6": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-6 at 14px"
+    },
+    "sm-7": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "14px",
+        "fontWeight": 300,
+        "lineHeight": 1.68
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-7 at 14px"
+    },
+    "sm-8": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "14px",
+        "fontWeight": 600,
+        "lineHeight": 1.68
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-8 at 14px"
+    },
+    "sm-9": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.56
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-9 at 14px"
+    },
+    "sm-10": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.8
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-10 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "lineHeight": 1.35
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 15px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "15px",
+        "fontWeight": 500,
+        "lineHeight": 1.35
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 15px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "lineHeight": 1.45
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 15px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "15px",
+        "fontWeight": 700,
+        "lineHeight": 1.45
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 15px"
+    },
+    "base-5": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "15px",
+        "fontWeight": 600,
+        "lineHeight": 1.45
+      },
+      "$type": "typography",
+      "$description": "Typography step base-5 at 15px"
+    },
+    "base-6": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": 1.31
+      },
+      "$type": "typography",
+      "$description": "Typography step base-6 at 16px"
+    },
+    "base-7": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-7 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.45
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "20px",
+        "fontWeight": 600,
+        "lineHeight": 1.56
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "xl-2": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "20px",
+        "fontWeight": 700,
+        "lineHeight": 1.48
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-2 at 20px"
+    },
+    "xl-3": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "20px",
+        "fontWeight": 600,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-3 at 20px"
+    },
+    "xl-4": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "20px",
+        "fontWeight": 600,
+        "lineHeight": 1.28
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-4 at 20px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "32px",
+        "fontWeight": 700,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 32px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "40px",
+        "fontWeight": 600,
+        "lineHeight": 1.28
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 40px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "56px",
+        "fontWeight": 600,
+        "lineHeight": 1.28
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 56px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "Cosmica",
+        "fontSize": "64px",
+        "fontWeight": 600,
+        "lineHeight": 1.12
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 64px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "28": {
+      "$value": "28px",
+      "$type": "dimension",
+      "$description": "Spacing 28px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "36": {
+      "$value": "36px",
+      "$type": "dimension",
+      "$description": "Spacing 36px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Spacing 48px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "68": {
+      "$value": "68px",
+      "$type": "dimension",
+      "$description": "Spacing 68px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "120": {
+      "$value": "120px",
+      "$type": "dimension",
+      "$description": "Spacing 120px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "md": {
+      "$value": "6px",
+      "$type": "dimension",
+      "$description": "Border radius md"
+    },
+    "xl": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Border radius xl"
+    },
+    "2xl": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "2xl-2": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl-2"
+    },
+    "3xl": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    },
+    "3xl-2": {
+      "$value": "28px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl-2"
+    },
+    "3xl-3": {
+      "$value": "36px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl-3"
+    },
+    "3xl-4": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl-4"
+    },
+    "full": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    },
+    "full-2": {
+      "$value": "56px",
+      "$type": "dimension",
+      "$description": "Border radius full-2"
+    },
+    "full-3": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Border radius full-3"
+    },
+    "full-4": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Border radius full-4"
+    },
+    "full-5": {
+      "$value": "1000px",
+      "$type": "dimension",
+      "$description": "Border radius full-5"
+    },
+    "full-6": {
+      "$value": "10000px",
+      "$type": "dimension",
+      "$description": "Border radius full-6"
+    }
+  },
+  "shadow": {
+    "subtle": {
+      "$value": "rgba(255, 255, 255, 0.5) 0px 0.5px 0px 0px inset, rgba(117, 123, 133, 0.4) 0px 9px 14px -5px inset, rgb(44, 46, 52) 0px 0px 0px 1.5px, rgba(0, 0, 0, 0.14) 0px 4px 6px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle"
+    },
+    "subtle-2": {
+      "$value": "rgb(228, 228, 231) 0px 1px 0px 0px inset",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle-2"
+    },
+    "subtle-3": {
+      "$value": "rgb(255, 255, 255) 0px 0.5px 0px 0px inset",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle-3"
+    },
+    "subtle-4": {
+      "$value": "rgb(255, 255, 255) 0px -0.5px 0px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle-4"
+    },
+    "subtle-5": {
+      "$value": "rgb(228, 228, 231) 0px -1px 0px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle-5"
+    },
+    "md": {
+      "$value": "rgba(0, 0, 0, 0.04) 0px 4px 12px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation md"
+    }
+  },
+  "surface": {
+    "canvas": {
+      "$value": "#f4f4f5",
+      "$type": "color",
+      "$description": "Surface level 1: Page background and default section fill"
+    },
+    "card-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 2: Primary card surface on the canvas"
+    },
+    "card-muted": {
+      "$value": "#ececee",
+      "$type": "color",
+      "$description": "Surface level 3: Secondary card or tag surface, slightly elevated feel against white"
+    },
+    "dark-surface": {
+      "$value": "#09090b",
+      "$type": "color",
+      "$description": "Surface level 4: Dark card sections, filled button backgrounds, problem-statement panels"
+    }
+  },
+  "$extensions": {}
+}

@@ -1,0 +1,387 @@
+{
+  "color": {
+    "hudson-blue": {
+      "$value": "#0081c0",
+      "$type": "color",
+      "$description": "Hudson Blue — Blue wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color"
+    },
+    "slate-cyan": {
+      "$value": "#41a1cf",
+      "$type": "color",
+      "$description": "Slate Cyan — Blue accent for outlined action borders, linked labels, and lightweight interactive emphasis. Do not promote it to the primary CTA color"
+    },
+    "graphite-night": {
+      "$value": "#282834",
+      "$type": "color",
+      "$description": "Graphite Night — Floating navigation island fill and icon strokes — the dark surface that anchors the pill-shaped nav against the light canvas"
+    },
+    "ink": {
+      "$value": "#171717",
+      "$type": "color",
+      "$description": "Ink — Primary text and dominant border color. Drives 619 occurrences — the structural backbone of the interface"
+    },
+    "carbon": {
+      "$value": "#2c2c2c",
+      "$type": "color",
+      "$description": "Carbon — Secondary heading text and dark UI elements — slightly softer than Ink for subheadings and dense text blocks"
+    },
+    "iron": {
+      "$value": "#444141",
+      "$type": "color",
+      "$description": "Iron — Button borders, icon strokes, mid-dark surface edges. Sits between Ink and Steel on the dark scale"
+    },
+    "steel": {
+      "$value": "#646464",
+      "$type": "color",
+      "$description": "Steel — Muted helper text and link borders. The first step down from primary text — used for body captions and less-prominent metadata"
+    },
+    "fog": {
+      "$value": "#b4b8b4",
+      "$type": "color",
+      "$description": "Fog — Light hairlines and faint surface fills — gentle dividers that separate content without drawing attention"
+    },
+    "ash": {
+      "$value": "#a5afaf",
+      "$type": "color",
+      "$description": "Ash — Mid-gray for subtle background fills and muted borders on inactive elements"
+    },
+    "mist": {
+      "$value": "#cfd3cf",
+      "$type": "color",
+      "$description": "Mist — Soft fill for inactive or decorative surface layers — the lightest non-white tone before borders kick in"
+    },
+    "sage": {
+      "$value": "#dee2de",
+      "$type": "color",
+      "$description": "Sage — Card and button border ring — the barely-there outline that gives surfaces their edge in lieu of shadow"
+    },
+    "cream": {
+      "$value": "#fefffc",
+      "$type": "color",
+      "$description": "Cream — Page canvas — a warm off-white that prevents the site from feeling clinical. The single most prominent background"
+    },
+    "linen": {
+      "$value": "#f9faf7",
+      "$type": "color",
+      "$description": "Linen — Secondary surface and nav fill — one step cooler than Cream, used for floating panels and alternating bands"
+    },
+    "paper": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Paper — Card surfaces, elevated panels, and the topmost layer in the surface stack. Pure white for content blocks floating above the Cream canvas"
+    },
+    "obsidian": {
+      "$value": "#1f1f29",
+      "$type": "color",
+      "$description": "Obsidian — High-contrast neutral action fill for primary buttons on light surfaces."
+    }
+  },
+  "font": {
+    "ppmondwest": {
+      "$value": "ppmondwest",
+      "$type": "fontFamily",
+      "$description": "Display headings — the editorial serif that gives the brand its literary, almost academic register. Used at 40-54px with tight -0.02em tracking. The 'liga' 0 feature setting deliberately disables ligatures, preserving the spaced, slightly geometric character of each letterform."
+    },
+    "af": {
+      "$value": "af",
+      "$type": "fontFamily",
+      "$description": "Body text, UI elements, navigation, buttons, and inline links. The functional workhorse — compact, quiet, and highly legible. Light negative tracking (-0.01 to -0.012em) tightens dense UI text without feeling stylized."
+    }
+  },
+  "typography": {
+    "sm": {
+      "$value": {
+        "fontFamily": "af",
+        "fontSize": "13px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 13px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "af",
+        "fontSize": "13px",
+        "fontWeight": 500,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 13px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "af",
+        "fontSize": "13px",
+        "fontWeight": 600,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 13px"
+    },
+    "sm-4": {
+      "$value": {
+        "fontFamily": "af",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-4 at 13px"
+    },
+    "sm-5": {
+      "$value": {
+        "fontFamily": "af",
+        "fontSize": "13px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-5 at 13px"
+    },
+    "sm-6": {
+      "$value": {
+        "fontFamily": "af",
+        "fontSize": "13px",
+        "fontWeight": 500,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-6 at 13px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "af",
+        "fontSize": "15px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 15px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "af",
+        "fontSize": "15px",
+        "fontWeight": 500,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 15px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "af",
+        "fontSize": "15px",
+        "fontWeight": 700,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 15px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "af",
+        "fontSize": "15px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 15px"
+    },
+    "base-5": {
+      "$value": {
+        "fontFamily": "af",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-5 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "af",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "ppmondwest",
+        "fontSize": "40px",
+        "fontWeight": 500,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 40px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "ppmondwest",
+        "fontSize": "48px",
+        "fontWeight": 500,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 48px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "ppmondwest",
+        "fontSize": "54px",
+        "fontWeight": 400,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 54px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$description": "Spacing 48px"
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Spacing 64px"
+    },
+    "80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Spacing 80px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "md": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Border radius md"
+    },
+    "lg": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "xl": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Border radius xl"
+    },
+    "2xl": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Border radius 2xl"
+    },
+    "3xl": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    },
+    "full": {
+      "$value": "50.496px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    }
+  },
+  "shadow": {
+    "sm": {
+      "$value": "rgba(0, 0, 0, 0.15) 0px 2px 6px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation sm"
+    },
+    "subtle": {
+      "$value": "rgb(222, 226, 222) 0px 0px 0px 1px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle"
+    },
+    "subtle-2": {
+      "$value": "rgba(0, 0, 0, 0.08) 0px 1px 1px 0px, rgba(0, 0, 0, 0.08) 0px 4px 5px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle-2"
+    },
+    "subtle-3": {
+      "$value": "rgba(0, 0, 0, 0.06) 0px 2px 2px 0px, rgba(0, 0, 0, 0.04) 0px 0px 0px 5px",
+      "$type": "shadow",
+      "$description": "Shadow elevation subtle-3"
+    },
+    "sm-2": {
+      "$value": "rgba(0, 0, 0, 0.05) 0px 1px 8px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation sm-2"
+    }
+  },
+  "surface": {
+    "cream": {
+      "$value": "#fefffc",
+      "$type": "color",
+      "$description": "Surface level 0: Page canvas — warm off-white ground for all content"
+    },
+    "linen": {
+      "$value": "#f9faf7",
+      "$type": "color",
+      "$description": "Surface level 1: Floating nav island and subtle band alternation"
+    },
+    "paper": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 2: Card surfaces and content blocks above the canvas"
+    },
+    "graphite-night": {
+      "$value": "#282834",
+      "$type": "color",
+      "$description": "Surface level 3: Dark surface for the floating navigation pill"
+    }
+  },
+  "$extensions": {}
+}

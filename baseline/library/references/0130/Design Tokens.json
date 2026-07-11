@@ -1,0 +1,402 @@
+{
+  "color": {
+    "linen": {
+      "$value": "#fafffa",
+      "$type": "color",
+      "$description": "Linen — Page canvas, card surfaces, text on dark fills — a faintly green-tinted near-white that keeps the whole site from reading as a stark #ffffff"
+    },
+    "obsidian-ink": {
+      "$value": "#121613",
+      "$type": "color",
+      "$description": "Obsidian Ink — Primary text, dominant borders, image frames, footer background — a warm-tinted near-black that pairs with Linen instead of pure black to keep the palette organic"
+    },
+    "pure-black": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Pure Black — Hard borders, icon strokes, the deepest text layer where maximum contrast against Linen is needed"
+    },
+    "bark": {
+      "$value": "#232924",
+      "$type": "color",
+      "$description": "Bark — Secondary dark surface, heading borders, subtle elevated panels — a half-step lighter than Obsidian for layered depth"
+    },
+    "sage": {
+      "$value": "#516254",
+      "$type": "color",
+      "$description": "Sage — Muted heading text, secondary borders — a desaturated green-gray that keeps muted copy tonally consistent with the Linen canvas"
+    },
+    "mist": {
+      "$value": "#c8d2c8",
+      "$type": "color",
+      "$description": "Mist — Quiet heading borders, hairline dividers — a barely-there green-gray that registers only at large display sizes"
+    },
+    "voltage": {
+      "$value": "#2bee4b",
+      "$type": "color",
+      "$description": "Voltage — Green action color for filled buttons, selected navigation states, and focused conversion moments."
+    },
+    "moss-glow": {
+      "$value": "#93b799",
+      "$type": "color",
+      "$description": "Moss Glow — Green supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+    },
+    "pollen": {
+      "$value": "#c4e4c9",
+      "$type": "color",
+      "$description": "Pollen — Gray supporting accent for decorative details and low-frequency emphasis. Do not promote it to the primary CTA color"
+    }
+  },
+  "font": {
+    "twk-lausanne": {
+      "$value": "TWK Lausanne",
+      "$type": "fontFamily",
+      "$description": "Primary UI and body family. 350 for nav and labels, 400 for body copy, 550 for the rare emphasized UI moment. 200 is reserved for one or two whisper-weight display moments. The weight 350 sits between regular and light — it is the brand's signature body voice: present but never loud."
+    },
+    "editorial-new": {
+      "$value": "Editorial New",
+      "$type": "fontFamily",
+      "$description": "Hero display headlines. Ultra-tight 0.90 leading means lines of type nearly touch — the weight 300 stays thin even at 240px, so the display whispers at billboard scale. Used for the largest statements on the page."
+    },
+    "pp-mondwest": {
+      "$value": "PP Mondwest",
+      "$type": "fontFamily",
+      "$description": "Secondary display voice for the most extreme scale moments (up to 295px). PP Mondwest's geometric, almost western-style serifs give the design a second typographic personality when the message needs a different emotional register from Editorial New."
+    },
+    "times": {
+      "$value": "Times",
+      "$type": "fontFamily",
+      "$description": "System fallback for elements that need a serif at small sizes — appears sparingly in image captions and micro-copy where Times' neutrality avoids competing with the custom display faces."
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "TWK Lausanne",
+        "fontSize": "11px",
+        "fontWeight": 550,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 11px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "TWK Lausanne",
+        "fontSize": "14px",
+        "fontWeight": 200,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 14px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "TWK Lausanne",
+        "fontSize": "14px",
+        "fontWeight": 350,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "TWK Lausanne",
+        "fontSize": "16px",
+        "fontWeight": 550,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "TWK Lausanne",
+        "fontSize": "16px",
+        "fontWeight": 200,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "TWK Lausanne",
+        "fontSize": "18px",
+        "fontWeight": 200,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "TWK Lausanne",
+        "fontSize": "18px",
+        "fontWeight": 550,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 18px"
+    },
+    "lg-3": {
+      "$value": {
+        "fontFamily": "TWK Lausanne",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-3 at 18px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "PP Mondwest",
+        "fontSize": "60px",
+        "fontWeight": 400,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 60px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "Editorial New",
+        "fontSize": "60px",
+        "fontWeight": 300,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 60px"
+    },
+    "5xl-3": {
+      "$value": {
+        "fontFamily": "TWK Lausanne",
+        "fontSize": "72px",
+        "fontWeight": 550,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-3 at 72px"
+    },
+    "5xl-4": {
+      "$value": {
+        "fontFamily": "TWK Lausanne",
+        "fontSize": "72px",
+        "fontWeight": 550,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-4 at 72px"
+    },
+    "5xl-5": {
+      "$value": {
+        "fontFamily": "TWK Lausanne",
+        "fontSize": "96px",
+        "fontWeight": 550,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-5 at 96px"
+    },
+    "5xl-6": {
+      "$value": {
+        "fontFamily": "TWK Lausanne",
+        "fontSize": "96px",
+        "fontWeight": 550,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-6 at 96px"
+    },
+    "5xl-7": {
+      "$value": {
+        "fontFamily": "Editorial New",
+        "fontSize": "140px",
+        "fontWeight": 300,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-7 at 140px"
+    },
+    "5xl-8": {
+      "$value": {
+        "fontFamily": "TWK Lausanne",
+        "fontSize": "155px",
+        "fontWeight": 550,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-8 at 155px"
+    },
+    "5xl-9": {
+      "$value": {
+        "fontFamily": "PP Mondwest",
+        "fontSize": "165px",
+        "fontWeight": 400,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-9 at 165px"
+    },
+    "5xl-10": {
+      "$value": {
+        "fontFamily": "Editorial New",
+        "fontSize": "240px",
+        "fontWeight": 300,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-10 at 240px"
+    },
+    "5xl-11": {
+      "$value": {
+        "fontFamily": "PP Mondwest",
+        "fontSize": "295px",
+        "fontWeight": 400,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-11 at 295px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "10": {
+      "$value": "10px",
+      "$type": "dimension",
+      "$description": "Spacing 10px"
+    },
+    "15": {
+      "$value": "15px",
+      "$type": "dimension",
+      "$description": "Spacing 15px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "25": {
+      "$value": "25px",
+      "$type": "dimension",
+      "$description": "Spacing 25px"
+    },
+    "30": {
+      "$value": "30px",
+      "$type": "dimension",
+      "$description": "Spacing 30px"
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Spacing 32px"
+    },
+    "35": {
+      "$value": "35px",
+      "$type": "dimension",
+      "$description": "Spacing 35px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "45": {
+      "$value": "45px",
+      "$type": "dimension",
+      "$description": "Spacing 45px"
+    },
+    "50": {
+      "$value": "50px",
+      "$type": "dimension",
+      "$description": "Spacing 50px"
+    },
+    "55": {
+      "$value": "55px",
+      "$type": "dimension",
+      "$description": "Spacing 55px"
+    },
+    "60": {
+      "$value": "60px",
+      "$type": "dimension",
+      "$description": "Spacing 60px"
+    },
+    "120": {
+      "$value": "120px",
+      "$type": "dimension",
+      "$description": "Spacing 120px"
+    },
+    "190": {
+      "$value": "190px",
+      "$type": "dimension",
+      "$description": "Spacing 190px"
+    }
+  },
+  "radius": {
+    "md": {
+      "$value": "4.9968px",
+      "$type": "dimension",
+      "$description": "Border radius md"
+    },
+    "lg": {
+      "$value": "9.9936px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "xl": {
+      "$value": "14px",
+      "$type": "dimension",
+      "$description": "Border radius xl"
+    }
+  },
+  "shadow": {
+    "lg": {
+      "$value": "rgba(16, 94, 29, 0.45) 1px 8px 20px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation lg"
+    },
+    "lg-2": {
+      "$value": "rgba(18, 146, 39, 0.25) 1px 8px 20px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation lg-2"
+    }
+  },
+  "surface": {
+    "linen-canvas": {
+      "$value": "#fafffa",
+      "$type": "color",
+      "$description": "Surface level 0: Full-bleed page background — the warm-tinted near-white that every section sits on"
+    },
+    "linen-card": {
+      "$value": "#fafffa",
+      "$type": "color",
+      "$description": "Surface level 1: Same hex as canvas — cards are defined by 14px radius and padding, not a different fill"
+    },
+    "obsidian-panel": {
+      "$value": "#121613",
+      "$type": "color",
+      "$description": "Surface level 2: Rare dark surface for footer or inverted moments, with Linen text on top"
+    }
+  },
+  "$extensions": {}
+}

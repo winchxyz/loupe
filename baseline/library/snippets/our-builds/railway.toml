@@ -1,0 +1,11 @@
+# source: baseline/sites/02b-cube-B2-slipstream/railway.toml · project: deZign-pro 02b/TESQ · saved: 2026-06-18
+# Railway service config — force the Dockerfile builder and wait for health.
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+healthcheckPath = "/"
+healthcheckTimeout = 100
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 5

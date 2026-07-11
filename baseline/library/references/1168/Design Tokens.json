@@ -1,0 +1,597 @@
+{
+  "color": {
+    "lime-spark": {
+      "$value": "#ebffb1",
+      "$type": "color",
+      "$description": "Lime Spark — Primary action background, active highlights — soft electric lime that reads as energy/switched-on without aggression"
+    },
+    "lime-bolt": {
+      "$value": "#ade900",
+      "$type": "color",
+      "$description": "Lime Bolt — Green accent for outlined action borders, linked labels, and lightweight interactive emphasis. Do not promote it to the primary CTA color"
+    },
+    "ember-outline": {
+      "$value": "#d8723c",
+      "$type": "color",
+      "$description": "Ember Outline — Outlined button border, secondary warm-orange action variant"
+    },
+    "solar-orange": {
+      "$value": "#ff7f47",
+      "$type": "color",
+      "$description": "Solar Orange — Mid-stop of section gradient bands — warm coral that anchors horizon-line transitions; Mid-page section transition — warm orange-to-coral horizon"
+    },
+    "sky-wash": {
+      "$value": "#5db3cf",
+      "$type": "color",
+      "$description": "Sky Wash — Hero gradient origin — soft blue that fades into the warm canvas"
+    },
+    "charcoal": {
+      "$value": "#0f0f0f",
+      "$type": "color",
+      "$description": "Charcoal — Darkest surface text and filled action background on inverted contexts"
+    },
+    "ink": {
+      "$value": "#232529",
+      "$type": "color",
+      "$description": "Ink — Body text, strong borders, card outlines — near-black with a touch of cool"
+    },
+    "graphite": {
+      "$value": "#696f7b",
+      "$type": "color",
+      "$description": "Graphite — Muted body text, secondary labels — blue-gray that recedes on warm canvas"
+    },
+    "slate": {
+      "$value": "#324158",
+      "$type": "color",
+      "$description": "Slate — Cool blue-gray for structural borders and dividers needing weight"
+    },
+    "stone-border": {
+      "$value": "#cfcfcf",
+      "$type": "color",
+      "$description": "Stone Border — Button and input borders — visible but not heavy"
+    },
+    "mist-border": {
+      "$value": "#b7b7b7",
+      "$type": "color",
+      "$description": "Mist Border — Lighter borders on icon containers, secondary outlines"
+    },
+    "hairline": {
+      "$value": "#e6e6e6",
+      "$type": "color",
+      "$description": "Hairline — Subtle dividers, card edges on white surfaces"
+    },
+    "canvas": {
+      "$value": "#faf9f7",
+      "$type": "color",
+      "$description": "Canvas — Page background — warm off-white that absorbs light gently"
+    },
+    "paper": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Paper — Card surfaces, input fields, elevated product surfaces — pure white sitting on the warm canvas"
+    },
+    "pure-black": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Pure Black — Headline text, icon strokes, maximum-contrast borders"
+    },
+    "daybreak-horizon": {
+      "$value": "#cfe0e0",
+      "$type": "color",
+      "$description": "Daybreak Horizon — Gradient bridge between sky blue and warm white"
+    }
+  },
+  "font": {
+    "arial": {
+      "$value": "Arial",
+      "$type": "fontFamily",
+      "$description": "System fallback for older components and auxiliary text"
+    },
+    "madefor-display": {
+      "$value": "Madefor Display",
+      "$type": "fontFamily",
+      "$description": "Mid-page headings and feature titles — same 400 weight carries the display voice down the page"
+    },
+    "wix-madefor-text-v2": {
+      "$value": "wix-madefor-text-v2",
+      "$type": "fontFamily",
+      "$description": "Body, nav, buttons, inputs — 0.1em letter-spacing is the signature tracking that gives text a slightly expanded, breathable feel"
+    },
+    "wfont343a2a4e484da66ffc4465a05a1c9ea5caf495": {
+      "$value": "wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495",
+      "$type": "fontFamily",
+      "$description": "wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495 — detected in extracted data but not described by AI"
+    },
+    "wfont343a2a5b4cd32fc19d46e1b8c1b142abb27d39": {
+      "$value": "wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39",
+      "$type": "fontFamily",
+      "$description": "wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39 — detected in extracted data but not described by AI"
+    },
+    "madefor-text": {
+      "$value": "Madefor-Text",
+      "$type": "fontFamily",
+      "$description": "Madefor-Text — detected in extracted data but not described by AI"
+    }
+  },
+  "typography": {
+    "xs": {
+      "$value": {
+        "fontFamily": "Arial",
+        "fontSize": "10px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xs at 10px"
+    },
+    "xs-2": {
+      "$value": {
+        "fontFamily": "Madefor-Display",
+        "fontSize": "10px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-2 at 10px"
+    },
+    "xs-3": {
+      "$value": {
+        "fontFamily": "wix-madefor-text-v2",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step xs-3 at 12px"
+    },
+    "sm": {
+      "$value": {
+        "fontFamily": "Arial",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step sm at 13px"
+    },
+    "sm-2": {
+      "$value": {
+        "fontFamily": "wix-madefor-text-v2",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-2 at 14px"
+    },
+    "sm-3": {
+      "$value": {
+        "fontFamily": "wix-madefor-text-v2",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-3 at 14px"
+    },
+    "sm-4": {
+      "$value": {
+        "fontFamily": "Arial",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-4 at 14px"
+    },
+    "sm-5": {
+      "$value": {
+        "fontFamily": "wix-madefor-text-v2",
+        "fontSize": "14px",
+        "fontWeight": 600,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step sm-5 at 14px"
+    },
+    "base": {
+      "$value": {
+        "fontFamily": "Madefor-Text",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step base at 16px"
+    },
+    "base-2": {
+      "$value": {
+        "fontFamily": "wix-madefor-text-v2",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.6
+      },
+      "$type": "typography",
+      "$description": "Typography step base-2 at 16px"
+    },
+    "base-3": {
+      "$value": {
+        "fontFamily": "wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step base-3 at 16px"
+    },
+    "base-4": {
+      "$value": {
+        "fontFamily": "wix-madefor-text-v2",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step base-4 at 16px"
+    },
+    "base-5": {
+      "$value": {
+        "fontFamily": "wix-madefor-text-v2",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step base-5 at 16px"
+    },
+    "base-6": {
+      "$value": {
+        "fontFamily": "wix-madefor-text-v2",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base-6 at 16px"
+    },
+    "base-7": {
+      "$value": {
+        "fontFamily": "wix-madefor-text-v2",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-7 at 16px"
+    },
+    "base-8": {
+      "$value": {
+        "fontFamily": "wix-madefor-text-v2",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "lineHeight": 1.5
+      },
+      "$type": "typography",
+      "$description": "Typography step base-8 at 16px"
+    },
+    "base-9": {
+      "$value": {
+        "fontFamily": "wix-madefor-text-v2",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step base-9 at 16px"
+    },
+    "base-10": {
+      "$value": {
+        "fontFamily": "wix-madefor-text-v2",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step base-10 at 16px"
+    },
+    "lg": {
+      "$value": {
+        "fontFamily": "wix-madefor-text-v2",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 18px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "wix-madefor-text-v2",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 18px"
+    },
+    "lg-3": {
+      "$value": {
+        "fontFamily": "wix-madefor-text-v2",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-3 at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "xl-2": {
+      "$value": {
+        "fontFamily": "wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39",
+        "fontSize": "22px",
+        "fontWeight": 400,
+        "lineHeight": 1.07
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-2 at 22px"
+    },
+    "2xl": {
+      "$value": {
+        "fontFamily": "wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39",
+        "fontSize": "24px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl at 24px"
+    },
+    "2xl-2": {
+      "$value": {
+        "fontFamily": "wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495",
+        "fontSize": "28px",
+        "fontWeight": 400,
+        "lineHeight": 1.3
+      },
+      "$type": "typography",
+      "$description": "Typography step 2xl-2 at 28px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495",
+        "fontSize": "30px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 30px"
+    },
+    "3xl-2": {
+      "$value": {
+        "fontFamily": "wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39",
+        "fontSize": "34px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-2 at 34px"
+    },
+    "3xl-3": {
+      "$value": {
+        "fontFamily": "wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39",
+        "fontSize": "34px",
+        "fontWeight": 400,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-3 at 34px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "wfont_343a2a_4e484da66ffc4465a05a1c9ea5caf495",
+        "fontSize": "42px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 42px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39",
+        "fontSize": "51px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 51px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39",
+        "fontSize": "55px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 55px"
+    },
+    "5xl-3": {
+      "$value": {
+        "fontFamily": "wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39",
+        "fontSize": "56px",
+        "fontWeight": 400,
+        "lineHeight": 1.4
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-3 at 56px"
+    },
+    "5xl-4": {
+      "$value": {
+        "fontFamily": "wfont_343a2a_5b4cd32fc19d46e1b8c1b142abb27d39",
+        "fontSize": "63px",
+        "fontWeight": 400,
+        "lineHeight": 0.9
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-4 at 63px"
+    }
+  },
+  "spacing": {
+    "4": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Spacing 4px"
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Spacing 8px"
+    },
+    "12": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Spacing 12px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$description": "Spacing 20px"
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$description": "Spacing 24px"
+    },
+    "36": {
+      "$value": "36px",
+      "$type": "dimension",
+      "$description": "Spacing 36px"
+    },
+    "40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$description": "Spacing 40px"
+    },
+    "68": {
+      "$value": "68px",
+      "$type": "dimension",
+      "$description": "Spacing 68px"
+    },
+    "76": {
+      "$value": "76px",
+      "$type": "dimension",
+      "$description": "Spacing 76px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "sm": {
+      "$value": "3px",
+      "$type": "dimension",
+      "$description": "Border radius sm"
+    },
+    "lg": {
+      "$value": "7.42183px",
+      "$type": "dimension",
+      "$description": "Border radius lg"
+    },
+    "lg-2": {
+      "$value": "9.89577px",
+      "$type": "dimension",
+      "$description": "Border radius lg-2"
+    },
+    "xl": {
+      "$value": "13.8541px",
+      "$type": "dimension",
+      "$description": "Border radius xl"
+    },
+    "3xl": {
+      "$value": "25.9766px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    },
+    "3xl-2": {
+      "$value": "30px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl-2"
+    },
+    "full": {
+      "$value": "59.375px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    },
+    "full-2": {
+      "$value": "70px",
+      "$type": "dimension",
+      "$description": "Border radius full-2"
+    },
+    "full-3": {
+      "$value": "100px",
+      "$type": "dimension",
+      "$description": "Border radius full-3"
+    },
+    "full-4": {
+      "$value": "300px",
+      "$type": "dimension",
+      "$description": "Border radius full-4"
+    },
+    "full-5": {
+      "$value": "741.445px",
+      "$type": "dimension",
+      "$description": "Border radius full-5"
+    },
+    "full-6": {
+      "$value": "999px",
+      "$type": "dimension",
+      "$description": "Border radius full-6"
+    }
+  },
+  "shadow": {
+    "md": {
+      "$value": "rgba(34, 40, 42, 0.04) 0px 3px 10px 0px",
+      "$type": "shadow",
+      "$description": "Shadow elevation md"
+    }
+  },
+  "surface": {
+    "canvas": {
+      "$value": "#faf9f7",
+      "$type": "color",
+      "$description": "Surface level 0: Warm off-white page background"
+    },
+    "paper": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 1: Card and product surface on canvas"
+    },
+    "warm-gray": {
+      "$value": "#f0eeeb",
+      "$type": "color",
+      "$description": "Surface level 2: Subtle banded sections between white content blocks"
+    },
+    "lime-highlight": {
+      "$value": "#ebffb1",
+      "$type": "color",
+      "$description": "Surface level 3: Active and CTA fills that float above paper"
+    }
+  },
+  "$extensions": {}
+}

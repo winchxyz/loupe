@@ -1,0 +1,101 @@
+/* source: baseline/sites/02b-cube-B2-slipstream/v-c.html · project: deZign-pro 02b/TESQ · saved: 2026-06-18 */
+/* Sticky-pin scroll-dwell sections + responsive degradation.
+   Mechanism: tall <section> (height > 100vh) wraps a position:sticky .pin that is
+   exactly 100vh and vertically centered. As you scroll the section's extra height,
+   the pin "dwells" centered in the viewport, then releases at the section's bottom.
+   Pure CSS — no JS scroll handler. Per-section dwell length = section height.
+   (In the live build, smooth scroll is Lenis + GSAP ScrollTrigger only for reveal
+   fades; the pin itself needs neither.) */
+
+/* ── 1. The pin (DESKTOP — natural dwell) ───────────────────────── */
+.seg { position: relative; }                 /* each scroll section */
+.pin {
+  position: sticky;
+  top: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;                   /* content vertically centered while pinned */
+  padding: 6.5rem 0 3rem;                     /* top pad clears the fixed nav; usable band ~708px */
+}
+
+/* Per-section dwell = surplus height above 100vh. 100vh = no dwell (hero). */
+#hero   { height: 100vh; }   /* no dwell — pin == viewport */
+#news   { height: 165vh; }
+#guides { height: 150vh; }
+#repos  { height: 205vh; }
+#letter { height: 205vh; }
+
+/* ── 2. NAV: hamburger collapse ≤1080 (matches the desktop cmdbar hide) ── */
+@media (max-width: 1080px) { .cmdbar { display: none; } }   /* desktop inline nav hides */
+
+.nav-toggle { display: none; }               /* hamburger button — desktop hidden */
+.mnav {                                       /* slide-down panel — desktop hidden */
+  display: none;
+  position: fixed; top: 0; left: 0; right: 0; z-index: 48;
+  flex-direction: column; gap: 0.15rem;
+  padding: 5.1rem clamp(0.9rem,4vw,1.4rem) 1.1rem;
+  background: linear-gradient(180deg, rgba(8,11,20,0.95), rgba(8,11,20,0.80));
+  backdrop-filter: blur(22px) saturate(140%);
+  -webkit-backdrop-filter: blur(22px) saturate(140%);
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 34px 64px -30px rgba(0,0,0,0.85);
+  transform: translateY(-14px); opacity: 0; pointer-events: none;
+  transition: opacity .26s var(--ease), transform .26s var(--ease);
+}
+.mnav.open { opacity: 1; transform: none; pointer-events: auto; }
+
+@media (max-width: 1080px) {
+  .nav-toggle {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 42px; height: 42px; border-radius: 12px;
+    background: var(--chrome);
+    backdrop-filter: blur(14px) saturate(140%);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    border: 1px solid var(--line); box-shadow: var(--hl);
+    color: var(--ink); cursor: pointer; pointer-events: auto;
+  }
+  .nav-toggle.on { color: var(--accent); border-color: rgba(159,208,255,0.4); }
+  .mnav { display: flex; }                    /* panel exists (still collapsed until .open) */
+}
+
+/* ── 3. PINS DISABLED ≤920 — stacked content flows without overlap ── */
+@media (max-width: 920px) {
+  #hero, #news, #guides, #repos, #letter { height: auto; }   /* drop the tall scroll-track */
+  .pin {
+    position: static;                         /* kill sticky */
+    min-height: 100vh;
+    padding: 6.4rem 0 3rem;
+    justify-content: flex-start;              /* top-align — tall stacks never clip/overlap */
+  }
+  #hero .pin { justify-content: center; }     /* hero stays centered */
+}
+
+@media (max-width: 600px) {
+  .pin { padding: 5.6rem 0 2.4rem; }          /* tighter band on phones */
+}
+
+/* ── 4. JS — hamburger open/close + close-on-link (the ONLY JS the pattern needs) ──
+(function () {
+  var t = document.getElementById("navToggle"),
+      m = document.getElementById("mnav");
+  if (!t || !m) return;
+  function close() {
+    m.classList.remove("open");
+    t.classList.remove("on");
+    t.setAttribute("aria-expanded", "false");
+  }
+  t.addEventListener("click", function () {
+    var o = m.classList.toggle("open");
+    t.classList.toggle("on", o);
+    t.setAttribute("aria-expanded", o ? "true" : "false");
+  });
+  m.querySelectorAll("a").forEach(function (a) { a.addEventListener("click", close); });
+})();
+*/
+
+/* HTML shape:
+   <button id="navToggle" class="nav-toggle" aria-label="Menu"
+           aria-expanded="false" aria-controls="mnav"> …hamburger svg… </button>
+   <nav id="mnav" class="mnav" aria-label="Sections"> <a href="#news">News</a> … </nav>
+*/

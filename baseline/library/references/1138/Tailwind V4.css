@@ -1,0 +1,29 @@
+@theme {
+  /* Colors */
+  --color-void: #000000;
+  --color-carbon: #1d1d1d;
+  --color-graphite: #383838;
+  --color-ash: #888888;
+  --color-bone: #ffffff;
+
+  /* Typography */
+  --font-soehne-mono: 'Soehne Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Typography — Scale */
+  --text-caption: 16px;
+  --leading-caption: 1;
+  --tracking-caption: 0.24px;
+
+  /* Spacing */
+  --spacing-5: 5px;
+  --spacing-6: 6px;
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-19: 19px;
+  --spacing-26: 26px;
+  --spacing-27: 27px;
+  --spacing-32: 32px;
+
+  /* Border Radius */
+  --radius-lg: 10px;
+}

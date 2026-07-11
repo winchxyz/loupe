@@ -1,0 +1,395 @@
+{
+  "color": {
+    "obsidian-ink": {
+      "$value": "#000d10",
+      "$type": "color",
+      "$description": "Obsidian Ink — Primary text, logo, borders, filled buttons, nav — reads as pure black but carries a barely-perceptible cool tint that warms the terracotta accent by proximity"
+    },
+    "copper-clay": {
+      "$value": "#bc7155",
+      "$type": "color",
+      "$description": "Copper Clay — Accent fill for featured actions and decorative shapes — a warm terracotta that is the only chromatic voice in the system, deliberately off-trend for aviation (not sky blue) to signal craft and human service over machinery"
+    },
+    "marble-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Marble White — Primary canvas, text on dark sections, ghost-button fills"
+    },
+    "dusk-blue-black": {
+      "$value": "#0f0f1c",
+      "$type": "color",
+      "$description": "Dusk Blue-Black — Dark section backgrounds — deeper than Obsidian, with a noticeable indigo cast that separates full-bleed dark bands from the near-black used for text"
+    },
+    "midnight-slate": {
+      "$value": "#151623",
+      "$type": "color",
+      "$description": "Midnight Slate — Alternate dark section background — a touch lighter and more violet than Dusk Blue-Black, used to create subtle variation between full-bleed dark bands"
+    },
+    "ash-gray": {
+      "$value": "#8e8e95",
+      "$type": "color",
+      "$description": "Ash Gray — Muted body text, secondary nav, hairline borders — a true neutral that recedes against Obsidian Ink without competing"
+    },
+    "bone": {
+      "$value": "#d5d3d4",
+      "$type": "color",
+      "$description": "Bone — Warm light gray for subtle surface differentiation and high-contrast text on dark sections"
+    }
+  },
+  "font": {
+    "helveticanowdisplay": {
+      "$value": "HelveticaNowDisplay",
+      "$type": "fontFamily",
+      "$description": "The single typeface carries every voice on the site. Weight 400 at extreme sizes (131px, 187px) for the logo and hero wordmark — a deliberate anti-convention choice that makes the wordmark feel like an architectural mark, not a banner. Weight 700 for editorial headlines at 52–63px, set tight (-0.02em) so the letterforms nearly touch. Weight 400 at 17–23px for body and navigation, with generous 1.61 leading that lets paragraphs breathe like print."
+    },
+    "sans-serif": {
+      "$value": "sans-serif",
+      "$type": "fontFamily",
+      "$description": "sans-serif — detected in extracted data but not described by AI"
+    }
+  },
+  "typography": {
+    "lg": {
+      "$value": {
+        "fontFamily": "sans-serif",
+        "fontSize": "17px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step lg at 17px"
+    },
+    "lg-2": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "17px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-2 at 17px"
+    },
+    "lg-3": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-3 at 17px"
+    },
+    "lg-4": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.61
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-4 at 18px"
+    },
+    "lg-5": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-5 at 18px"
+    },
+    "lg-6": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.09
+      },
+      "$type": "typography",
+      "$description": "Typography step lg-6 at 18px"
+    },
+    "xl": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1.2
+      },
+      "$type": "typography",
+      "$description": "Typography step xl at 20px"
+    },
+    "xl-2": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-2 at 20px"
+    },
+    "xl-3": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "20px",
+        "fontWeight": 700,
+        "lineHeight": 1.1
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-3 at 20px"
+    },
+    "xl-4": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-4 at 20px"
+    },
+    "xl-5": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "23px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-5 at 23px"
+    },
+    "xl-6": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "23px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step xl-6 at 23px"
+    },
+    "3xl": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "30px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl at 30px"
+    },
+    "3xl-2": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "30px",
+        "fontWeight": 400,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-2 at 30px"
+    },
+    "3xl-3": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "30px",
+        "fontWeight": 700,
+        "lineHeight": 1.61
+      },
+      "$type": "typography",
+      "$description": "Typography step 3xl-3 at 30px"
+    },
+    "4xl": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "37px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 4xl at 37px"
+    },
+    "5xl": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "52px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl at 52px"
+    },
+    "5xl-2": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "60px",
+        "fontWeight": 700,
+        "lineHeight": 0.91
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-2 at 60px"
+    },
+    "5xl-3": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "63px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-3 at 63px"
+    },
+    "5xl-4": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "131px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-4 at 131px"
+    },
+    "5xl-5": {
+      "$value": {
+        "fontFamily": "HelveticaNowDisplay",
+        "fontSize": "187px",
+        "fontWeight": 700,
+        "lineHeight": 0.8
+      },
+      "$type": "typography",
+      "$description": "Typography step 5xl-5 at 187px"
+    }
+  },
+  "spacing": {
+    "11": {
+      "$value": "11px",
+      "$type": "dimension",
+      "$description": "Spacing 11px"
+    },
+    "13": {
+      "$value": "13px",
+      "$type": "dimension",
+      "$description": "Spacing 13px"
+    },
+    "15": {
+      "$value": "15px",
+      "$type": "dimension",
+      "$description": "Spacing 15px"
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Spacing 16px"
+    },
+    "17": {
+      "$value": "17px",
+      "$type": "dimension",
+      "$description": "Spacing 17px"
+    },
+    "21": {
+      "$value": "21px",
+      "$type": "dimension",
+      "$description": "Spacing 21px"
+    },
+    "22": {
+      "$value": "22px",
+      "$type": "dimension",
+      "$description": "Spacing 22px"
+    },
+    "23": {
+      "$value": "23px",
+      "$type": "dimension",
+      "$description": "Spacing 23px"
+    },
+    "31": {
+      "$value": "31px",
+      "$type": "dimension",
+      "$description": "Spacing 31px"
+    },
+    "34": {
+      "$value": "34px",
+      "$type": "dimension",
+      "$description": "Spacing 34px"
+    },
+    "38": {
+      "$value": "38px",
+      "$type": "dimension",
+      "$description": "Spacing 38px"
+    },
+    "53": {
+      "$value": "53px",
+      "$type": "dimension",
+      "$description": "Spacing 53px"
+    },
+    "59": {
+      "$value": "59px",
+      "$type": "dimension",
+      "$description": "Spacing 59px"
+    },
+    "60": {
+      "$value": "60px",
+      "$type": "dimension",
+      "$description": "Spacing 60px"
+    },
+    "68": {
+      "$value": "68px",
+      "$type": "dimension",
+      "$description": "Spacing 68px"
+    },
+    "119": {
+      "$value": "119px",
+      "$type": "dimension",
+      "$description": "Spacing 119px"
+    },
+    "unit": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Base spacing unit"
+    }
+  },
+  "radius": {
+    "3xl": {
+      "$value": "45px",
+      "$type": "dimension",
+      "$description": "Border radius 3xl"
+    },
+    "full": {
+      "$value": "1000px",
+      "$type": "dimension",
+      "$description": "Border radius full"
+    }
+  },
+  "surface": {
+    "marble-white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Surface level 0: Primary canvas for editorial and content sections"
+    },
+    "bone": {
+      "$value": "#d5d3d4",
+      "$type": "color",
+      "$description": "Surface level 1: Warm neutral for subtle surface differentiation within light sections"
+    },
+    "ash-gray": {
+      "$value": "#8e8e95",
+      "$type": "color",
+      "$description": "Surface level 2: Mid-tone for borders, hairlines, and secondary text"
+    },
+    "obsidian-ink": {
+      "$value": "#000d10",
+      "$type": "color",
+      "$description": "Surface level 3: Text and primary structural elements"
+    },
+    "dusk-blue-black": {
+      "$value": "#0f0f1c",
+      "$type": "color",
+      "$description": "Surface level 4: Dark section background"
+    },
+    "midnight-slate": {
+      "$value": "#151623",
+      "$type": "color",
+      "$description": "Surface level 5: Alternate dark section background"
+    }
+  },
+  "$extensions": {}
+}
