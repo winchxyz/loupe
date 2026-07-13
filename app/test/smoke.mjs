@@ -3061,6 +3061,30 @@ const waitForAdapterHooks = async (page, timeout = 12000) => {
       add('canvas vh-lock: 100svh section stays one device screen while the artboard is inflated (viewport 3000 → section ~800)', !!vl && !vl.err && vl.ih >= 2900 && vl.h >= 780 && vl.h <= 860, JSON.stringify(vl));
     } catch (e) { add('canvas vh-lock', false, 'probe error: ' + e.message); }
 
+    // 6h6b2) vh-LOCK re-runs for RUNTIME-added CSS — the owner's "infinite canvas right after build" on a Tailwind v4
+    //        browser-CDN site (@tailwindcss/browser) whose `.min-h-screen{min-height:100vh}` is generated ASYNC, AFTER
+    //        did-finish-load; the old once-guard (window.__dzVhLock) missed it (same class as Vite HMR swapping the sheet).
+    //        The lock is now window.__dzRelock, re-run before every __rep measure + on post-load timers. Inject a late
+    //        <style> 100vh + element while the artboard is inflated → the ResizeObserver→__rep→__dzRelock loop must
+    //        neutralize it to ~one device screen (not viewport-tall). Locks the regression so it can't come back a 3rd time.
+    try {
+      const rl = await page.evaluate(async () => {
+        const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+        const wv = document.querySelector('.livehost webview'); if (!wv) return { err: 'no webview' };
+        const hasRelock = await wv.executeJavaScript('typeof window.__dzRelock==="function"');
+        // read the effective min-height the .dz-late-vh RULE resolves to in the guest CSSOM (recurse @layer, like Tailwind v4 uses)
+        const readRule = "(function(){function dig(l){for(var i=0;i<l.length;i++){var r=l[i];if(r.selectorText==='.dz-late-vh'&&r.style&&r.style.minHeight)return r.style.minHeight;if(r.cssRules){var d=dig(r.cssRules);if(d)return d}}return null}for(var k=0;k<document.styleSheets.length;k++){try{var d=dig(document.styleSheets[k].cssRules);if(d)return d}catch(_){}}return '?'})()";
+        // inject a 100vh rule AFTER load — exactly what @tailwindcss/browser / Vite HMR do post-did-finish-load (the once-guard missed these)
+        await wv.executeJavaScript("(function(){var s=document.createElement('style');s.id='dz-late-style';s.textContent='.dz-late-vh{min-height:100vh}';document.head.appendChild(s);})();0");
+        const before = await wv.executeJavaScript(readRule);          // '100vh' — the runtime-added, un-locked value
+        await wv.executeJavaScript('window.__dzRelock&&window.__dzRelock();0'); // the re-lock that now runs before every __rep measure
+        const after = await wv.executeJavaScript(readRule);           // rewritten to a px value (REF = current device screen)
+        await wv.executeJavaScript("(function(){var s=document.getElementById('dz-late-style');if(s)s.remove();})();0"); // clean up
+        return { hasRelock, before, after };
+      });
+      add('canvas vh-lock re-runs for RUNTIME-added CSS (Tailwind browser / HMR post-load 100vh → rewritten to px, not left viewport-relative)', !!rl && !rl.err && rl.hasRelock === true && rl.before === '100vh' && /^\d+px$/.test(rl.after || ''), JSON.stringify(rl));
+    } catch (e) { add('canvas vh-lock runtime re-lock', false, 'probe error: ' + e.message); }
+
     // 6h6c) LIVE-BUILD smoothness (owner: "canvas lags hard during builds") — while an agent turn runs:
     //       (a) a growth report at an inflated viewport is accepted DIRECTLY (no collapse-remeasure thrash mid-build);
     //       (b) a reload storm coalesces to leading + one trailing (3 pings → 2 reloads);

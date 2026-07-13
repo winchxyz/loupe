@@ -57,8 +57,9 @@ function classify(vars) {
 const roleLabel = (name) => name.replace(/^--/, '').replace(/[-_]/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 
 function renderColor(c) {
+  const code = /^--/.test(c.name) ? `<code>${esc(c.name)}</code>` : ''; // real token → show the --var; harvested literal → role + value only
   return `<div class="sw"><div class="sw-chip" style="background:${esc(c.val)}"></div>`
-    + `<div class="sw-meta"><b>${esc(roleLabel(c.name))}</b><code>${esc(c.name)}</code><span>${esc(c.val)}</span></div></div>`;
+    + `<div class="sw-meta"><b>${esc(roleLabel(c.name))}</b>${code}<span>${esc(c.val)}</span></div></div>`;
 }
 function renderGrad(g) {
   return `<div class="sw"><div class="sw-chip grad" style="background:${esc(g.val)}"></div>`
@@ -148,6 +149,45 @@ function extractTokens(css) {
   return { block, buckets };
 }
 
+// FALLBACK — no usable :root tokens anywhere. Many real sites (AI-built single-file pages, Tailwind/utility, or
+// literal-colour designs) never declare `:root` custom properties, so extractTokens returns null and the board used
+// to silently not appear. Harvest the actual colours + font-families the site USES (from styles.css + index.html —
+// stylesheet text and inline styles), rank by frequency, and role-guess the top few so the board still reflects the
+// real palette. Same host-guaranteed principle as smart-imagery: the frame must always appear.
+function harvestFromRaw(dir) {
+  let src = '';
+  for (const f of ['styles.css', 'index.html']) { try { src += fs.readFileSync(path.join(dir, f), 'utf8') + '\n'; } catch {} }
+  if (!src) return null;
+  const norm = (c) => { let v = String(c).trim().toLowerCase().replace(/\s+/g, ''); const s = /^#([0-9a-f])([0-9a-f])([0-9a-f])$/.exec(v); if (s) v = '#' + s[1] + s[1] + s[2] + s[2] + s[3] + s[3]; return v; };
+  const bad = /^(transparent|currentcolor|inherit|initial|unset|none)$/;
+  const colorRe = /#[0-9a-fA-F]{3,8}\b|(?:rgb|hsl)a?\([^)]*\)/g;
+  const freq = new Map(); let m;
+  while ((m = colorRe.exec(src))) { const v = norm(m[0]); if (v.length < 4 || bad.test(v)) continue; freq.set(v, (freq.get(v) || 0) + 1); }
+  let ranked = [...freq.entries()].sort((a, b) => b[1] - a[1]).map(([v]) => v).slice(0, 14);
+  if (!ranked.length) return null;
+  const hex6 = (v) => { const h = /^#([0-9a-f]{6})$/.exec(v); return h ? parseInt(h[1], 16) : null; };
+  const lum = (v) => { const n = hex6(v); if (n == null) return null; const r = (n >> 16) & 255, g = (n >> 8) & 255, b = n & 255; return (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255; };
+  const sat = (v) => { const n = hex6(v); if (n == null) return 0; const r = (n >> 16) & 255, g = (n >> 8) & 255, b = n & 255, mx = Math.max(r, g, b), mn = Math.min(r, g, b); return mx === 0 ? 0 : (mx - mn) / mx; };
+  const hexes = ranked.filter((v) => hex6(v) != null);
+  const bg = hexes.slice().sort((a, b) => lum(b) - lum(a))[0];
+  const ink = hexes.slice().sort((a, b) => lum(a) - lum(b))[0];
+  const accent = hexes.slice().sort((a, b) => sat(b) - sat(a))[0];
+  let idx = 0;
+  const colors = ranked.map((v) => {
+    let role = null;
+    if (v === bg && lum(v) > 0.6) role = 'Background';
+    else if (v === ink && lum(v) < 0.4) role = 'Text / ink';
+    else if (v === accent && sat(v) > 0.25) role = 'Accent';
+    return { name: role || ('Colour ' + (++idx)), val: v };
+  });
+  const fontRe = /font-family\s*:\s*([^;}"'\n{]+)/gi; const seen = new Set(); const fonts = []; let fm;
+  while ((fm = fontRe.exec(src)) && fonts.length < 4) {
+    const fam = fm[1].replace(/!important/i, '').trim(); const k = fam.toLowerCase();
+    if (fam && !seen.has(k) && !bad.test(k) && !/var\(/i.test(fam)) { seen.add(k); fonts.push({ name: 'Font ' + (fonts.length + 1), val: fam }); } // skip bare var() fonts — no :root here to resolve them, they'd render as a broken fallback
+  }
+  return { colors, grads: [], fonts, radii: [], spaces: [], eases: [], other: [] };
+}
+
 function generatePalette(dir, opts = {}) {
   if (!dir) return { ok: false, reason: 'no dir' };
   // R3 cold-eye (owner-found): a SINGLE-FILE site keeps all styles inline in index.html — either there is
@@ -165,7 +205,11 @@ function generatePalette(dir, opts = {}) {
       cssHref = null;
     } catch {}
   }
-  if (!tokens) return { ok: false, reason: 'no colour/type :root tokens in styles.css or inline <style>' };
+  if (!tokens) { // no :root tokens anywhere → harvest the literal colours/fonts the site actually uses
+    const buckets = harvestFromRaw(dir);
+    if (buckets) { tokens = { block: '', buckets }; cssHref = null; }
+  }
+  if (!tokens) return { ok: false, reason: 'no colours found in styles.css or index.html' };
   const { block, buckets } = tokens;
   const projName = opts.name || path.basename(dir).replace(/[-_]/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
   const html = renderBoard(buckets, cssHref, projName, block);

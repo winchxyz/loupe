@@ -11,10 +11,10 @@
 </p>
 
 <p align="center">
-  <img src="media/loupe-app.png" width="820" alt="Loupe: chat on the right, your live site on the left, with pick-to-edit and design tokens">
+  <img src="media/loupe-app.png" width="820" alt="Loupe: AI builds on the left, you direct from the chat on the right, and refine on the canvas by hand or by pointing at any element">
   <br>
-  <sub>Loupe v0.1 — AI builds and edits on the left; you direct from the chat on the right, and refine
-  on the canvas by hand or by pointing at the page. A short walkthrough GIF lands with the first tagged release.</sub>
+  <sub>Loupe v0.1 — AI builds and edits on the left; you direct from the chat on the right, and refine on the
+  canvas by hand or by pointing at any element.</sub>
 </p>
 
 <p align="center">

@@ -115,6 +115,11 @@ baseline/.gitignore
 # brand exploration/studies — the PRODUCTION brand assets ship in app/brand/
 /brand-loupe/
 
+# Loupe marketing landing site — a separate deliverable (not deployed); owner call 2026-07-14: we push only the
+# app + features, not the marketing site. Kept on disk, out of the repo.
+/website/
+/.website-v2-backup/
+
 # installer-art eyeball previews (BMPs are the real build inputs)
 app/build/*.preview.png
 app/build/_art-*.html
@@ -123,5 +128,6 @@ app/build/_art-*.html
 # the hero is being redone with a real site. Kept on disk, out of the first public push.
 media/loupe-hero.png
 media/loupe-marketing.png
+media/loupe-demo.gif
 app/scripts/make-hero.cjs
 app/scripts/make-marketing.cjs
