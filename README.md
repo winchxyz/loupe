@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://winchxyz.github.io/loupe-website/"><b>Website</b></a> ·
+  <a href="https://tryloupe.app/"><b>Website</b></a> ·
   <a href="#install">Download</a> ·
   <a href="#what-it-does">What it does</a> ·
   <a href="#build-from-source">Build from source</a> ·
