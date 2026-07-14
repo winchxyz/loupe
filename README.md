@@ -1,6 +1,6 @@
 <h1 align="center">Loupe</h1>
 
-<p align="center"><b>A desktop AI studio for designing and building real websites.</b></p>
+<p align="center"><b>A desktop AI studio for designing and building real websites — an open-source, local AI website builder for Windows.</b></p>
 
 <p align="center">
   A Windows app that pairs an AI chat with a live design canvas. Describe a site and AI agents build it,
