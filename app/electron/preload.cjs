@@ -93,6 +93,7 @@ contextBridge.exposeInMainWorld('dezign', {
   chat: (prompt, resumeId, images) => ipcRenderer.invoke('chat:send', prompt, resumeId, images),
   chatStop: () => ipcRenderer.invoke('chat:stop'), // interrupt the running turn
   openExternal: (url) => ipcRenderer.invoke('shell:open', url), // open a chat link in the OS browser
+  onUpdate: (cb) => { const h = (_e, d) => cb(d); ipcRenderer.on('update:available', h); return () => ipcRenderer.removeListener('update:available', h); }, // notify-only: main found a newer GitHub release → show an in-app banner
   popoutPreview: (url) => ipcRenderer.invoke('preview:popout', url), // open the site in its own clean window
   win: { // frameless custom-titlebar window controls
     minimize: () => ipcRenderer.invoke('win:minimize'),

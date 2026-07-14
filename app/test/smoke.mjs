@@ -3774,6 +3774,21 @@ const waitForAdapterHooks = async (page, timeout = 12000) => {
       add('step 16 export options + P7 arrows removed + F9 export menu VISIBLE (portal hit-test, not devbar-clipped)', !!fl && fl.arrowsGone && fl.jpg && fl.el && fl.jpgVis && fl.elVis, JSON.stringify(fl));
     } catch (e) { add('step 16 export + P7 removal', false, 'probe error: ' + e.message); }
 
+    // update banner (notify-only): main sends 'update:available' → the renderer shows an IN-APP banner with a link to
+    // the download (NOT a native OS dialog, NOT a silent download/install). Fire the IPC from main and assert render.
+    try {
+      await electronApp.evaluate(({ BrowserWindow }) => { const w = BrowserWindow.getAllWindows()[0]; if (w) w.webContents.send('update:available', { version: '9.9.9', current: '0.1.0' }); });
+      const ub = await page.evaluate(async () => {
+        const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+        await sleep(200);
+        const el = document.querySelector('.update-toast'); if (!el) return { shown: false };
+        const out = { shown: true, text: el.textContent.replace(/\s+/g, ' ').trim(), hasGo: !!el.querySelector('.ut-go'), hasX: !!el.querySelector('.ut-x') };
+        const x = el.querySelector('.ut-x'); if (x) { x.click(); await sleep(120); out.dismissed = !document.querySelector('.update-toast'); }
+        return out;
+      });
+      add('update banner: main "update:available" → in-app .update-toast (version + Get-the-update + dismiss), no native dialog', !!ub && ub.shown && /9\.9\.9/.test(ub.text) && ub.hasGo && ub.hasX && ub.dismissed === true, JSON.stringify(ub));
+    } catch (e) { add('update banner renders', false, 'probe error: ' + e.message); }
+
 
     add('no unexpected console / page errors', errors.length === 0, errors.slice(0, 6).join('  |  ') || 'none');
 

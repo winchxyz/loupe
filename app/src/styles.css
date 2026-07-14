@@ -784,6 +784,18 @@ select option:disabled { color: var(--muted); opacity: .75; }
   font: 500 13px/1 var(--ui); color: var(--text); background: var(--glass); border: .5px solid var(--glass-brd);
   -webkit-backdrop-filter: var(--blur); backdrop-filter: var(--blur); box-shadow: var(--glass-spec), 0 18px 50px -20px rgba(0,0,0,.6); }
 .adapt-toast b { color: var(--text); font-weight: 700; }
+/* in-app "update available" banner (notify-only; a newer GitHub release exists) */
+.update-toast { position: fixed; bottom: 18px; right: 18px; z-index: 60; animation: panhint-in .18s ease-out;
+  display: inline-flex; align-items: center; gap: 11px; max-width: 380px; padding: 8px 8px 8px 14px; border-radius: 13px;
+  font: 500 13px/1.35 var(--ui); color: var(--text); background: var(--glass); border: .5px solid var(--glass-brd);
+  -webkit-backdrop-filter: var(--blur); backdrop-filter: var(--blur); box-shadow: var(--glass-spec), 0 18px 50px -20px rgba(0,0,0,.6); }
+.update-toast .ut-dot { width: 8px; height: 8px; border-radius: 50%; background: #52aeff; flex: 0 0 auto; box-shadow: 0 0 0 4px rgba(82,174,255,.16); }
+.update-toast .ut-text { flex: 1 1 auto; color: var(--muted); }
+.update-toast .ut-text b { color: var(--text); font-weight: 700; }
+.update-toast .ut-go { flex: 0 0 auto; height: 30px; padding: 0 13px; border: 0; border-radius: 8px; cursor: pointer; white-space: nowrap; font: 600 12.5px/1 var(--ui); color: var(--bg); background: var(--text); }
+.update-toast .ut-go:hover { opacity: .9; }
+.update-toast .ut-x { flex: 0 0 auto; width: 26px; height: 30px; border: 0; border-radius: 8px; cursor: pointer; font-size: 13px; color: var(--muted); background: transparent; }
+.update-toast .ut-x:hover { background: var(--hover); color: var(--text); }
 .adapt-toast .ab-sub { color: var(--muted); }
 .adapt-toast .cl-spin { width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--glass-brd, rgba(255,255,255,.14)); border-top-color: var(--text); animation: cl-spin .8s linear infinite; }
 /* device-preview bar — floats top-centre of the canvas: pick the artboard width (Desktop/Tablet/Phone) + the one-click responsive preset */

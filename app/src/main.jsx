@@ -6,3 +6,9 @@ import '@fontsource-variable/jetbrains-mono'; // self-hosted HUD/mono voice
 import './styles.css';
 
 createRoot(document.getElementById('root')).render(<App />);
+
+// fade out the boot splash (index.html) once React has painted a frame — no white flash on launch
+requestAnimationFrame(() => requestAnimationFrame(() => {
+  const s = document.getElementById('dz-splash');
+  if (s) { s.classList.add('dz-hide'); setTimeout(() => { try { s.remove(); } catch {} }, 450); }
+}));

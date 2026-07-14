@@ -294,7 +294,8 @@ function createWindow() {
     minWidth: 1080,
     minHeight: 640,
     frame: false,                 // fully custom chrome — the app draws its own titlebar + window controls (no OS frame / menu bar)
-    backgroundColor: '#fafafa',   // Engineer Grid light = the default theme (no dark flash before the renderer paints)
+    show: false,                  // stay hidden until the first frame (the boot splash) is painted → no blank/white flash on launch
+    backgroundColor: '#fafafa',   // app-default (light) fallback; the theme-matched boot splash (index.html) covers it, and show:false hides even this until first paint
     icon: APP_ICON,               // Loupe taskbar/window icon (Windows; macOS uses the dock icon below)
     title: 'Loupe',
     webPreferences: {
@@ -312,6 +313,11 @@ function createWindow() {
     applyPackagedCSP(); // AUDIT-2 F35: strict CSP on the packaged host renderer (before the load)
     win.loadFile(path.join(__dirname, '..', 'dist-renderer', 'index.html'));
   }
+
+  // reveal the window only once the first frame (the boot splash) is painted — no blank/white flash on launch;
+  // a safety timeout shows it anyway if ready-to-show never fires (e.g. a load error) so the app can't get stuck hidden
+  win.once('ready-to-show', () => { try { win.show(); } catch {} });
+  setTimeout(() => { try { if (!win.isDestroyed() && !win.isVisible()) win.show(); } catch {} }, 4000);
 
   // FORCE the app window to 100% zoom on every (re)load and disable host pinch/zoom. Electron PERSISTS the renderer's
   // zoom level per origin in the session; a past setZoomFactor experiment leaked zoom to this window, so without this
@@ -1691,6 +1697,22 @@ app.whenReady().then(async () => {
   applyPermissionLockdown(); // AUDIT-2 F34: deny sensitive permissions on default + reference-browser sessions (before any load)
   await project.startServer();
   createWindow();
+  // Update check (notify-only): the packaged app asks GitHub Releases whether a newer version exists and, if so,
+  // tells the RENDERER, which shows an in-app banner (styled like the app) with a button to the download — it never
+  // downloads or installs anything silently (the right call for an unsigned build). Best-effort — a failed/offline
+  // check never blocks the app. Packaged-only (dev + smoke are not packaged, so this is skipped).
+  if (app.isPackaged) {
+    try {
+      const { autoUpdater } = require('electron-updater');
+      autoUpdater.autoDownload = false; // notify only — no silent download/install
+      autoUpdater.on('update-available', (info) => {
+        for (const w of BrowserWindow.getAllWindows()) {
+          if (!w.webContents.isDestroyed()) w.webContents.send('update:available', { version: (info && info.version) || '', current: app.getVersion() });
+        }
+      });
+      autoUpdater.checkForUpdates().catch(() => {});
+    } catch {}
+  }
   // file changes (e.g. the agent edited a file) -> reload the preview + refresh the tree
   project.watch(() => {
     for (const w of BrowserWindow.getAllWindows()) {

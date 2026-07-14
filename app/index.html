@@ -4,8 +4,35 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Loupe</title>
+  <!-- apply the persisted theme BEFORE anything paints, so the boot splash (and the app) match it with no flash -->
+  <script>try{if(localStorage.getItem('dz-theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}</script>
+  <style>
+    html,body{margin:0;height:100%;background:#fafafa}
+    html[data-theme="dark"],html[data-theme="dark"] body{background:#0d0e10}
+    /* boot splash — shown from first paint until React mounts (replaces the white flash on launch) */
+    #dz-splash{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:15px;background:#fafafa;z-index:9999;transition:opacity .4s ease}
+    html[data-theme="dark"] #dz-splash{background:#0d0e10}
+    #dz-splash.dz-hide{opacity:0}
+    #dz-splash .m{position:relative;width:60px;height:60px;animation:dz-breathe 1.7s ease-in-out infinite}
+    #dz-splash .m .ring{position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 210deg,#a0c8ee,#c4b5c9,#e5a4a7,#d7b2b2,#a4dfdf,#a2d6e6,#a0c8ee);-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 6.5px),#000 calc(100% - 5.5px));mask:radial-gradient(farthest-side,transparent calc(100% - 6.5px),#000 calc(100% - 5.5px))}
+    #dz-splash .m .ret{position:absolute;inset:0}
+    #dz-splash .w{font:700 18px/1 system-ui,-apple-system,'Segoe UI',sans-serif;letter-spacing:-.02em;color:#101012;opacity:.82}
+    html[data-theme="dark"] #dz-splash .w{color:#ececee}
+    @keyframes dz-breathe{0%,100%{opacity:.55;transform:scale(.96)}50%{opacity:1;transform:scale(1.04)}}
+    @media (prefers-reduced-motion:reduce){#dz-splash .m{animation:none}}
+  </style>
 </head>
 <body>
+  <div id="dz-splash" aria-label="Loading Loupe">
+    <div class="m">
+      <span class="ring"></span>
+      <svg class="ret" viewBox="0 0 24 24" aria-hidden="true">
+        <line x1="12" y1="7.5" x2="12" y2="16.5" stroke="#ff2b2b" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="7.5" y1="12" x2="16.5" y2="12" stroke="#ff2b2b" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="w">Loupe</div>
+  </div>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
 </body>

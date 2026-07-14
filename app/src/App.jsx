@@ -2513,6 +2513,7 @@ export default function App() {
   const [handTool, setHandTool] = useState(false);      // Hand mode: drag anywhere on the canvas to pan
   const [spaceHeld, setSpaceHeld] = useState(false);    // Space held (host OR forwarded from the page) = temporary pan in ANY tool (Figma idiom)
   const [panHint, setPanHint] = useState(false);        // toast: "use the RIGHT mouse button" when the user left-clicks in pan mode
+  const [updateInfo, setUpdateInfo] = useState(null);   // notify-only: main found a newer GitHub release → in-app "update available" banner ({version, current})
   const panHintTimerRef = useRef(0);
   const [device, setDevice] = useState('desktop'); // canvas device-width preview: render the page at a device WIDTH so its media queries fire
   const deviceRef = useRef(device); deviceRef.current = device; // live device for once-registered closures (the onLoad vh-lock injection)
@@ -2665,6 +2666,7 @@ export default function App() {
   useEffect(() => { const id = requestAnimationFrame(() => scrollChatBottom(false)); return () => cancelAnimationFrame(id); }, [activeId]); // a (re)opened chat starts at its latest message, not the top
   useEffect(() => { try { document.documentElement.setAttribute('data-theme', theme); localStorage.setItem('dz-theme', theme); } catch {} }, [theme]); // apply + persist light/dark
   useEffect(() => { if (!inElectron || !(window.dezign && window.dezign.win)) return; try { window.dezign.win.isMax().then(setWinMax); } catch {} return window.dezign.win.onMaxChange(setWinMax); }, []); // frameless: track OS maximize state for the custom control
+  useEffect(() => { if (!inElectron || !(window.dezign && window.dezign.onUpdate)) return; return window.dezign.onUpdate((d) => setUpdateInfo(d || {})); }, []); // notify-only: a newer GitHub release exists → show the in-app update banner
   useEffect(() => { convosRef.current = convos; }, [convos]);
   useEffect(() => { activeIdRef.current = activeId; }, [activeId]);
   const toggleCol = (k) => setCol((c) => ({ ...c, [k]: !c[k] }));
@@ -5005,6 +5007,14 @@ VERIFY before finishing: set \`data-theme="${mode}"\` and audit EVERY page — e
 
   return (
     <div className="app" style={{ ['--sw']: (hideL ? 0 : sidebarW) + 'px', ['--swr']: (hideR ? 0 : sidebarWR) + 'px', ['--rsw']: hideL ? '0px' : '6px', ['--rswr']: hideR ? '0px' : '6px' }}>
+      {updateInfo && (
+        <div className="update-toast">
+          <span className="ut-dot" aria-hidden="true" />
+          <span className="ut-text">Loupe <b>{updateInfo.version ? 'v' + updateInfo.version : 'update'}</b> is available.</span>
+          <button type="button" className="ut-go" onClick={() => { try { window.dezign.openExternal('https://github.com/winchxyz/loupe/releases/latest'); } catch {} }}>Get the update</button>
+          <button type="button" className="ut-x" onClick={() => setUpdateInfo(null)} title="Dismiss" aria-label="Dismiss">✕</button>
+        </div>
+      )}
       <header className="topbar">
         <div className="tb-zone tb-left">
           {inElectron && <button type="button" className={'tb-collapse' + (hideL ? ' on' : '')} onClick={() => setHideL((v) => !v)} title={hideL ? 'Show the left panel (Pages / Project / Layers)' : 'Hide the left panel'}><svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4"><rect x="2" y="3" width="12" height="10" rx="1.5" /><line x1="6" y1="3" x2="6" y2="13" /></svg></button>}
