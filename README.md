@@ -169,6 +169,8 @@ Loupe is a solo project, but ideas and PRs are genuinely welcome.
 - **Have an idea, or not sure it's a bug?** → [start a Discussion](https://github.com/winchxyz/loupe/discussions).
 - **Want to write code?** → start with [`good first issue`](https://github.com/winchxyz/loupe/labels/good%20first%20issue);
   bigger things I'd love help with are [`help wanted`](https://github.com/winchxyz/loupe/labels/help%20wanted).
+- **Want to support the work?** → [GitHub Sponsors](https://github.com/sponsors/winchxyz) — it's one person
+  building on evenings, and every bit genuinely helps.
 
 See [CONTRIBUTING.md](.github/CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](.github/CODE_OF_CONDUCT.md). I review
 when I can — it's one person, so a little patience goes a long way.
