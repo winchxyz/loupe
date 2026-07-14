@@ -126,8 +126,8 @@ app/build/_art-*.html
 
 # WIP README hero/marketing image experiments — not referenced by README yet (it uses media/loupe-app.png);
 # the hero is being redone with a real site. Kept on disk, out of the first public push.
+# (media/loupe-demo.gif SHIPS — it is the README hero demo as of 2026-07-15.)
 media/loupe-hero.png
 media/loupe-marketing.png
-media/loupe-demo.gif
 app/scripts/make-hero.cjs
 app/scripts/make-marketing.cjs
