@@ -4,7 +4,7 @@ The full scope, surveyed from the real code. Every item is backed by real eviden
 (a file, a slash command, an IPC handler, or a mode) — nothing here is aspirational.
 
 **One-line scope:** an Electron desktop app — an AI chat plus a live-preview design canvas — that
-builds and edits real websites through a multi-agent swarm, lets you edit them by hand at Figma grade
+builds and edits real websites through a multi-agent swarm, lets you edit them by hand
 on the live site, verifies every visual change, harvests references and assets from any site, fills
 imagery, and runs on your choice of AI engine (Claude, BYOK keys, or your own CLI subscriptions), all
 grounded in a bundled design-knowledge library.
@@ -32,7 +32,7 @@ grounded in a bundled design-knowledge library.
 ## 2. Element picker & selection
 DevTools-style **Select** (hover-highlight, shallow-first click) · shallow vs deep (Cmd/Ctrl, Enter drills) · two-way canvas↔Layers hover link · multi-select (Shift/Ctrl) · marquee box-select · breadcrumb/ancestor nav (Tab/Enter) · pick-through-overlays toggle · picked chips labelled by source file.
 
-## 3. Direct-manipulation editing (Figma-grade, on the live site)
+## 3. Direct-manipulation editing (on the live site)
 Move/drag (axis-lock, free) · resize (8 handles, aspect-lock, correct on rotated) · rotate (15° snap, angle label) · flip H/V · wheel scale / Alt+wheel rotate · numeric X/Y/W/H + rotation presets · snap & alignment guides + pixel measurements · arrow-key nudge (coalesced undo) · inline quick-edit popup ("Describe a change…") · double-click inline text edit. All persisted as clean CSS.
 
 ## 4. Auto layout & alignment
@@ -84,7 +84,7 @@ The active page as a pixel-exact **PNG / JPEG / vector-text PDF**, or just the s
 ## The 10 headliners
 
 1. **Closed-loop visual editing** — pick any element, describe a change, and an automatic before/after diff verifies it actually changed (and re-feeds the rendered preview when it didn't).
-2. **Figma-grade direct manipulation on live sites** — select, move, resize, rotate, snap, align, auto-layout, edit text/style by hand — persisted as clean responsive CSS.
+2. **Full direct manipulation on live sites** — select, move, resize, rotate, snap, align, auto-layout, edit text/style by hand — persisted as clean responsive CSS.
 3. **The Swarm (`/flow` & `/multiflow`)** *(experimental)* — a planner maps the site, a team of builders build every page in parallel live, a design Reviewer judges, builders fix the flagged ones — optionally a different AI per page.
 4. **Bring your own engine** — Claude tiers, BYOK OpenRouter / OpenAI / Gemini / xAI, or your own Codex / Grok / Copilot / MiMo subscription CLIs as build engines.
 5. **Reference browser** *(experimental)* — open any real site in-app, pick a section, then harvest its assets or adapt its technique into your project (re-skinned to your tokens, never a clone), SSRF-guarded.
