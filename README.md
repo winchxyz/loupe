@@ -13,7 +13,7 @@
   <img src="media/loupe-demo.gif" width="820" alt="Loupe demo: describe a site, Studio agents build it live on the canvas, then point at an element — the change is made and verified against the real render">
 </p>
 
-<p align="center"><sub>60 seconds of the real loop: describe → agents build → point at an element → the change is <b>verified against the real render</b> — and the rest you refine <b>by hand, Figma-style</b>, on the same live page.</sub></p>
+<p align="center"><sub>60 seconds of the real loop: describe → agents build → point at an element → the change is <b>verified against the real render</b> — and the rest you refine <b>by hand</b> on the same live page.</sub></p>
 
 <p align="center">
   <a href="https://tryloupe.app/"><b>Website</b></a> ·
@@ -57,7 +57,7 @@ subscriptions doing the work, and a canvas where I can take over by hand.
 - **Grounded, not generic** — every build pulls from a bundled technique library and ~1,300 original
   analyses of real sites (with extracted design tokens), and fills image slots with real licensed or
   AI-generated photos, each verified to have actually loaded.
-- **Refine on the canvas** — a Figma-style canvas: select, move, resize, snap, align, auto-layout, and
+- **Refine on the canvas** — a full design canvas: select, move, resize, snap, align, auto-layout, and
   edit text and style by hand — all persisted as clean, responsive CSS, with one undo/redo across both AI
   and hand edits, and device-width previews.
 - **Edit by pointing — and it's checked** — point at any element like DevTools (or sketch over it with the
