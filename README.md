@@ -13,7 +13,7 @@
   <img src="media/loupe-demo.gif" width="820" alt="Loupe demo: describe a site, Studio agents build it live on the canvas, then point at an element — the change is made and verified against the real render">
 </p>
 
-<p align="center"><sub>60 seconds of the real loop: describe → agents build → point at an element → the change is <b>verified against the real render</b>.</sub></p>
+<p align="center"><sub>60 seconds of the real loop: describe → agents build → point at an element → the change is <b>verified against the real render</b> — and the rest you refine <b>by hand, Figma-style</b>, on the same live page.</sub></p>
 
 <p align="center">
   <a href="https://tryloupe.app/"><b>Website</b></a> ·
